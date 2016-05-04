@@ -1,0 +1,237 @@
+@charset "UTF-8";
+/*
+ * @제목: 메인페이지 관련 스타일
+ */
+.key-contents {
+  border-bottom: 1px solid #eee; }
+  .key-contents .staff {
+    position: relative;
+    height: 500px;
+    background-image: url(/images/main/bg_staff.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center; }
+    .key-contents .staff h3 {
+      margin-top: 60px;
+      margin-bottom: 20px;
+      font-size: 40px;
+      line-height: 50px;
+      font-weight: 100;
+      color: #fff;
+      text-shadow: 0 1px 0 rgba(0, 0, 0, 0.7);
+      letter-spacing: -2px; }
+      .key-contents .staff h3 span {
+        font-size: 39px; }
+    .key-contents .staff p {
+      font-size: 15px;
+      line-height: 23px;
+      text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+      color: #fff; }
+    .key-contents .staff img {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%; }
+  .key-contents .appointment {
+    height: 500px;
+    background-image: url(/images/main/bg_appointment.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 100% cover;
+    text-align: center; }
+    .key-contents .appointment h3 {
+      margin-top: 60px;
+      margin-bottom: 20px;
+      font-size: 40px;
+      line-height: 50px;
+      font-weight: 100;
+      color: #333;
+      letter-spacing: -2px; }
+    .key-contents .appointment p {
+      font-size: 15px;
+      line-height: 23px;
+      color: #666; }
+    .key-contents .appointment form {
+      margin: 0 auto;
+      width: 430px; }
+      .key-contents .appointment form .control-label {
+        text-align: left;
+        font-size: 15px;
+        color: #333; }
+
+.community {
+  padding-top: 60px;
+  padding-bottom: 70px;
+  background-image: url(/images/main/bg_community.jpg);
+  background-position: 50% 50%;
+  background-size: cover; }
+  .community .news {
+    position: relative;
+    margin-bottom: 30px;
+    padding: 35px 40px;
+    height: 320px;
+    background-color: #fff;
+    border: 1px solid #dedede; }
+    .community .news h4 {
+      margin-top: 0;
+      margin-bottom: 20px;
+      font-size: 30px;
+      line-height: 35px; }
+    .community .news ol li a {
+      position: relative;
+      overflow: hidden;
+      display: block;
+      font-size: 15px;
+      color: #666;
+      text-decoration: none;
+      line-height: 38px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      padding-right: 170px;
+      font-weight: 600; }
+      .community .news ol li a .label {
+        position: relative;
+        top: -1px; }
+      .community .news ol li a time {
+        position: absolute;
+        right: 0;
+        font-weight: normal; }
+      .community .news ol li a:focus, .community .news ol li a:hover {
+        color: #e9193a; }
+    .community .news > a {
+      position: absolute;
+      top: 45px;
+      right: 40px;
+      color: #333; }
+  .community .bus {
+    padding: 1px;
+    background-color: #e9193a;
+    height: 320px;
+    text-align: center;
+    color: #fff; }
+    .community .bus h4 {
+      margin-top: 70px;
+      margin-bottom: 30px;
+      font-size: 30px;
+      line-height: 35px; }
+    .community .bus p {
+      font-size: 15px;
+      line-height: 24px; }
+    .community .bus a {
+      display: block;
+      margin: 35px auto 0;
+      width: 170px;
+      height: 42px;
+      border: 1px solid #fff;
+      line-height: 40px;
+      font-size: 15px;
+      color: #fff;
+      text-decoration: none; }
+      .community .bus a:focus, .community .bus a:hover {
+        background-color: #fff;
+        color: #e9193a;
+        font-weight: 600; }
+  .community .movie {
+    height: 320px; }
+    .community .movie a {
+      display: block;
+      width: 100%;
+      height: 100%;
+      background-image: url(/images/); }
+  .community .review {
+    position: relative;
+    background-image: url(/images/main/bg_review.jpg);
+    background-repeat: no-repeat; }
+    .community .review ul li {
+      width: 370px;
+      height: 320px; }
+      .community .review ul li:before {
+        display: table; }
+      .community .review ul li a {
+        display: table-cell;
+        padding: 40px;
+        width: 370px;
+        height: 320px;
+        vertical-align: middle;
+        text-align: center;
+        color: #fff;
+        text-decoration: none; }
+        .community .review ul li a p {
+          margin-bottom: 20px;
+          font-size: 16px;
+          line-height: 22px; }
+        .community .review ul li a span:before {
+          padding-right: 3px;
+          content: '-'; }
+        .community .review ul li a:focus p, .community .review ul li a:hover p {
+          text-decoration: underline; }
+    .community .review .bx-controls {
+      position: absolute;
+      bottom: 60px;
+      left: 0;
+      width: 100%;
+      text-align: center; }
+      .community .review .bx-controls .bx-pager {
+        height: 12px; }
+        .community .review .bx-controls .bx-pager .bx-pager-item {
+          display: inline-block;
+          width: 12px;
+          height: 12px;
+          margin: 0 3px; }
+          .community .review .bx-controls .bx-pager .bx-pager-item .bx-pager-link {
+            display: block;
+            width: 100%;
+            height: 100%;
+            border: 1px solid #fff;
+            border-radius: 50%;
+            text-indent: -999em; }
+            .community .review .bx-controls .bx-pager .bx-pager-item .bx-pager-link.active {
+              background-color: #fff; }
+  .community .social {
+    width: 370px;
+    height: 320px;
+    background-color: #fff; }
+    .community .social .nav {
+      width: 100%;
+      border-bottom: 0; }
+      .community .social .nav li {
+        float: left;
+        margin-bottom: 0;
+        width: 40px; }
+        .community .social .nav li a {
+          margin-right: 0;
+          padding: 0;
+          border: 0;
+          height: 40px;
+          line-height: 40px;
+          font-size: 16px;
+          border-radius: 0; }
+          .community .social .nav li a img {
+            display: block;
+            width: 40px; }
+        .community .social .nav li:first-child {
+          width: 290px; }
+          .community .social .nav li:first-child a {
+            padding-left: 20px;
+            background-color: #707070;
+            color: #fff; }
+    .community .social .tab-content .tab-pane {
+      height: 280px; }
+
+.about {
+  height: 300px;
+  background-image: url(/images/main/bg_about.jpg);
+  background-position: 50% 50%;
+  background-size: cover; }
+  .about h3 {
+    margin-top: 90px;
+    margin-bottom: 0;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -2px;
+    color: #fff;
+    font-weight: 300; }
+
+/*# sourceMappingURL=main.css.map */
