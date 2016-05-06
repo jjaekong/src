@@ -1,10 +1,51 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
+<link href="/css/jquery-ui.min.css" rel="stylesheet">
 <link href="/css/main.css" rel="stylesheet">
 </head>
 <body>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
     <main id="content">
-        <div>
+        <div class="visual">
+            <div class="slider">
+                <div class="item" id="visual-1" style="background-image: url(/images/main/img_overview_1.jpg);">
+                    <div class="details">
+                        <h3>외래환자</h3>
+                        <hr>
+                        <p>
+                            경기도 광주시에서 통증치료 가장 잘하는 병원<br>
+                            국내 최고의 의료진이 함께하는 SRC재활병원입니다.
+                        </p>
+                        <a href="#">자세히 보기</a>
+                    </div>
+                </div>
+                <div class="item" id="visual-2" style="background-image: url(/images/main/img_overview_1.jpg);">
+                    #2
+                </div>
+                <div class="item" id="visual-3" style="background-image: url(/images/main/img_overview_1.jpg);">
+                    #3
+                </div>
+                <div class="item" id="visual-4" style="background-image: url(/images/main/img_overview_1.jpg);">
+                    #4
+                </div>
+                <div class="item" id="visual-5" style="background-image: url(/images/main/img_overview_1.jpg);">
+                    #5
+                </div>
+                <div class="item" id="visual-6" style="background-image: url(/images/main/img_overview_1.jpg);">
+                    #6
+                </div>
+            </div>
+            <div class="nav-container">
+                <div class="container">
+                    <ul class="nav nav-pills nav-justified">
+                        <li role="presentation" class="active"><a href="#">외래환자</a></li>
+                        <li role="presentation"><a href="#">재활입원환자</a></li>
+                        <li role="presentation"><a href="#">낮병동</a></li>
+                        <li role="presentation"><a href="#">통증클리닉</a></li>
+                        <li role="presentation"><a href="#">내과</a></li>
+                        <li role="presentation"><a href="#">한방과</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
         <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/find_treatments.php'); ?>
         <div class="key-contents">
@@ -21,32 +62,46 @@
                     <section class="col-xs-6 appointment">
                         <h3>빠르고 간단한<br><b>온라인 진료 예약</b> 신청하세요.</h3>
                         <p>보건복지부에서 인증한 의료기관<br>경기도 광주에서 통증치료 가장 잘 하는 병원 SRC입니다.</p>
-                        <form class="form-horizontal">
-                            <div class="form-group">
-                                <label for="appoint-name" class="col-xs-6 control-label">예약하시는 분 성함</label>
-                                <input type="text" class="form-control" id="appoint-name">
+                        <form>
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <label for="appoint-name">예약하시는 분 성함</label>
+                                </div>
+                                <div class="col-xs-7">
+                                    <input type="text" class="form-control" id="appoint-name">
+                                </div>
                             </div>
-                            <div class="form-group">
-                                <label class="col-xs-6 control-label" for="formGroupInputSmall">진료과목 및 의료진 선택</label>
-                                <select class="form-control">
-                                    <option value="">진료과목</option>
-                                </select>
-                                <select class="form-control">
-                                    <option value="">의료진</option>
-                                </select>
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <label for="appoint-depart">진료과목 및 의료진 선택</label>
+                                </div>
+                                <div class="col-xs-7">
+                                    <select class="form-control" id="appoint-depart">
+                                        <option value="">진료과목</option>
+                                    </select>
+                                    <select class="form-control">
+                                        <option value="">의료진</option>
+                                    </select>
+                                </div>
                             </div>
-                            <div class="form-group">
-                                <label class="col-xs-6 control-label" for="formGroupInputSmall">희망 진료시간 및 날짜선택</label>
-                                <select class="form-control">
-                                    <option value="">진료과목</option>
-                                </select>
-                                <select class="form-control">
-                                    <option value="">의료진</option>
-                                </select>
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <label for="appoint-date">희망 진료시간 및 날짜선택</label>
+                                </div>
+                                <div class="col-xs-7">
+                                    <input type="text" class="form-control" id="appoint-date">
+                                    <select class="form-control">
+                                        <option value="">진료시간</option>
+                                    </select>
+                                </div>
                             </div>
-                            <div class="form-group">
-                                <label for="appoint-name" class="col-xs-6 control-label">예약하시는 분 연락처</label>
-                                <input type="text" class="form-control" id="appoint-name">
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <label for="appoint-contact">예약하시는 분 연락처</label>
+                                </div>
+                                <div class="col-xs-7">
+                                    <input type="text" class="form-control" id="appoint-contact">
+                                </div>
                             </div>
                             <button type="submit" class="btn btn-block">간편 온라인 진료 예약하기</button>
                         </form>
@@ -153,6 +208,7 @@
     </main>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer_main.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
+    <script src="/js/jquery-ui.min.js"></script>
     <script src="/js/main.js"></script>
 </body>
 </html>

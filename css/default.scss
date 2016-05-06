@@ -1,8 +1,7 @@
 body {
     min-width: 1200px;
     font-size: 12px;
-    font-family: 'Noto Sans', sans-serif;
-    font-family: 'Open Sans', '맑은 고딕', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 ul, ol {
     list-style: none;
@@ -12,7 +11,7 @@ ul, ol {
 dl {
     margin-bottom: 0;
 }
-p, address {
+p, address, label {
     margin-bottom: 0;
 }
 .btn {
@@ -76,7 +75,7 @@ p, address {
         }
         .lang {
             position: absolute;
-            top: 30px;
+            top: 40px;
             right: 15px;
             li {
                 display: inline-block;
@@ -88,24 +87,30 @@ p, address {
         }
         .member {
             position: absolute;
-            top: 30px;
+            top: 40px;
             right: 75px;
             li {
+                position: relative;
                 display: inline-block;
-                line-height: 22px;
+                padding-left: 12px;
+                line-height: 18px;
                 a {
                     color: #888;
                 }
                 &:before {
-                    padding-left: 3px;
-                    padding-right: 3px;
+                    position: absolute;
+                    top: 0;
+                    left: 3px;
+                    display: inline-block;
                     content: '|';
+                    font-size: 10px;
                     color: #aaa;
                 }
-                &:first-child:before {
+                &:first-child {
                     padding-left: 0;
-                    padding-right: 0;
-                    content: '';
+                    &:before {
+                        content: '';
+                    }
                 }
             }
         }
@@ -312,7 +317,6 @@ p, address {
                 margin-top: 0;
                 margin-bottom: 25px;
                 font-size: 30px;
-                font-weight: bold;
                 letter-spacing: -1px;
                 i {
                     font-style: normal;
@@ -332,6 +336,7 @@ p, address {
                 color: #fff;
                 text-align: center;
                 letter-spacing: -1px;
+                font-weight: normal;
             }
             dl {
                 margin-left: 90px;
@@ -399,10 +404,11 @@ p, address {
             float: left;
             margin-top: 0;
             margin-bottom: 0;
-            letter-spacing: -1px;
-            font-weight: bold;
             color: #333;
             line-height: 45px;
+            white-space: nowrap;
+            font-size: 16px;
+            font-weight: 400;
         }
         .controls {
             float: right;
@@ -433,7 +439,7 @@ p, address {
                 a {
                     color: #666;
                     letter-spacing: -1px;
-                    font-weight: bold;
+                    white-space: nowrap;
                 }
             }
         }
@@ -447,6 +453,7 @@ p, address {
                 address {
                     display: inline-block;
                     line-height: 22px;
+                    white-space: nowrap;
                 }
                 dl {
                     display: inline-block;

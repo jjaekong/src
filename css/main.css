@@ -2,6 +2,80 @@
 /*
  * @제목: 메인페이지 관련 스타일
  */
+.visual {
+  position: relative;
+  width: 100%;
+  height: 600px; }
+  .visual .slider {
+    position: relative;
+    width: 100%;
+    height: 600px; }
+    .visual .slider .item {
+      position: relative;
+      padding-top: 80px;
+      width: 100%;
+      height: 100%;
+      background-repeat: no-repeat;
+      background-size: auto 100%;
+      background-position: 50% 0; }
+      .visual .slider .item .details {
+        margin: 0 auto;
+        padding: 50px;
+        width: 570px;
+        height: 360px;
+        background-color: rgba(0, 0, 0, 0.5);
+        text-align: center;
+        color: #fff; }
+        .visual .slider .item .details h3 {
+          font-size: 60px;
+          font-weight: normal; }
+        .visual .slider .item .details hr {
+          margin-top: 25px;
+          margin-bottom: 25px;
+          width: 230px;
+          border-top-width: 2px;
+          text-align: center; }
+        .visual .slider .item .details p {
+          margin-bottom: 40px;
+          font-size: 17px;
+          line-height: 25px;
+          font-weight: 300; }
+        .visual .slider .item .details a {
+          display: inline-block;
+          width: 170px;
+          height: 40px;
+          line-height: 38px;
+          border: 1px solid #fff;
+          background-color: rgba(255, 255, 255, 0.15);
+          color: #fff;
+          font-size: 15px;
+          text-shadow: 0 1px 1px rgba(0, 0, 0, 0.35);
+          text-decoration: none; }
+          .visual .slider .item .details a:focus, .visual .slider .item .details a:hover {
+            background-color: #e9193a;
+            border-color: #e9193a;
+            text-shadow: none; }
+  .visual .nav-container {
+    position: aBsolute;
+    left: 0;
+    bottom: 25px;
+    width: 100%; }
+    .visual .nav-container .nav li {
+      padding-left: 1px; }
+      .visual .nav-container .nav li a {
+        height: 40px;
+        border-radius: 0;
+        background-color: rgba(255, 255, 255, 0.9);
+        font-size: 15px;
+        color: #333; }
+        .visual .nav-container .nav li a:hover, .visual .nav-container .nav li a:focus {
+          color: #e9193a; }
+      .visual .nav-container .nav li:first-child {
+        padding-left: 0; }
+      .visual .nav-container .nav li.active a {
+        background-color: #e9193a;
+        color: #fff; }
+
 .key-contents {
   border-bottom: 1px solid #eee; }
   .key-contents .staff {
@@ -21,8 +95,8 @@
       color: #fff;
       text-shadow: 0 1px 0 rgba(0, 0, 0, 0.7);
       letter-spacing: -2px; }
-      .key-contents .staff h3 span {
-        font-size: 39px; }
+      .key-contents .staff h3 b {
+        font-weight: 500; }
     .key-contents .staff p {
       font-size: 15px;
       line-height: 23px;
@@ -48,17 +122,53 @@
       font-weight: 100;
       color: #333;
       letter-spacing: -2px; }
+      .key-contents .appointment h3 b {
+        font-weight: 500; }
     .key-contents .appointment p {
+      margin-bottom: 25px;
       font-size: 15px;
       line-height: 23px;
       color: #666; }
     .key-contents .appointment form {
       margin: 0 auto;
       width: 430px; }
-      .key-contents .appointment form .control-label {
-        text-align: left;
+      .key-contents .appointment form .row {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 5px;
+        height: 40px;
+        background-color: rgba(255, 255, 255, 0.5); }
+        .key-contents .appointment form .row > div {
+          padding-left: 0;
+          padding-right: 0; }
+        .key-contents .appointment form .row label {
+          padding-left: 15px;
+          width: 100%;
+          font-size: 15px;
+          color: #333;
+          text-align: left;
+          letter-spacing: -1px;
+          font-weight: normal;
+          line-height: 40px; }
+        .key-contents .appointment form .row .form-control {
+          height: 40px;
+          border: 0;
+          border-radius: 0;
+          box-shadow: none;
+          font-size: 15px;
+          background-color: transparent; }
+          .key-contents .appointment form .row .form-control:focus {
+            box-shadow: none; }
+        .key-contents .appointment form .row:nth-of-type(2) .form-control, .key-contents .appointment form .row:nth-of-type(3) .form-control {
+          float: left;
+          width: 50%; }
+      .key-contents .appointment form .btn {
+        height: 40px;
         font-size: 15px;
-        color: #333; }
+        background-color: #e9193a;
+        color: #fff; }
+        .key-contents .appointment form .btn:focus, .key-contents .appointment form .btn:hover {
+          background-color: #444; }
 
 .community {
   padding-top: 60px;
@@ -77,7 +187,8 @@
       margin-top: 0;
       margin-bottom: 20px;
       font-size: 30px;
-      line-height: 35px; }
+      line-height: 35px;
+      font-weight: normal; }
     .community .news ol li a {
       position: relative;
       overflow: hidden;
@@ -88,8 +199,7 @@
       line-height: 38px;
       text-overflow: ellipsis;
       white-space: nowrap;
-      padding-right: 170px;
-      font-weight: 600; }
+      padding-right: 170px; }
       .community .news ol li a .label {
         position: relative;
         top: -1px; }
@@ -114,10 +224,12 @@
       margin-top: 70px;
       margin-bottom: 30px;
       font-size: 30px;
-      line-height: 35px; }
+      line-height: 35px;
+      font-weight: normal; }
     .community .bus p {
       font-size: 15px;
-      line-height: 24px; }
+      line-height: 24px;
+      font-weight: 200; }
     .community .bus a {
       display: block;
       margin: 35px auto 0;
@@ -127,11 +239,12 @@
       line-height: 40px;
       font-size: 15px;
       color: #fff;
-      text-decoration: none; }
+      text-decoration: none;
+      font-weight: 100; }
       .community .bus a:focus, .community .bus a:hover {
         background-color: #fff;
         color: #e9193a;
-        font-weight: 600; }
+        font-weight: 400; }
   .community .movie {
     height: 320px; }
     .community .movie a {
@@ -206,7 +319,8 @@
           height: 40px;
           line-height: 40px;
           font-size: 16px;
-          border-radius: 0; }
+          border-radius: 0;
+          font-weight: 300; }
           .community .social .nav li a img {
             display: block;
             width: 40px; }
@@ -232,6 +346,8 @@
     text-align: center;
     letter-spacing: -2px;
     color: #fff;
-    font-weight: 300; }
+    font-weight: 100; }
+    .about h3 b {
+      font-weight: 500; }
 
 /*# sourceMappingURL=main.css.map */

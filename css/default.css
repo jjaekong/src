@@ -1,9 +1,7 @@
-@charset "UTF-8";
 body {
   min-width: 1200px;
   font-size: 12px;
-  font-family: 'Noto Sans', sans-serif;
-  font-family: 'Open Sans', '맑은 고딕', sans-serif; }
+  font-family: 'Noto Sans KR', sans-serif; }
 
 ul, ol {
   list-style: none;
@@ -13,7 +11,7 @@ ul, ol {
 dl {
   margin-bottom: 0; }
 
-p, address {
+p, address, label {
   margin-bottom: 0; }
 
 .btn {
@@ -64,7 +62,7 @@ p, address {
           background-color: #e9193a; }
     #header .top .lang {
       position: absolute;
-      top: 30px;
+      top: 40px;
       right: 15px; }
       #header .top .lang li {
         display: inline-block;
@@ -73,22 +71,27 @@ p, address {
           margin-left: 0; }
     #header .top .member {
       position: absolute;
-      top: 30px;
+      top: 40px;
       right: 75px; }
       #header .top .member li {
+        position: relative;
         display: inline-block;
-        line-height: 22px; }
+        padding-left: 12px;
+        line-height: 18px; }
         #header .top .member li a {
           color: #888; }
         #header .top .member li:before {
-          padding-left: 3px;
-          padding-right: 3px;
+          position: absolute;
+          top: 0;
+          left: 3px;
+          display: inline-block;
           content: '|';
+          font-size: 10px;
           color: #aaa; }
-        #header .top .member li:first-child:before {
-          padding-left: 0;
-          padding-right: 0;
-          content: ''; }
+        #header .top .member li:first-child {
+          padding-left: 0; }
+          #header .top .member li:first-child:before {
+            content: ''; }
   #header .gnb {
     position: relative; }
     #header .gnb > div {
@@ -222,7 +225,6 @@ p, address {
     margin-top: 0;
     margin-bottom: 25px;
     font-size: 30px;
-    font-weight: bold;
     letter-spacing: -1px; }
     #footer .full-contact section h4 i {
       font-style: normal;
@@ -239,7 +241,8 @@ p, address {
     font-size: 15px;
     color: #fff;
     text-align: center;
-    letter-spacing: -1px; }
+    letter-spacing: -1px;
+    font-weight: normal; }
   #footer .full-contact section dl {
     margin-left: 90px;
     font-size: 15px;
@@ -284,10 +287,11 @@ p, address {
     float: left;
     margin-top: 0;
     margin-bottom: 0;
-    letter-spacing: -1px;
-    font-weight: bold;
     color: #333;
-    line-height: 45px; }
+    line-height: 45px;
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: 400; }
   #footer .partners .controls {
     float: right;
     margin-top: 12px; }
@@ -314,7 +318,7 @@ p, address {
       #footer .information .policy li a {
         color: #666;
         letter-spacing: -1px;
-        font-weight: bold; }
+        white-space: nowrap; }
   #footer .information .company {
     color: #999; }
     #footer .information .company li {
@@ -324,7 +328,8 @@ p, address {
       line-height: 22px; }
       #footer .information .company li address {
         display: inline-block;
-        line-height: 22px; }
+        line-height: 22px;
+        white-space: nowrap; }
       #footer .information .company li dl {
         display: inline-block; }
         #footer .information .company li dl dt, #footer .information .company li dl dd {
