@@ -25,5 +25,10 @@
         partnerSlider.goToNextSlide();
         e.preventDefault();
     });
+    
+    // 퀵메뉴 토글버튼
+    $(document).on('click', '#footer .quick .btn', function(e) {
+        $('#footer .quick').toggleClass('collapsed');
+    });
 
 })(jQuery);

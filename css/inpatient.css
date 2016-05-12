@@ -1,0 +1,38 @@
+.inpatient .page-header{background:url(../images/inpatient/visual.jpg) no-repeat top center;}
+.inpatient .container{padding:60px 15px 140px 15px;letter-spacing:-1px;}
+.inpatient .container h1{margin-top:0;padding-top:33px;color:#e9193a;font-size:22px;font-weight:400;line-height:30px;letter-spacing:-1px;background:url(../images/icon_title.png) no-repeat;}
+.inpatient .container h1 span{padding-left:15px;color:#666;font-size:15px;font-weight:300;}
+.inpatient .container hr{height:1px;padding-top:60px;margin-bottom:60px;border-bottom:1px dashed #999;border-top:none;}
+
+
+/*rehabilitation_guide*/
+.rehabGuide .container {width:1170px;overflow:hidden;}
+.rehabGuide .container ul.clinicProcess{width:1170px;margin-top:40px;text-align:center;overflow:hidden;background:url(../images/inpatient/information_bg.gif) no-repeat top center;display:inline-block;}
+.rehabGuide .container ul.clinicProcess li{width:160px;margin:0 37px;vertical-align:top;display:inline-block;}
+.rehabGuide .container ul.clinicProcess li p{margin-top:20px;color:#666;font-size:16px;word-break:keep-all;}
+.rehabGuide .container ul.clinicProcess li p span{margin-top:10px;color:#999;font-size:14px;display:block;}
+
+.rehabGuide .container .infoBox{margin-top:60px;display:inline-block;}
+.rehabGuide .container .infoBox h2{float:left;width:135px;margin-top:8px;;color:#333;font-size:18px;font-weight:400;}
+.rehabGuide .container .infoBox ul{float:left;width:1035px;display:inline-block;}
+.rehabGuide .container .infoBox ul li{padding:7px 0 7px 15px;color:#666;font-size:16px;font-weight:300;background:url(../images/outpatient/icon_arrow.gif) no-repeat 0 15px;}
+.rehabGuide .container .infoBox ul li span{color:#e9193a;font-size:16px;font-weight:400;}
+
+.rehabGuide .container .reservationBox{position:relative;height:200px;margin-top:120px;padding:40px;background:url(../images/outpatient/reservation_bg.jpg) no-repeat;}
+.rehabGuide .container .reservationBox p{color:#fff;font-size:34px;font-weight:300;}
+.rehabGuide .container .reservationBox span{margin-top:20px;color:#fff;font-size:18px;font-weight:300;display:block;}
+.rehabGuide .container .reservationBox a{position:absolute;top:0;right:0;width:350px;height:200px;text-align:center;text-decoration:none;background:url(../images/outpatient/icon_calendal.png) no-repeat 55px 50%;display:block;}
+.rehabGuide .container .reservationBox a i{padding-left:90px;color:#fff;line-height:200px;font-size:28px;font-style:normal;display:inline-block;}
+
+
+/*vip*/
+.vip .container .partCon ul{width:100%;margin-top:40px;display:inline-block;}
+.vip .container .partCon ul li{float:left;width:50%;}
+.vip .container .partCon ul li p{margin-top:30px;color:#666;font-size:16px;line-height:26px;font-weight:300;letter-spacing:-1px;}
+.vip .container .partCon ul li a.view{width:180px;height:50px;margin-top:40px;padding-left:25px;color:#fff;font-size:18px;text-align:center;font-weight:300;line-height:50px;text-decoration:none;background:#e9193a url(../images/inpatient/icon_view.png) no-repeat 25px 50%;display:block;}
+
+.vip .container .vipCon ul{width:1200px;margin-right:-30px;overflow:hidden;}
+.vip .container .vipCon ul li{float:left;width:270px;margin-right:30px;display:inline-block;}
+.vip .container .vipCon ul li p{margin-top:20px;color:#666;font-size:16px;font-weight:300;line-height:25px;word-break:keep-all;}
+
+

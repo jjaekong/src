@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>SRC 병원</title>
     <link href='http://fonts.googleapis.com/earlyaccess/notosanskr.css' rel='stylesheet'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet'>
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>

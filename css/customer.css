@@ -1,0 +1,184 @@
+.font-lato, .customer.faq .faq-list > ul > li .icon {
+  font-family: 'Lato', sans-serif; }
+
+.customer .page-header {
+  padding-top: 80px; }
+.customer .section-header {
+  padding-top: 35px;
+  background-image: url(/images/ico_section_header.png);
+  background-repeat: no-repeat;
+  background-position: 0 0; }
+  .customer .section-header h1, .customer .section-header h2, .customer .section-header h3, .customer .section-header h4, .customer .section-header h5, .customer .section-header h6, .customer .section-header h7 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 28px;
+    color: #e9193a;
+    letter-spacing: -2px; }
+    .customer .section-header h1 small, .customer .section-header h2 small, .customer .section-header h3 small, .customer .section-header h4 small, .customer .section-header h5 small, .customer .section-header h6 small, .customer .section-header h7 small {
+      font-size: 15px;
+      color: #666; }
+  .customer .section-header p {
+    font-size: 17px;
+    color: #333;
+    letter-spacing: -1px;
+    font-weight: normal; }
+  .customer .section-header.text-center {
+    background-position: 50% 0; }
+
+.customer.faq .search-bar {
+  overflow: hidden;
+  margin-top: 60px;
+  margin-bottom: 20px; }
+  .customer.faq .search-bar .search-form {
+    float: right; }
+.customer.faq .faq-list {
+  margin-bottom: 150px; }
+  .customer.faq .faq-list > ul > li {
+    border-bottom: 1px solid #ccc; }
+    .customer.faq .faq-list > ul > li .icon {
+      position: absolute;
+      top: 0;
+      left: 30px;
+      font-style: normal;
+      font-size: 20px;
+      font-weight: bold;
+      line-height: 50px;
+      color: #e9193a; }
+    .customer.faq .faq-list > ul > li .question {
+      position: relative;
+      overflow: hidden;
+      display: block;
+      padding-left: 75px;
+      height: 50px;
+      color: #333;
+      font-size: 14px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      line-height: 50px; }
+    .customer.faq .faq-list > ul > li .answer {
+      position: relative;
+      display: none;
+      padding: 20px 20px 20px 75px;
+      font-size: 13px;
+      line-height: 20px;
+      color: #777; }
+    .customer.faq .faq-list > ul > li:first-child {
+      border-top: 1px solid #ccc; }
+    .customer.faq .faq-list > ul > li.active .question {
+      background-color: #444;
+      color: #fff; }
+      .customer.faq .faq-list > ul > li.active .question .icon {
+        color: #fff; }
+    .customer.faq .faq-list > ul > li.active .answer {
+      display: block; }
+
+.customer.certificate section {
+  padding-top: 60px;
+  padding-bottom: 60px; }
+.customer.certificate hr {
+  margin-top: 0;
+  margin-bottom: 0;
+  border-top: 1px dashed #ccc; }
+.customer.certificate .docs > p {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #666; }
+.customer.certificate .docs > .table {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-top: 0;
+  table-layout: fixed; }
+  .customer.certificate .docs > .table caption {
+    background-color: #4f4f4f;
+    color: #fff;
+    height: 52px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 16px; }
+  .customer.certificate .docs > .table thead tr th {
+    border-top: 0 !important;
+    background-color: #e9e9e9;
+    border-color: #ccc; }
+  .customer.certificate .docs > .table tbody tr th {
+    border-top: 0;
+    color: #666;
+    border-color: #ccc;
+    font-size: 16px;
+    line-height: 28px; }
+  .customer.certificate .docs > .table tbody tr td {
+    color: #666;
+    border-color: #ccc;
+    font-size: 16px;
+    line-height: 28px; }
+    .customer.certificate .docs > .table tbody tr td ol {
+      list-style-type: decimal;
+      list-style-position: inside; }
+    .customer.certificate .docs > .table tbody tr td .help:before {
+      content: '*'; }
+.customer.certificate .docs > .btn-area p {
+  text-align: right; }
+  .customer.certificate .docs > .btn-area p .btn {
+    margin-left: 10px;
+    padding-left: 45px;
+    width: 170px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    background-image: url(/images/customer/ico_download.png);
+    background-position: 20px 50%;
+    background-repeat: no-repeat; }
+    .customer.certificate .docs > .btn-area p .btn:nth-of-type(1) {
+      background-color: #e9193a; }
+      .customer.certificate .docs > .btn-area p .btn:nth-of-type(1):hover, .customer.certificate .docs > .btn-area p .btn:nth-of-type(1):focus {
+        opacity: .9; }
+.customer.certificate .steps > ul {
+  margin-top: 50px;
+  text-align: center; }
+  .customer.certificate .steps > ul > li {
+    display: inline-block;
+    padding-right: 75px;
+    background-image: url(/images/customer/ico_arrow_right.png);
+    background-repeat: no-repeat;
+    background-position: 190px 70px; }
+    .customer.certificate .steps > ul > li figure {
+      float: left;
+      width: 160px;
+      height: 230px; }
+      .customer.certificate .steps > ul > li figure figcaption {
+        margin-top: 15px;
+        font-size: 16px;
+        color: #666; }
+    .customer.certificate .steps > ul > li:last-child {
+      padding-right: 0; }
+.customer.certificate .steps > .section-header:nth-of-type(2) {
+  margin-top: 40px; }
+.customer.certificate .cost {
+  margin-bottom: 90px; }
+  .customer.certificate .cost .table {
+    margin-top: 40px;
+    table-layout: fixed; }
+    .customer.certificate .cost .table thead th {
+      background-color: #4f4f4f;
+      border-color: #4f4f4f !important;
+      color: #fff; }
+    .customer.certificate .cost .table tbody th, .customer.certificate .cost .table tbody td {
+      border-color: #ccc; }
+    .customer.certificate .cost .table tbody th {
+      background-color: #f9f9f9; }
+    .customer.certificate .cost .table tbody tr:nth-of-type(1) th {
+      border-top-color: #4f4f4f; }
+
+.customer.contact .section-header {
+  margin-bottom: 30px; }
+  .customer.contact .section-header a {
+    color: #e9193a; }
+  .customer.contact .section-header:first-child {
+    margin-top: 60px; }
+.customer.contact .table {
+  margin-bottom: 60px;
+  table-layout: fixed; }
+  .customer.contact .table:last-child {
+    margin-bottom: 140px; }
+
+/*# sourceMappingURL=customer.css.map */

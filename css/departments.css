@@ -1,0 +1,45 @@
+/*common*/
+.departments .page-header{background:url(../images/departments/visual.jpg) no-repeat top center;}
+.departments .container{padding:60px 15px 140px 15px;font-size:16px;}
+.departments .container h1{margin-top:0;padding-top:33px;color:#e9193a;font-size:22px;font-weight:400;line-height:30px;letter-spacing:-1px;background:url(../images/icon_title.png) no-repeat;}
+
+.departments .container .clinicPart{width:1170px;margin-top:80px;overflow:hidden;}
+.departments .container .clinicPart ul{width:1225px;margin-top:40px;margin-right:-55px;display:inline-block;overflow:hidden;}
+.departments .container .clinicPart ul li{float:left;width:190px;height:285px;margin-right:55px;text-align:center;}
+.departments .container .clinicPart ul li a{text-decoration:none;display:inline-block;}
+.departments .container .clinicPart ul li a span{padding-top:20px;color:#666;font-weight:400;display:inline-block;}
+
+
+/*rehabilitation*/
+.rehabilitation .container .partCon ul{width:100%;display:inline-block;}
+.rehabilitation .container .partCon ul li{float:left;width:50%;}
+.rehabilitation .container .partCon ul li p{margin-top:30px;color:#666;font-size:16px;line-height:26px;font-weight:300;letter-spacing:-1px;}
+
+
+/*internal*/
+.internal .container .partCon ul{width:100%;letter-spacing:-1px;display:inline-block;}
+.internal .container .partCon ul li{float:left;width:50%;}
+.internal .container .partCon ul li p{margin-top:30px;color:#666;font-size:16px;line-height:26px;font-weight:300;}
+.internal .container .partCon ul li h2{margin-top:0;padding-top:45px;color:#333;font-size:22px;font-weight:300;}
+.internal .container .partCon ul li dl{width:100%;display:inline-block;}
+.internal .container .partCon ul li dl dt{margin-top:20px;padding-left:17px;color:#333;font-size:18px;font-weight:400;background:url(../images/departments/icon_arrow.gif) no-repeat 0 8px;}
+.internal .container .partCon ul li dl dd{margin-top:10px;padding-left:17px;color:#666;font-size:16px;font-weight:300;}
+
+
+/*pediatric*/
+.pediatric .container .partCon{width:100%;display:inline-block;}
+.pediatric .container .partCon p{margin-top:20px;color:#666;font-size:16px;line-height:26px;font-weight:300;letter-spacing:-1px;}
+.pediatric .container .partCon img{margin-top:30px;}
+
+
+/*oriental*/
+.oriental .container .partCon ul{width:100%;display:inline-block;}
+.oriental .container .partCon ul li.lcon{float:left;width:560px;}
+.oriental .container .partCon ul li.rcon{float:right;width:565px;}
+.oriental .container .partCon ul li p{margin-top:30px;color:#666;font-size:16px;line-height:26px;font-weight:300;letter-spacing:-1px;}
+
+
+
+
+.tar{text-align:right;}
+.mt40{margin-top:40px;}

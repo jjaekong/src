@@ -1,0 +1,43 @@
+.outpatient .page-header{background:url(../images/departments/visual.jpg) no-repeat top center;}
+.outpatient .container{padding:60px 15px 140px 15px;letter-spacing:-1px;}
+.outpatient .container h1{margin-top:0;padding-top:33px;color:#e9193a;font-size:22px;font-weight:400;line-height:30px;letter-spacing:-1px;background:url(../images/icon_title.png) no-repeat;}
+.outpatient .container h1 span{color:#666;font-size:15px;}
+
+
+/*information*/
+.information .container {width:1170px;overflow:hidden;}
+.information .container ul.clinicProcess{width:1212px;margin-top:40px;margin-right:-42px;overflow:hidden;background:url(../images/outpatient/information_bg.gif) no-repeat;display:inline-block;}
+.information .container ul.clinicProcess li{float:left;width:160px;margin-right:42px;text-align:center;}
+.information .container ul.clinicProcess li p{margin-top:20px;color:#666;font-size:16px;}
+
+.information .container .timeTable{width:100%;}
+.information .container .timeTable thead th{color:#fff;font-size:16px;font-weight:400;line-height:53px;text-align:center;border:1px solid #ccc;border-top:none;background:#444;}
+.information .container .timeTable tbody td{color:#333;font-size:14px;font-weight:400;line-height:53px;text-align:center;border:1px solid #ccc;}
+.information .container .timeTable tbody td{color:#333;font-size:14px;font-weight:400;line-height:53px;text-align:center;border:1px solid #ccc;}
+.information .container .timeTable tbody td.jhg{background:#fef3f5;}
+.information .container .timeTable tbody td.kdj{background:#f9f9f9;}
+.information .container .timeTable tbody td.jkh{background:#eeeeee;}
+.information .container .timeTable tbody td.yyh{background:#dddddd;}
+.information .container .timeTable tbody td.khb{background:#fbdadf;}
+
+.information .container .infoBox{margin-top:50px;}
+.information .container .infoBox h2{color:#333;font-size:18px;font-weight:400;}
+.information .container .infoBox ul{width:100%;margin-top:10px;display:inline-block;}
+.information .container .infoBox ul li{padding:7px 0 7px 15px;color:#666;font-size:16px;font-weight:300;background:url(../images/outpatient/icon_arrow.gif) no-repeat 0 15px;}
+.information .container .infoBox ul li b{color:#333;font-size:16px;font-weight:400;}
+
+.information .container .call{margin-top:40px;color:#e9193a;font-size:22px;font-weight:400;}
+.information .container .call img{margin-right:10px;}
+.information .container .call span{font-family:'Lato', sans-serif;font-weight:600;letter-spacing:0;}
+
+.information .container .reservationBox{position:relative;height:200px;margin-top:120px;padding:40px;background:url(../images/outpatient/reservation_bg.jpg) no-repeat;}
+.information .container .reservationBox p{color:#fff;font-size:34px;font-weight:300;}
+.information .container .reservationBox span{margin-top:20px;color:#fff;font-size:18px;font-weight:300;display:block;}
+.information .container .reservationBox a{position:absolute;top:0;right:0;width:350px;height:200px;text-align:center;text-decoration:none;background:url(../images/outpatient/icon_calendal.png) no-repeat 55px 50%;display:block;}
+.information .container .reservationBox a i{padding-left:90px;color:#fff;line-height:200px;font-size:28px;font-style:normal;display:inline-block;}
+
+.w50{width:50%;}
+.fl{float:left;}
+.fr{float:right;}
+
+

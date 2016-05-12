@@ -121,4 +121,17 @@
             </div>
         </div>
     </div>
+    <nav class="quick collapsed">
+        <ul>
+            <li><a href="#">온라인 예약<span class="glyphicon glyphicon-menu-right"></span></a></li>
+            <li><a href="#">진료시간<span class="glyphicon glyphicon-menu-right"></span></a></li>
+            <li><a href="#">오시는 길<span class="glyphicon glyphicon-menu-right"></span></a></li>
+            <li><a href="#">증명서 발급<span class="glyphicon glyphicon-menu-right"></span></a></li>
+            <li><a href="#">층별안내<span class="glyphicon glyphicon-menu-right"></span></a></li>
+            <li><a href="#">셔틀버스<span class="glyphicon glyphicon-menu-right"></span></a></li>
+            <li><a href="#">유투브<span class="glyphicon glyphicon-menu-right"></span></a></li>
+            <li><a href="#">블로그<span class="glyphicon glyphicon-menu-right"></span></a></li>
+        </ul>
+        <button type="button" class="btn">퀵메뉴 <span>닫기</span><span class="glyphicon glyphicon-remove"></span></button>
+    </nav>
 </footer>
