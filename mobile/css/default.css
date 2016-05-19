@@ -40,6 +40,15 @@ address, p, dl {
     margin-left: -10px;
     margin-right: -10px; }
 
+.img-responsive {
+  margin: 0 auto; }
+
+.form-group {
+  margin-bottom: 0 !important; }
+
+.form-control {
+  box-shadow: none !important; }
+
 #wrapper {
   min-width: 320px; }
 
@@ -131,6 +140,96 @@ address, p, dl {
       background-image: url(/mobile/images/ico_section_header.png);
       background-size: 20px auto;
       background-repeat: no-repeat; }
+  #content .paging {
+    text-align: center; }
+    #content .paging .pagination li a {
+      margin-left: 1px;
+      margin-right: 1px;
+      border: 0;
+      background-color: #f9f9f9;
+      color: #666; }
+      #content .paging .pagination li a.first, #content .paging .pagination li a.prev, #content .paging .pagination li a.next, #content .paging .pagination li a.last {
+        background-color: transparent; }
+    #content .paging .pagination li.active a {
+      background-color: #666;
+      color: #fff; }
+  #content .search-area {
+    position: relative;
+    padding-left: 71px;
+    padding-right: 51px;
+    height: 40px;
+    border: 1px solid #ccc; }
+    #content .search-area .form-group select {
+      padding-left: 5px;
+      padding-right: 5px; }
+    #content .search-area .form-group .form-control {
+      height: 38px;
+      border: 0; }
+    #content .search-area .form-group:nth-of-type(1) {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 38px;
+      width: 70px;
+      border-right: 1px solid #ccc; }
+    #content .search-area .btn {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 50px;
+      height: 38px;
+      min-width: auto;
+      border-left: 1px solid #ccc;
+      font-size: 14px;
+      background-color: #f9f9f9; }
+  #content .category {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center; }
+    #content .category li {
+      display: inline-block; }
+      #content .category li a {
+        color: #666;
+        line-height: 20px; }
+      #content .category li:after {
+        position: relative;
+        top: -2px;
+        padding-left: 10px;
+        padding-right: 8px;
+        content: '|';
+        font-size: 10px;
+        color: #999; }
+      #content .category li:last-child:after {
+        padding-left: 0;
+        padding-right: 0;
+        content: ''; }
+      #content .category li.active a {
+        color: #e9193a;
+        font-weight: bold; }
+  #content .board-list {
+    border-top: 2px solid #444; }
+    #content .board-list li {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border-bottom: 1px solid #f3f3f3; }
+      #content .board-list li a {
+        display: block;
+        color: #333; }
+        #content .board-list li a .tag {
+          color: #555;
+          font-size: 13px; }
+        #content .board-list li a p {
+          overflow: hidden;
+          margin-top: 5px;
+          margin-bottom: 10px;
+          width: 100%;
+          font-size: 14px;
+          font-weight: 400;
+          text-overflow: ellipsis;
+          white-space: nowrap; }
+        #content .board-list li a small {
+          color: #666;
+          font-size: 11px; }
 
 #footer {
   padding: 25px 10px 30px;
