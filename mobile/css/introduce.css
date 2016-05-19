@@ -1,0 +1,8 @@
+/* greeting */
+/* ceo-message */
+.introduce.greeting p {font-size:12px; color:#444; line-height:21px; margin-bottom:30px; }
+.introduce.greeting p:last-child {margin-bottom:60px; }
+.introduce.greeting .ceo-message .section-header h4 {background:none !important; padding-top:0 !important; text-align:center; }
+
+.introduce.greeting .container > p {overflow:hidden; }
+.introduce.greeting .container > p img {width:145px; float:right;  }

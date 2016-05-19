@@ -1,5 +1,5 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/dochead.php'); ?>
-<link href="/css/introduce.css" rel="stylesheet" />
+<link href="/mobile/css/introduce.css" rel="stylesheet" />
 </head>
 <body>
 	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/header.php'); ?>
@@ -17,19 +17,19 @@
 				</h4>
 			</div>
 			<div class="section-centent">
-			<div class="container">
-				<p>
-					본 병원의 궁극적 목표는 이용자의 기능적 회복과 정상적인 사회복귀 그리고 행복입니다.
-					또한 전세계 장애인을 위해 더 나은 복지서비스를 제공하는 것이 SRC만의 비전입니다.
-				</p>
-				<p>
-					이러한 목표와 비전을 위해 항상 고민하고 실행하는
-					SRC 재활병원이 되기 위해 임직원 모두가 노력하겠습니다. 
-				</p>
-				<p>
-					SRC재활병원에서 여러분의 가능성과 행복한 미래를 꿈 꾸시길 기원합니다. 
-				</p>
-			</div>
+				<div class="container">
+					<p>
+						본 병원의 궁극적 목표는 이용자의 기능적 회복과 정상적인 사회복귀 그리고 행복입니다.
+						또한 전세계 장애인을 위해 더 나은 복지서비스를 제공하는 것이 SRC만의 비전입니다.
+					</p>
+					<p>
+						이러한 목표와 비전을 위해 항상 고민하고 실행하는
+						SRC 재활병원이 되기 위해 임직원 모두가 노력하겠습니다. 
+					</p>
+					<p>
+						SRC재활병원에서 여러분의 가능성과 행복한 미래를 꿈 꾸시길 기원합니다. 
+					</p>
+				</div>
 			</div>
 		</section>
 		<div class="container">
@@ -68,19 +68,6 @@
 			</p>
 		</div>
 	</main>
-<style>
-/* greeting */
-/* ceo-message */
-.introduce.greeting p {font-size:12px; color:#444; line-height:21px; margin-bottom:30px; }
-.introduce.greeting p:last-child {margin-bottom:60px; }
-.introduce.greeting .ceo-message .section-header h4 {background:none !important; padding-top:0 !important; text-align:center; }
-
-.introduce.greeting .container > p {overflow:hidden; }
-.introduce.greeting .container > p img {width:145px; float:right;  }
-
-
-
-</style>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/docfoot.php'); ?>
 </body>
