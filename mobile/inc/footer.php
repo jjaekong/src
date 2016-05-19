@@ -15,7 +15,7 @@
             <dd>233-82-00339</dd>
             <dd class="br" role="separator"></dd>
             <dt>대표번호</dt>
-            <dd><a href="tel:1577-3622">1577-3622</a></dd>
+            <dd><a href="tel:15773622">1577-3622</a></dd>
             <dt>팩스</dt>
             <dd>031-799-3720</dd>
         </dl>
