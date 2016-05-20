@@ -6,6 +6,7 @@
 .introduce.greeting .container > p {overflow:hidden; }
 .introduce.greeting .container > p img {width:145px; float:right;  }
 
+
 /* about */
 .introduce.about .goals {padding:25px 25px 0 25px; }
 .introduce.about .container section {margin-top:55px; min-height:180px; background:url("/mobile/images/introduce/intro_bg.gif") 100% 0 no-repeat; background-size:157px 180px; }
@@ -13,3 +14,90 @@
 .introduce.about .container .section-header h3 {font-size:14px; }
 .introduce.about .container .section-header h3 i {font-style:normal; color:#333; font-size:14px; font-weight:normal; }
 .introduce.about .container .section-centent p {margin:30px 0 60px 0; font-size:12px; color:#444; line-height:21px; }
+
+
+
+
+/* tab-menu */
+.tab-menu {text-align:center; }
+.tab-menu {overflow:hidden; font-size:12px; width:300px; height:46px; margin:25px 10px; display:inline-block; }
+.tab-menu li {float:left; line-height:16px; text-align:center; color:#666; width:74px; height:46px; border-right:1px solid #ccc; border-top:1px solid #ccc; border-bottom:1px solid #ccc; }
+.tab-menu li:first-child {border-left:1px solid #ccc; }
+.tab-menu li:last-child {border-right:1px solid #ccc; }
+.tab-menu li.active {background-color:#444; color:#fff; width:75px; height:46px; border:0; border-left:0 !important; }
+.tab-menu li a {color:#666; width:75px; height:46px; padding:5px 0; display:inline-block; text-decoration:none; }
+.tab-menu li.active a {color:#fff; width:75px; height:46px; }
+.tab-menu li a:hover {text-decoration:none; }
+
+
+
+
+/* history */
+/* yongmun */
+.introduce.yongmun .history-list {text-align:center; }
+.introduce.yongmun .yongmun-dong .section-header .container h4 {background:none !important; margin-top:30px !important; margin-bottom:0 !important; color:#444 !important; display:block; font-size:20px !important; padding-top:0 !important; } 
+.introduce.yongmun .yongmun-dong .section-header .container h4 i {font-style:normal; font-size:20px; display:block; padding:8px 0; font-weight:200; } 
+.introduce.yongmun .yongmun-dong .section-header .container h5 {background:none !important; font-size:13px; display:block; color:#e9193a; padding-top:0 !important; font-weight:200; }
+.introduce.yongmun .yongmun-dong .container .section-content {margin-bottom:50px; }
+.introduce.yongmun .yongmun-dong .container .section-content {margin-top:10px; }
+.introduce.yongmun .yongmun-dong .container .section-content ol {background:url("/mobile/images/ico_section_header.png") 0 0 no-repeat; background-size:20px auto; padding:14px 10px;}
+.introduce.yongmun .yongmun-dong .container .section-content ol li {border-left:1px solid #ccc; padding-left:10px;  padding-bottom:22px; }
+.introduce.yongmun .yongmun-dong .container .section-content ol li dt {color:#e9193a; font-size:12px; margin:0; font-weight:200; }
+.introduce.yongmun .yongmun-dong .container .section-content ol li:first-child dt {margin-top:14px; }
+.introduce.yongmun .yongmun-dong .container .section-content ol li dd {color:#666; font-size:12px; margin-top:10px; line-height:21px; }
+.introduce.yongmun .yongmun-dong .container .section-content ol li:last-child {padding-bottom:0; }
+
+/* sindaebang */
+.introduce.sindaebang .history-list {text-align:center; }
+.introduce.sindaebang .sindaebang-dong .section-header .container h4 {background:none !important; margin-top:30px !important; margin-bottom:0 !important; color:#444 !important; display:block; font-size:20px !important; padding-top:0 !important; } 
+.introduce.sindaebang .sindaebang-dong .section-header .container h4 i {font-style:normal; font-size:20px; display:block; padding:8px 0; font-weight:200; } 
+.introduce.sindaebang .sindaebang-dong .section-header .container h5 {background:none !important; font-size:13px; display:block; color:#e9193a; padding-top:0 !important; font-weight:200; }
+.introduce.sindaebang .sindaebang-dong .container .section-content {margin-bottom:50px; }
+.introduce.sindaebang .sindaebang-dong .container .section-content {margin-top:10px; }
+.introduce.sindaebang .sindaebang-dong .container .section-content ol {background:url("/mobile/images/ico_section_header.png") 0 0 no-repeat; background-size:20px auto; padding:14px 10px;}
+.introduce.sindaebang .sindaebang-dong .container .section-content ol li {border-left:1px solid #ccc; padding-left:10px;  padding-bottom:22px; }
+.introduce.sindaebang .sindaebang-dong .container .section-content ol li dt {color:#e9193a; font-size:12px; margin:0; font-weight:200; }
+.introduce.sindaebang .sindaebang-dong .container .section-content ol li:first-child dt {margin-top:14px; }
+.introduce.sindaebang .sindaebang-dong .container .section-content ol li dd {color:#666; font-size:12px; margin-top:10px; line-height:21px; }
+.introduce.sindaebang .sindaebang-dong .container .section-content ol li:last-child {padding-bottom:0; }
+
+/* bongcheon */
+.introduce.bongcheon .history-list {text-align:center; }
+.introduce.bongcheon .bongcheon-dong .section-header .container h4 {background:none !important; margin-top:30px !important; margin-bottom:0 !important; color:#444 !important; display:block; font-size:20px !important; padding-top:0 !important; } 
+.introduce.bongcheon .bongcheon-dong .section-header .container h4 i {font-style:normal; font-size:20px; display:block; padding:8px 0; font-weight:200; } 
+.introduce.bongcheon .bongcheon-dong .section-header .container h5 {background:none !important; font-size:13px; display:block; color:#e9193a; padding-top:0 !important; font-weight:200; }
+.introduce.bongcheon .bongcheon-dong .container .section-content {margin-bottom:50px; }
+.introduce.bongcheon .bongcheon-dong .container .section-content {margin-top:10px; }
+.introduce.bongcheon .bongcheon-dong .container .section-content ol {background:url("/mobile/images/ico_section_header.png") 0 0 no-repeat; background-size:20px auto; padding:14px 10px;}
+.introduce.bongcheon .bongcheon-dong .container .section-content ol li {border-left:1px solid #ccc; padding-left:10px;  padding-bottom:22px; }
+.introduce.bongcheon .bongcheon-dong .container .section-content ol li dt {color:#e9193a; font-size:12px; margin:0; font-weight:200; }
+.introduce.bongcheon .bongcheon-dong .container .section-content ol li:first-child dt {margin-top:14px; }
+.introduce.bongcheon .bongcheon-dong .container .section-content ol li dd {color:#666; font-size:12px; margin-top:10px; line-height:21px; }
+.introduce.bongcheon .bongcheon-dong .container .section-content ol li:last-child {padding-bottom:0; }
+
+/* gwangju */
+.introduce.gwangju .history-list {text-align:center; }
+.introduce.gwangju .ripenin .section-header .container h4 {background:none !important; margin-top:30px !important; margin-bottom:0 !important; color:#444 !important; display:block; font-size:20px !important; padding-top:0 !important; } 
+.introduce.gwangju .ripenin .section-header .container h4 i {font-style:normal; font-size:20px; display:block; padding:8px 0; font-weight:200; } 
+.introduce.gwangju .ripenin .section-header .container h5 {background:none !important; font-size:13px; display:block; color:#e9193a; padding-top:0 !important; font-weight:200; }
+.introduce.gwangju .ripenin .container .section-content {margin-bottom:50px; }
+.introduce.gwangju .ripenin .container .section-content {margin-top:10px; }
+.introduce.gwangju .ripenin .container .section-content ol {background:url("/mobile/images/ico_section_header.png") 0 0 no-repeat; background-size:20px auto; padding:14px 10px;}
+.introduce.gwangju .ripenin .container .section-content ol li {border-left:1px solid #ccc; padding-left:10px;  padding-bottom:22px; }
+.introduce.gwangju .ripenin .container .section-content ol li dt {color:#e9193a; font-size:12px; margin:0; font-weight:200; }
+.introduce.gwangju .ripenin .container .section-content ol li:first-child dt {margin-top:14px; }
+.introduce.gwangju .ripenin .container .section-content ol li dd {color:#666; font-size:12px; margin-top:10px; line-height:21px; }
+.introduce.gwangju .ripenin .container .section-content ol li:last-child {padding-bottom:0; }
+
+
+/* partner */
+.introduce.partner .container ul li {overflow:hidden; padding:20px 10px; border-bottom:0.1px solid #f3f3f3; }
+.introduce.partner .container ul li h6 {float:left; font-size:14px; padding:18px 0; font-weight:300; }
+.introduce.partner .container ul li .btn-area {float:right; }
+.introduce.partner .container ul li .btn-area a {display:block; margin-bottom:5px; font-size:12px; padding:6px 10px 6px 20px; }
+.introduce.partner .container ul li .btn-area a:last-child {margin-bottom:0; }
+.introduce.partner .container ul li .btn-area .btn-pink {background-image:url("/mobile/images/introduce/tel_bg.png"); background-repeat:no-repeat; background-size:10px auto; background-position:8% 50%; }
+.introduce.partner .container ul li .btn-area .btn-gray {background-image:url("/mobile/images/introduce/home_bg.png"); background-repeat:no-repeat; background-size:8px auto; background-position:13% 50%; }
+.introduce.partner .container ul li:nth-of-type(2) h6 {padding:38px 0; }
+.introduce.partner .container ul li:nth-of-type(10) .btn-area .btn-pink {margin-top:18px; }
+.introduce.partner .paging .pagination {margin:30px 0 60px 0; }
