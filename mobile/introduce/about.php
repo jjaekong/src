@@ -28,15 +28,6 @@
 			</section>
 		</div>
 	</main>
-<style>
-.introduce.about .goals {padding:25px 25px 0 25px; }
-.introduce.about .container section {margin-top:55px; min-height:180px; background:url("/mobile/images/introduce/intro_bg.gif") 100% 0 no-repeat; background-size:157px 180px; }
-.introduce.about .container .section-header { }
-.introduce.about .container .section-header h3 {font-size:14px; }
-.introduce.about .container .section-header h3 i {font-style:normal; color:#333; font-size:14px; font-weight:normal; }
-
-.introduce.about .container .section-centent p {margin:30px 0 60px 0; font-size:12px; color:#444; line-height:21px; }
-</style>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/docfoot.php'); ?>
 </body>
