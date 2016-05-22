@@ -345,7 +345,7 @@
     }
 }
 
-.customer.appoint.step1 {
+.customer.appoint.login {
     .login-section {
         margin: 0 auto 140px;
         padding-top: 60px;
@@ -392,7 +392,7 @@
     }
 }
 
-.customer.appoint.step2 {
+.customer.appoint.step1 {
     .schedule {
         margin-bottom: 70px;
         header {
@@ -671,6 +671,41 @@
                         }
                     }
                 } 
+            }
+        }
+    }
+}
+
+.customer.appoint.step2 {
+    .confirm {
+        margin-top: 60px;
+        margin-bottom: 140px;
+        .section-header {
+            margin-bottom: 30px;
+        }
+        .table {
+            tbody {
+                th {
+                    padding-left: 30px;
+                    border-right: 1px solid #ccc;
+                    text-align: left;
+                }
+                td {
+                    padding-left: 30px;
+                    text-align: left;
+                }
+            }
+        }
+        .notice {
+            margin-top: 30px;
+            li {
+                padding-left: 15px;
+                color: #666;
+                font-size: 16px;
+                line-height: 36px;
+                background-image: url(/images/customer/ico_notice_arrow.png);
+                background-repeat: no-repeat;
+                background-position: 0 50%;
             }
         }
     }

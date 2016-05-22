@@ -36,13 +36,24 @@ p, address, label {
 .container {
   width: 1200px !important; }
 
+.skip-nav-item {
+  display: block;
+  width: 100%;
+  border-top: 1px solid #ccc;
+  text-align: center;
+  line-height: 50px;
+  font-size: 14px; }
+  .skip-nav-item:focus {
+    color: #333; }
+
 #header {
   position: relative;
   height: 147px;
   border-bottom: 2px solid #e9193a;
   z-index: 1; }
   #header .top {
-    height: 96px;
+    height: 97px;
+    border-top: 1px solid #ececec;
     border-bottom: 1px solid #ececec; }
     #header .top .container {
       position: relative; }
@@ -92,19 +103,19 @@ p, address, label {
           padding-left: 0; }
           #header .top .member li:first-child:before {
             content: ''; }
-  #header .gnb {
+  #header #gnb {
     position: relative; }
-    #header .gnb > div {
+    #header #gnb > div {
       position: relative;
       margin: 0 auto;
       width: 1200px;
       z-index: 1; }
-      #header .gnb > div > ul {
+      #header #gnb > div > ul {
         overflow: hidden; }
-        #header .gnb > div > ul > li {
+        #header #gnb > div > ul > li {
           float: left;
           width: 200px; }
-          #header .gnb > div > ul > li > a {
+          #header #gnb > div > ul > li > a {
             display: block;
             height: 51px;
             text-align: center;
@@ -112,24 +123,24 @@ p, address, label {
             color: #333;
             line-height: 51px;
             text-decoration: none; }
-            #header .gnb > div > ul > li > a:focus, #header .gnb > div > ul > li > a:hover {
+            #header #gnb > div > ul > li > a:focus, #header #gnb > div > ul > li > a:hover {
               color: #e9193a; }
-          #header .gnb > div > ul > li > ul {
+          #header #gnb > div > ul > li > ul {
             display: none;
             padding-top: 25px;
             padding-bottom: 50px; }
-            #header .gnb > div > ul > li > ul > li > a {
+            #header #gnb > div > ul > li > ul > li > a {
               display: block;
               font-size: 14px;
               line-height: 35px;
               color: #999;
               text-align: center;
               text-decoration: none; }
-              #header .gnb > div > ul > li > ul > li > a:focus, #header .gnb > div > ul > li > ul > li > a:hover {
+              #header #gnb > div > ul > li > ul > li > a:focus, #header #gnb > div > ul > li > ul > li > a:hover {
                 color: #fff; }
-          #header .gnb > div > ul > li:focus > a, #header .gnb > div > ul > li:hover > a {
+          #header #gnb > div > ul > li:focus > a, #header #gnb > div > ul > li:hover > a {
             color: #e9193a; }
-    #header .gnb .backface {
+    #header #gnb .backface {
       position: absolute;
       top: 0;
       left: 0;
@@ -137,10 +148,10 @@ p, address, label {
       padding-top: 51px;
       width: 100%;
       height: 100%; }
-      #header .gnb .backface > div {
+      #header #gnb .backface > div {
         height: 100%;
         background-color: rgba(51, 51, 51, 0.95); }
-  #header.gnb-opened .gnb > div > ul > li > ul {
+  #header.gnb-opened #gnb > div > ul > li > ul {
     display: block; }
 
 #find-treatments {
@@ -452,5 +463,56 @@ p, address, label {
       padding-left: 8px; }
       #footer .quick.collapsed .btn span {
         display: none; }
+
+.lt-ie9-not-supported-bg {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 9999;
+  opacity: .85;
+  -ms-filter: alpha(opacity=85);
+  filter: alpha(opacity=85); }
+
+.lt-ie9-not-supported-content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -200px;
+  margin-top: -250px;
+  width: 400px;
+  height: 535px;
+  background-color: #f9f9f9;
+  z-index: 9999;
+  text-align: center; }
+  .lt-ie9-not-supported-content h1 {
+    margin-bottom: 30px;
+    font-size: 48px;
+    color: #484848;
+    font-weight: bold;
+    letter-spacing: -2px; }
+    .lt-ie9-not-supported-content h1 small {
+      font-size: 32px; }
+  .lt-ie9-not-supported-content p.notice {
+    margin-bottom: 45px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666;
+    font-weight: 300;
+    letter-spacing: -1px; }
+    .lt-ie9-not-supported-content p.notice strong {
+      color: #e9193a;
+      font-weight: 400; }
+  .lt-ie9-not-supported-content a {
+    display: block;
+    margin: 30px auto 0;
+    width: 360px;
+    height: 60px;
+    background-color: #e9193a;
+    color: #fff;
+    font-size: 20px;
+    line-height: 60px; }
 
 /*# sourceMappingURL=default.css.map */
