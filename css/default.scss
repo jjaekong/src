@@ -679,7 +679,7 @@ p, address, label {
         background-color: black;
         z-index: 9999;
         opacity: .85;
-        -ms-filter: alpha(opacity=85);
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
         filter: alpha(opacity=85);
     }
     .lt-ie9-not-supported-content {
