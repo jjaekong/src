@@ -108,3 +108,113 @@
 .introduce.partner .container ul li:nth-of-type(2) h6 {padding:38px 0; }
 .introduce.partner .container ul li:nth-of-type(10) .btn-area .btn-pink {margin-top:18px; }
 .introduce.partner .paging .pagination {margin:30px 0 60px 0; }
+
+
+/* location */
+.introduce.location i {font-style:normal; color:#333; font-size:14px; font-weight:300; }
+.introduce.location .route-one .section-header {background-image:url("/mobile/images/introduce/location_bg.gif"); background-size:320px 206px; background-repeat:no-repeat; background-position:50% 0; min-height:206px; text-align:center; padding-bottom:40px; }
+.introduce.location .route-one .section-header h3 {background-position:50% 22px !important; padding-top:50px !important; margin-bottom:15px !important; font-size:14px; }
+.introduce.location .route-one .section-header p {line-height:21px; color:#666; font-size:12px; }
+.introduce.location .route-one .section-header p:nth-of-type(1) {color:#444; }
+.introduce.location .route-one .section-header p:nth-of-type(2):before {content:""; }
+.introduce.location .route-one .section-header p:before {content:"*"; padding-right:3px; }
+.introduce.location .route-one .section-content img {padding-bottom:30px; border-bottom:1px dotted #ccc; }
+.introduce.location .route-two .section-header {text-align:center; }
+.introduce.location .route-two .section-header h3 {color:#444 !important; background:none !important; font-size:14px; padding-top:30px !important; }
+.introduce.location .route-two .section-header p {line-height:21px; color:#666; font-size:12px; }
+.introduce.location .route-two .section-header p:before {content:"*"; padding-right:3px; }
+.introduce.location .route-two .section-content {margin-bottom:60px; }
+.introduce.location .route-two .section-content img {padding-top:20px; }
+.introduce.location .weekend .section-header p {position:relative; padding-left:8px; color:#666; font-size:12px; line-height:21px; }
+.introduce.location .weekend .section-header p:before {position:absolute; top:0; left:0; content:"*"; }
+.introduce.location .weekend .section-content {margin-bottom:60px; }
+.introduce.location .weekend .section-content .table-wrap .table {border-top:2px solid #4f4f4f; font-size:12px; color:#666; text-align:center; table-layout:fixed; }
+.introduce.location .weekend .section-content .table-wrap .table tr {height:40px; }
+.introduce.location .weekend .section-content .table-wrap .table tr td {height:40px; border-left:1px solid #ccc; border-right:1px solid #ccc; }
+.introduce.location .weekend .section-content .table-wrap .table tr:nth-of-type(1) {color:#333; !important; }
+.introduce.location .weekend .section-content .table-wrap .table tr:last-child {border-bottom:1px solid #ccc; }
+.introduce.location .weekend .section-content .table-wrap .table th {background-color:#f4f4f4; color:#333; text-align:center; border-left:1px solid #ccc; font-weight:normal; }
+
+
+/* shuttle-two */
+.introduce.shuttle-two i {font-style:normal; color:#333; font-size:14px; font-weight:300; }
+.introduce.shuttle-two .route-one .section-header {background-image:url("/mobile/images/introduce/location_bg.gif"); background-size:320px 182px; background-repeat:no-repeat; background-position:50% 0; min-height:182px; text-align:center; padding-bottom:40px; }
+.introduce.shuttle-two .route-one .section-header h3 {background-position:50% 22px !important; padding-top:50px !important; margin-bottom:15px !important; font-size:14px; }
+.introduce.shuttle-two .route-one .section-header p {line-height:20px; color:#666; font-size:12px; }
+.introduce.shuttle-two .route-one .section-header p:before {content:"*"; padding-right:3px; } 
+.introduce.shuttle-two .route-one .section-content img {padding-bottom:60px; }
+.introduce.shuttle-two .schedule .section-header p {position:relative; padding-left:8px; color:#666; font-size:12px; }
+.introduce.shuttle-two .schedule .section-header p:before {position:absolute; top:0; left:0; content:"*"; padding-right:3px; }
+.introduce.shuttle-two .schedule .section-content {margin-bottom:60px; }
+.introduce.shuttle-two .schedule .section-content .table-wrap table {border-top:2px solid #4f4f4f; font-size:12px; color:#666; text-align:center; table-layout:fixed; }
+.introduce.shuttle-two .schedule .section-content .table-wrap table tr {height:40px; }
+.introduce.shuttle-two .schedule .section-content .table-wrap table tr td {height:40px; border-left:1px solid #ccc; border-right:1px solid #ccc; vertical-align:middle; }
+.introduce.shuttle-two .schedule .section-content .table-wrap table tr td:first-child {font-weight:300; }
+.introduce.shuttle-two .schedule .section-content .table-wrap table tr:nth-of-type(1) td {border-top:1px solid #ccc; }
+.introduce.shuttle-two .schedule .section-content .table-wrap table tr:last-child {border-bottom:1px solid #ccc; }
+.introduce.shuttle-two .schedule .section-content .table-wrap table th {background-color:#f4f4f4; color:#333; text-align:center; border-left:1px solid #ccc; border-right:1px solid #ccc; border-bottom:0; }
+
+
+/* shuttle-three */
+.introduce.shuttle-three i {font-style:normal; color:#333; font-size:14px; font-weight:300; }
+.introduce.shuttle-three .route-one .section-header {background-image:url("/mobile/images/introduce/location_bg.gif"); background-size:320px 182px; background-repeat:no-repeat; background-position:50% 0; min-height:182px; text-align:center; padding-bottom:40px; }
+.introduce.shuttle-three .route-one .section-header h3 {background-position:50% 22px !important; padding-top:50px !important; margin-bottom:15px !important; font-size:14px; }
+.introduce.shuttle-three .route-one .section-header p {line-height:20px; color:#666; font-size:12px; }
+.introduce.shuttle-three .route-one .section-header p:before {content:"*"; padding-right:3px; } 
+.introduce.shuttle-three .route-one .section-content img {padding-bottom:60px; }
+.introduce.shuttle-three .schedule .section-content {margin-bottom:60px; }
+.introduce.shuttle-three .schedule .section-content .table-wrap .table {border-top:2px solid #4f4f4f; font-size:12px; color:#666; text-align:center;  }
+.introduce.shuttle-three .schedule .section-content .table-wrap .table tr {height:40px; }
+.introduce.shuttle-three .schedule .section-content .table-wrap .table tr td {height:40px; border-left:1px solid #ccc; border-right:1px solid #ccc; vertical-align:middle; color:##333; }
+.introduce.shuttle-three .schedule .section-content .table-wrap .table tr td:first-child {color:#666; }
+.introduce.shuttle-three .schedule .section-content .table-wrap .table tr:nth-of-type(1) td {border-top:1px solid #ccc; }
+.introduce.shuttle-three .schedule .section-content .table-wrap .table tr:last-child {border-bottom:1px solid #ccc; }
+.introduce.shuttle-three .schedule .section-content .table-wrap .table th {background-color:#f4f4f4; color:#333; text-align:center; border-left:1px solid #ccc; border-right:1px solid #ccc; border-bottom:0; vertical-align:middle; font-weight:normal; }
+.introduce.shuttle-three .weekend .section-content {margin-bottom:60px; }
+.introduce.shuttle-three .weekend .section-content .table-wrap .table {border-top:2px solid #4f4f4f; font-size:12px; color:#666; text-align:center; }
+.introduce.shuttle-three .weekend .section-content .table-wrap .table tr {height:41px; }
+.introduce.shuttle-three .weekend .section-content .table-wrap .table tr td {height:40px; border-left:1px solid #ccc; border-right:1px solid #ccc;  vertical-align:middle; }
+.introduce.shuttle-three .weekend .section-content .table-wrap .table tr:last-child {border-bottom:1px solid #ccc; }
+.introduce.shuttle-three .weekend .section-content .table-wrap .table th {background-color:#f4f4f4; color:#333; text-align:center; border-left:1px solid #ccc; border-right:1px solid #ccc; border-bottom:0; vertical-align:middle; font-weight:normal; }
+
+
+/* shuttle-four */
+.introduce.shuttle-four i {font-style:normal; color:#333; font-size:14px; font-weight:300; }
+.introduce.shuttle-four .route-one .section-header {background-image:url("/mobile/images/introduce/location_bg.gif"); background-size:320px 182px; background-repeat:no-repeat; background-position:50% 0; min-height:182px; text-align:center; padding-bottom:40px; }
+.introduce.shuttle-four .route-one .section-header h3 {background-position:50% 22px !important; padding-top:50px !important; margin-bottom:15px !important; font-size:14px; }
+.introduce.shuttle-four .route-one .section-header p:nth-of-type(1) {color:#444;  }
+.introduce.shuttle-four .route-one .section-header p {color:#666; font-size:12px; line-height:20px; }
+.introduce.shuttle-four .route-one .section-header p:nth-of-type(2):before {content:""; }
+.introduce.shuttle-four .route-one .section-header p:before {content:"*"; padding-right:3px; }
+.introduce.shuttle-four .route-one .section-content img { }
+.introduce.shuttle-four .schedule .section-header {margin-top:60px; }
+.introduce.shuttle-four .weekend .section-header  {margin-top:60px; }
+.introduce.shuttle-four .weekend .section-content  {margin-bottom:60px; }
+.introduce.shuttle-four .table-wrap .table {border-top:2px solid #4f4f4f; font-size:12px; color:#666; text-align:center; }
+.introduce.shuttle-four .table-wrap .table tr {height:40px; }
+.introduce.shuttle-four .table-wrap .table tr td {height:40px; border-left:1px solid #ccc; border-right:1px solid #ccc; vertical-align:middle; }
+.introduce.shuttle-four .table-wrap .table tr:last-child {border-bottom:1px solid #ccc; }
+.introduce.shuttle-four .table-wrap .table th {background-color:#f4f4f4; color:#333; text-align:center; border-left:1px solid #ccc; border-right:1px solid #ccc; border-bottom:0; vertical-align:middle; font-weight:normal; }
+
+
+/* shuttle-five */
+.introduce.shuttle-five i {font-style:normal; color:#333; font-size:14px; font-weight:300; }
+.introduce.shuttle-five .route-one .section-header {background-image:url("/mobile/images/introduce/location_bg.gif"); background-size:320px 162px; background-repeat:no-repeat; background-position:50% 0; min-height:162px; text-align:center; padding-bottom:40px; }
+.introduce.shuttle-five .route-one .section-header h3 {background-position:50% 22px !important; padding-top:50px !important; margin-bottom:15px !important; font-size:14px; }
+.introduce.shuttle-five .route-one .section-header p {color:#666; font-size:12px; line-height:20px; }
+.introduce.shuttle-five .route-one .section-header p:before {content:"*"; padding-right:3px; }
+.introduce.shuttle-five .route-one .section-content img {padding-bottom:60px; }
+.introduce.shuttle-five .attendance .section-header {background-image:url("/mobile/images/introduce/location_bg.gif"); background-size:320px 103px; background-repeat:no-repeat; background-position:50% 0; min-height:103px; text-align:center; padding-bottom:40px; }
+.introduce.shuttle-five .attendance .section-header h3 {background-position:50% 22px !important; padding-top:50px !important; font-size:14px; }
+.introduce.shuttle-five .attendance .section-header p {color:#333; font-size:14px; }
+.introduce.shuttle-five .finish .section-header {background-image:url("/mobile/images/introduce/location_bg.gif"); background-size:320px 103px; background-repeat:no-repeat; background-position:50% 0; min-height:103px; text-align:center; padding-bottom:40px; margin-top:60px; }
+.introduce.shuttle-five .finish .section-header h3 {background-position:50% 22px !important; padding-top:50px !important; font-size:14px; }
+.introduce.shuttle-five .finish .section-header p {color:#333; font-size:14px; }
+.introduce.shuttle-five .schedule .section-header {margin-top:60px; }
+.introduce.shuttle-five .schedule .section-content {margin-bottom:60px; }
+.introduce.shuttle-five .schedule .section-content .table-wrap .table {border-top:2px solid #4f4f4f; font-size:12px; color:#666; text-align:center; }
+.introduce.shuttle-five .schedule .section-content .table-wrap .table tr {height:40px; }
+.introduce.shuttle-five .schedule .section-content .table-wrap .table tr td p {font-size:11px; color:#e9193a; }
+.introduce.shuttle-five .schedule .section-content .table-wrap .table tr td {height:40px; font-size:12px; border-left:1px solid #ccc; border-right:1px solid #ccc; vertical-align:middle; }
+.introduce.shuttle-five .schedule .section-content .table-wrap .table tr:last-child {border-bottom:1px solid #ccc; }
+.introduce.shuttle-five .schedule .section-content .table-wrap .table th {background-color:#f4f4f4; color:#333; text-align:center; border-left:1px solid #ccc; border-right:1px solid #ccc; border-bottom:0; vertical-align:middle; font-weight:normal; }
