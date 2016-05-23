@@ -101,6 +101,63 @@
             }
         }
     }
+    &.write {
+        .table {
+            margin-top: 60px;
+            margin-bottom: 80px;
+            tbody {
+                th, td {
+                    padding-left: 30px;
+                    padding-right: 30px;
+                    text-align: left;
+                }
+                th {
+                    border-right: 1px solid #ccc;
+                    label {
+                        font-weight: normal;
+                    }
+                }
+                td {
+                    .form-control {
+                        border-radius: 0;
+                        box-shadow: none;
+                        &:focus {
+                            border-color: #e9193a;
+                        }
+                    }
+                }
+                .writer,
+                .password,
+                .attach {
+                    .form-control {
+                        width: 340px;
+                    }
+                }
+                .details {
+                    td {
+                        padding: 30px 0;
+                    }
+                }
+            }
+        }
+        .btn-area {
+            margin-bottom: 140px;
+            .btn {
+                width: 150px;
+                height: 40px;
+                line-height: 28px;
+                font-size: 16px;
+                color: #fff;
+                &.btn-submit {
+                    background-color: #e9193a;
+                    &:hover,
+                    &:focus {
+                        opacity: .9;
+                    }
+                }
+            }
+        }
+    }
 }
 
 .community.news {

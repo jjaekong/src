@@ -1,6 +1,6 @@
 <a href="#gnb" class="skip-nav-item sr-only sr-only-focusable">주메뉴로 건너뛰기</a>
 <a href="#content" class="skip-nav-item sr-only sr-only-focusable">컨텐츠로 건너뛰기</a>
-<header id="header" role="navigation">
+<header id="header">
     <nav class="top">
         <div class="container">
             <h1><a href="/"><img src="/images/logo.png" alt="사회복지법인 SRC 병원"></a></h1>

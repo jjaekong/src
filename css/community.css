@@ -75,6 +75,40 @@
       color: #444; }
     .community.view .btn-area p .btn-list {
       float: right; }
+.community.write .table {
+  margin-top: 60px;
+  margin-bottom: 80px; }
+  .community.write .table tbody th, .community.write .table tbody td {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: left; }
+  .community.write .table tbody th {
+    border-right: 1px solid #ccc; }
+    .community.write .table tbody th label {
+      font-weight: normal; }
+  .community.write .table tbody td .form-control {
+    border-radius: 0;
+    box-shadow: none; }
+    .community.write .table tbody td .form-control:focus {
+      border-color: #e9193a; }
+  .community.write .table tbody .writer .form-control,
+  .community.write .table tbody .password .form-control,
+  .community.write .table tbody .attach .form-control {
+    width: 340px; }
+  .community.write .table tbody .details td {
+    padding: 30px 0; }
+.community.write .btn-area {
+  margin-bottom: 140px; }
+  .community.write .btn-area .btn {
+    width: 150px;
+    height: 40px;
+    line-height: 28px;
+    font-size: 16px;
+    color: #fff; }
+    .community.write .btn-area .btn.btn-submit {
+      background-color: #e9193a; }
+      .community.write .btn-area .btn.btn-submit:hover, .community.write .btn-area .btn.btn-submit:focus {
+        opacity: .9; }
 
 .community.news.list .table tbody td:nth-of-type(3) {
   padding-left: 35px;
