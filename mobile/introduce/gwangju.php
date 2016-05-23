@@ -11,12 +11,16 @@
 			</h2>
 		</div>
 		<div class="history-list">
-			<ol class="tab-menu">
-				<li><a href="/mobile/introduce/history.php">1952 ~<br>1957</a></li>
-				<li><a href="/mobile/introduce/sindaebang.php">1958 ~<br>1972</a></li>
-				<li><a href="/mobile/introduce/bongcheon.php">1973 ~<br>1993</a></li>
-				<li class="active"><a href="/mobile/introduce/gwangju.php">1994 ~<br>2016</a></li>
-			</ol>
+			<nav class="tabmenu-wrap">
+				<div class="container">
+					<ol class="tab-menu">
+						<li><a href="/mobile/introduce/history.php">1952 ~<br>1957</a></li>
+						<li><a href="/mobile/introduce/sindaebang.php">1958 ~<br>1972</a></li>
+						<li><a href="/mobile/introduce/bongcheon.php">1973 ~<br>1993</a></li>
+						<li class="active"><a href="/mobile/introduce/gwangju.php">1994 ~<br>2016</a></li>
+					</ol>
+				</div>
+			</nav>
 		</div>
 		<section class="ripenin">
 			<div class="section-header">

@@ -10,24 +10,26 @@
 				<small>Location</small>
 			</h2>
 		</div>
-		<div class="tebmenu-wrap">
-			<p>
-				<a href="#">지도보기</a>
-			</p>
-			<ol class="tab-menu">
-				<li class="active"><a href="/mobile/introduce/location.php">셔틀버스<br>이용</a></li>
-				<li><a href="/mobile/introduce/public.php">대중교통<br>이용</a></li>
-				<li><a href="/mobile/introduce/car.php">자가용<br>이용</a></li>
-				<li><a href="#">길찾기</a></li>
-			</ol>
-			 <ul class="category" role="tablist">
-				<li role="presentation"><a href="/mobile/introduce/location.php" role="tab">1호차</a></li>
-				<li role="presentation"><a href="/mobile/introduce/shuttle_two.php" role="tab">2호차</a></li>
-				<li role="presentation" class="active"><a href="/mobile/introduce/shuttle_three.php" role="tab">3호차</a></li>
-				<li role="presentation"><a href="/mobile/introduce/shuttle_four.php" role="tab">4호차</a></li>
-				<li role="presentation"><a href="/mobile/introduce/shuttle_five.php" role="tab">5호차</a></li>
-			</ul>
-		</div>
+		<nav class="tabmenu-wrap">
+			<div class="container">
+				<p>
+					<a href="#">지도보기</a>
+				</p>
+				<ol class="tab-menu">
+					<li class="active"><a href="/mobile/introduce/location.php">셔틀버스<br>이용</a></li>
+					<li><a href="/mobile/introduce/public.php">대중교통<br>이용</a></li>
+					<li><a href="/mobile/introduce/car.php">자가용<br>이용</a></li>
+					<li><a href="#">길찾기</a></li>
+				</ol>
+				 <ul class="category" role="tablist">
+					<li role="presentation"><a href="/mobile/introduce/location.php" role="tab">1호차</a></li>
+					<li role="presentation"><a href="/mobile/introduce/shuttle_two.php" role="tab">2호차</a></li>
+					<li role="presentation" class="active"><a href="/mobile/introduce/shuttle_three.php" role="tab">3호차</a></li>
+					<li role="presentation"><a href="/mobile/introduce/shuttle_four.php" role="tab">4호차</a></li>
+					<li role="presentation"><a href="/mobile/introduce/shuttle_five.php" role="tab">5호차</a></li>
+				</ul>
+			</div>
+		</nav>
 		<section class="route-one">
 			<div class="section-header">
 				<h3>3호차<i>광주시내 방면</i></h3>

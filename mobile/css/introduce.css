@@ -16,32 +16,41 @@
 .introduce.about .container .section-centent p {margin:30px 0 60px 0; font-size:12px; color:#444; line-height:21px; }
 
 
-/* tebmenu-wrap */
-.tebmenu-wrap {position:relative; text-align:center; padding:50px 10px 25px 10px; }
-.tebmenu-wrap > p {position:absolute; top:0; right:10px; padding:0 10px; background:url("/mobile/images/introduce/bus_map.png") 0 50% no-repeat; background-size:7px 9px; margin:25px 0 15px 0; }
-.tebmenu-wrap > p a {font-size:11px; color:#333; }
-.tebmenu-wrap .tab-menu {margin:0;}
-.tebmenu-wrap .tab-menu li:nth-of-type(4) a {padding:14px 0; }
+/* tabmenu-wrap */
+.tabmenu-wrap {overflow:hidden; text-align:center; padding:0 10px 25px 10px; }
+.tabmenu-wrap p {float:right; padding-left:10px; background:url("/mobile/images/introduce/bus_map.png") 0 5px no-repeat; background-size:7px 9px; margin:25px 0 15px 0; }
+.tabmenu-wrap p a {font-size:11px; color:#333; }
+.tabmenu-wrap .tab-menu {margin:0;}
 
 
 
 /* tab-menu */
 .tab-menu {text-align:center; }
-.tab-menu {overflow:hidden; font-size:12px; width:300px; height:46px; margin:25px 10px; display:inline-block; }
-.tab-menu li {float:left; line-height:16px; text-align:center; color:#666; width:74px; height:46px; border-right:1px solid #ccc; border-top:1px solid #ccc; border-bottom:1px solid #ccc; }
+.tab-menu {overflow:hidden; font-size:12px; width:100%; height:46px; margin:25px 10px; display:inline-block; }
+.tab-menu ul {width:100%; }
+.tab-menu li {float:left; line-height:16px; width:25% !important; text-align:center; color:#666; width:74px; height:46px; border-right:1px solid #ccc; border-top:1px solid #ccc; border-bottom:1px solid #ccc; }
 .tab-menu li:first-child {border-left:1px solid #ccc; }
 .tab-menu li:last-child {border-right:1px solid #ccc; }
-.tab-menu li.active {background-color:#444; color:#fff; width:75px; height:46px; border:0; border-left:0 !important; }
-.tab-menu li a {color:#666; width:75px; height:46px; padding:5px 0; display:inline-block; text-decoration:none; }
-.tab-menu li.active a {color:#fff; width:75px; height:46px; }
+.tab-menu li.active {background-color:#444; color:#fff; width:25% !important; height:46px; border:0; border-left:0 !important; }
+.tab-menu li a {color:#666; width:100% !important; height:46px; padding:5px 0; display:inline-block; text-decoration:none; }
+.tab-menu li.active a {color:#fff; width:100% !important; height:46px; }
 .tab-menu li a:hover {text-decoration:none; }
 
 
- 
+
+
+
+
+
+
+
+
+
 
 /* history */
 /* yongmun */
 .introduce.yongmun .history-list {text-align:center; }
+.introduce.yongmun .history-list .tabmenu-wrap {padding-top:50px; }
 .introduce.yongmun .yongmun-dong .section-header .container h4 {background:none !important; margin-top:30px !important; margin-bottom:0 !important; color:#444 !important; display:block; font-size:20px !important; padding-top:0 !important; } 
 .introduce.yongmun .yongmun-dong .section-header .container h4 i {font-style:normal; font-size:20px; display:block; padding:8px 0; font-weight:200; } 
 .introduce.yongmun .yongmun-dong .section-header .container h5 {background:none !important; font-size:13px; display:block; color:#e9193a; padding-top:0 !important; font-weight:200; }
@@ -56,6 +65,7 @@
 
 /* sindaebang */
 .introduce.sindaebang .history-list {text-align:center; }
+.introduce.sindaebang .history-list .tabmenu-wrap {padding-top:50px; }
 .introduce.sindaebang .sindaebang-dong .section-header .container h4 {background:none !important; margin-top:30px !important; margin-bottom:0 !important; color:#444 !important; display:block; font-size:20px !important; padding-top:0 !important; } 
 .introduce.sindaebang .sindaebang-dong .section-header .container h4 i {font-style:normal; font-size:20px; display:block; padding:8px 0; font-weight:200; } 
 .introduce.sindaebang .sindaebang-dong .section-header .container h5 {background:none !important; font-size:13px; display:block; color:#e9193a; padding-top:0 !important; font-weight:200; }
@@ -70,6 +80,7 @@
 
 /* bongcheon */
 .introduce.bongcheon .history-list {text-align:center; }
+.introduce.bongcheon .history-list .tabmenu-wrap {padding-top:50px; }
 .introduce.bongcheon .bongcheon-dong .section-header .container h4 {background:none !important; margin-top:30px !important; margin-bottom:0 !important; color:#444 !important; display:block; font-size:20px !important; padding-top:0 !important; } 
 .introduce.bongcheon .bongcheon-dong .section-header .container h4 i {font-style:normal; font-size:20px; display:block; padding:8px 0; font-weight:200; } 
 .introduce.bongcheon .bongcheon-dong .section-header .container h5 {background:none !important; font-size:13px; display:block; color:#e9193a; padding-top:0 !important; font-weight:200; }
@@ -84,6 +95,7 @@
 
 /* gwangju */
 .introduce.gwangju .history-list {text-align:center; }
+.introduce.gwangju .history-list .tabmenu-wrap {padding-top:50px; }
 .introduce.gwangju .ripenin .section-header .container h4 {background:none !important; margin-top:30px !important; margin-bottom:0 !important; color:#444 !important; display:block; font-size:20px !important; padding-top:0 !important; } 
 .introduce.gwangju .ripenin .section-header .container h4 i {font-style:normal; font-size:20px; display:block; padding:8px 0; font-weight:200; } 
 .introduce.gwangju .ripenin .section-header .container h5 {background:none !important; font-size:13px; display:block; color:#e9193a; padding-top:0 !important; font-weight:200; }
@@ -110,15 +122,15 @@
 .introduce.partner .paging .pagination {margin:30px 0 60px 0; }
 
 
+
 /* location */
 .introduce.location i {font-style:normal; color:#333; font-size:14px; font-weight:300; }
-.introduce.location .route-one .section-header {background-image:url("/mobile/images/introduce/location_bg.gif"); background-size:320px 206px; background-repeat:no-repeat; background-position:50% 0; min-height:206px; text-align:center; padding-bottom:40px; }
+.introduce.location .tabmenu-wrap .tab-menu li:nth-of-type(4) a {padding:14px 0; }
+.introduce.location .route-one .section-header {background-image:url("/mobile/images/introduce/location_bg.gif"); background-size:cover; background-repeat:no-repeat; background-position:50% 50%; min-height:206px; text-align:center; padding-bottom:40px; }
 .introduce.location .route-one .section-header h3 {background-position:50% 22px !important; padding-top:50px !important; margin-bottom:15px !important; font-size:14px; }
 .introduce.location .route-one .section-header p {line-height:21px; color:#666; font-size:12px; }
-.introduce.location .route-one .section-header p:nth-of-type(1) {color:#444; }
-.introduce.location .route-one .section-header p:nth-of-type(2):before {content:""; }
 .introduce.location .route-one .section-header p:before {content:"*"; padding-right:3px; }
-.introduce.location .route-one .section-content img {padding-bottom:30px; border-bottom:1px dotted #ccc; }
+.introduce.location .route-one .section-content img {padding-bottom:30px; border-bottom:1px dashed #ccc; }
 .introduce.location .route-two .section-header {text-align:center; }
 .introduce.location .route-two .section-header h3 {color:#444 !important; background:none !important; font-size:14px; padding-top:30px !important; }
 .introduce.location .route-two .section-header p {line-height:21px; color:#666; font-size:12px; }
@@ -136,9 +148,11 @@
 .introduce.location .weekend .section-content .table-wrap .table th {background-color:#f4f4f4; color:#333; text-align:center; border-left:1px solid #ccc; font-weight:normal; }
 
 
+
 /* shuttle-two */
 .introduce.shuttle-two i {font-style:normal; color:#333; font-size:14px; font-weight:300; }
-.introduce.shuttle-two .route-one .section-header {background-image:url("/mobile/images/introduce/location_bg.gif"); background-size:320px 182px; background-repeat:no-repeat; background-position:50% 0; min-height:182px; text-align:center; padding-bottom:40px; }
+.introduce.shuttle-two .tabmenu-wrap .tab-menu li:nth-of-type(4) a {padding:14px 0; }
+.introduce.shuttle-two .route-one .section-header {background-image:url("/mobile/images/introduce/location_bg.gif"); background-size:cover; background-repeat:no-repeat; background-position:50% 50%; min-height:182px; text-align:center; padding-bottom:40px; }
 .introduce.shuttle-two .route-one .section-header h3 {background-position:50% 22px !important; padding-top:50px !important; margin-bottom:15px !important; font-size:14px; }
 .introduce.shuttle-two .route-one .section-header p {line-height:20px; color:#666; font-size:12px; }
 .introduce.shuttle-two .route-one .section-header p:before {content:"*"; padding-right:3px; } 
@@ -157,7 +171,8 @@
 
 /* shuttle-three */
 .introduce.shuttle-three i {font-style:normal; color:#333; font-size:14px; font-weight:300; }
-.introduce.shuttle-three .route-one .section-header {background-image:url("/mobile/images/introduce/location_bg.gif"); background-size:320px 182px; background-repeat:no-repeat; background-position:50% 0; min-height:182px; text-align:center; padding-bottom:40px; }
+.introduce.shuttle-three .tabmenu-wrap .tab-menu li:nth-of-type(4) a {padding:14px 0; }
+.introduce.shuttle-three .route-one .section-header {background-image:url("/mobile/images/introduce/location_bg.gif"); background-size:cover; background-repeat:no-repeat; background-position:50% 50%; min-height:182px; text-align:center; padding-bottom:40px; }
 .introduce.shuttle-three .route-one .section-header h3 {background-position:50% 22px !important; padding-top:50px !important; margin-bottom:15px !important; font-size:14px; }
 .introduce.shuttle-three .route-one .section-header p {line-height:20px; color:#666; font-size:12px; }
 .introduce.shuttle-three .route-one .section-header p:before {content:"*"; padding-right:3px; } 
@@ -180,11 +195,11 @@
 
 /* shuttle-four */
 .introduce.shuttle-four i {font-style:normal; color:#333; font-size:14px; font-weight:300; }
-.introduce.shuttle-four .route-one .section-header {background-image:url("/mobile/images/introduce/location_bg.gif"); background-size:320px 182px; background-repeat:no-repeat; background-position:50% 0; min-height:182px; text-align:center; padding-bottom:40px; }
+.introduce.shuttle-four .tabmenu-wrap .tab-menu li:nth-of-type(4) a {padding:14px 0; }
+.introduce.shuttle-four .route-one .section-header {background-image:url("/mobile/images/introduce/location_bg.gif"); background-size:cover; background-repeat:no-repeat; background-position:50% 50%; min-height:182px; text-align:center; padding-bottom:40px; }
 .introduce.shuttle-four .route-one .section-header h3 {background-position:50% 22px !important; padding-top:50px !important; margin-bottom:15px !important; font-size:14px; }
-.introduce.shuttle-four .route-one .section-header p:nth-of-type(1) {color:#444;  }
+.introduce.shuttle-four .route-one .section-header p:nth-of-type(1) {color:#444; }
 .introduce.shuttle-four .route-one .section-header p {color:#666; font-size:12px; line-height:20px; }
-.introduce.shuttle-four .route-one .section-header p:nth-of-type(2):before {content:""; }
 .introduce.shuttle-four .route-one .section-header p:before {content:"*"; padding-right:3px; }
 .introduce.shuttle-four .route-one .section-content img { }
 .introduce.shuttle-four .schedule .section-header {margin-top:60px; }
@@ -199,15 +214,16 @@
 
 /* shuttle-five */
 .introduce.shuttle-five i {font-style:normal; color:#333; font-size:14px; font-weight:300; }
-.introduce.shuttle-five .route-one .section-header {background-image:url("/mobile/images/introduce/location_bg.gif"); background-size:320px 162px; background-repeat:no-repeat; background-position:50% 0; min-height:162px; text-align:center; padding-bottom:40px; }
+.introduce.shuttle-five .tabmenu-wrap .tab-menu li:nth-of-type(4) a {padding:14px 0; }
+.introduce.shuttle-five .route-one .section-header {background-image:url("/mobile/images/introduce/location_bg.gif"); background-size:cover; background-repeat:no-repeat; background-position:50% 50%; min-height:162px; text-align:center; padding-bottom:40px; }
 .introduce.shuttle-five .route-one .section-header h3 {background-position:50% 22px !important; padding-top:50px !important; margin-bottom:15px !important; font-size:14px; }
 .introduce.shuttle-five .route-one .section-header p {color:#666; font-size:12px; line-height:20px; }
 .introduce.shuttle-five .route-one .section-header p:before {content:"*"; padding-right:3px; }
 .introduce.shuttle-five .route-one .section-content img {padding-bottom:60px; }
-.introduce.shuttle-five .attendance .section-header {background-image:url("/mobile/images/introduce/location_bg.gif"); background-size:320px 103px; background-repeat:no-repeat; background-position:50% 0; min-height:103px; text-align:center; padding-bottom:40px; }
+.introduce.shuttle-five .attendance .section-header {background-image:url("/mobile/images/introduce/location_bg.gif"); background-size:cover; background-repeat:no-repeat; background-position:50% 50%; min-height:103px; text-align:center; padding-bottom:40px; }
 .introduce.shuttle-five .attendance .section-header h3 {background-position:50% 22px !important; padding-top:50px !important; font-size:14px; }
 .introduce.shuttle-five .attendance .section-header p {color:#333; font-size:14px; }
-.introduce.shuttle-five .finish .section-header {background-image:url("/mobile/images/introduce/location_bg.gif"); background-size:320px 103px; background-repeat:no-repeat; background-position:50% 0; min-height:103px; text-align:center; padding-bottom:40px; margin-top:60px; }
+.introduce.shuttle-five .finish .section-header {background-image:url("/mobile/images/introduce/location_bg.gif"); background-size:cover; background-repeat:no-repeat; background-position:50% 50%; min-height:103px; text-align:center; padding-bottom:40px; margin-top:60px; }
 .introduce.shuttle-five .finish .section-header h3 {background-position:50% 22px !important; padding-top:50px !important; font-size:14px; }
 .introduce.shuttle-five .finish .section-header p {color:#333; font-size:14px; }
 .introduce.shuttle-five .schedule .section-header {margin-top:60px; }
@@ -220,17 +236,29 @@
 .introduce.shuttle-five .schedule .section-content .table-wrap .table th {background-color:#f4f4f4; color:#333; text-align:center; border-left:1px solid #ccc; border-right:1px solid #ccc; border-bottom:0; vertical-align:middle; font-weight:normal; }
 
 
+
 /* public */
 .introduce.public i {font-style:normal; color:#e9193a; font-size:12px; font-weight:300; }
-.introduce.public .public-traffic .section-header {background-image:url("/mobile/images/introduce/location_bg.gif"); background-size:320px 162px; background-repeat:no-repeat; background-position:50% 0; min-height:162px; text-align:center; padding-bottom:40px; }
+.introduce.public .tabmenu-wrap .tab-menu li:nth-of-type(4) a {padding:14px 0; }
+.introduce.public .public-traffic .section-header {background-image:url("/mobile/images/introduce/location_bg.gif"); background-size:cover; background-repeat:no-repeat; background-position:50% 50%; min-height:162px; text-align:center; padding-bottom:40px; margin-bottom:0 !important; }
 .introduce.public .public-traffic .section-header h3 {background-position:50% 22px !important; padding-top:50px !important; margin-bottom:15px !important; font-size:14px; }
 .introduce.public .public-traffic .section-header p {color:#666; font-size:12px; line-height:20px; }
 .introduce.public .public-traffic .section-header p i:before {content:"*"; padding-right:3px; }
-.introduce.public .public-traffic .section-content .gangbyeon {background-image:url("/mobile/images/introduce/public_bg.png"); background-size:120px 120px; min-height:120px; background-repeat:no-repeat; text-align:center; background-position:50% 0;}
-.introduce.public .public-traffic .section-content .gangbyeon h4 {padding:87px 0 15px 0; font-size:11px; color:#fff; }
-.introduce.public .public-traffic .section-content p {font-size:12px; color:#666; margin-bottom:40px; }
+.introduce.public .public-traffic .section-content {padding:40px 0 0 0; }
+.introduce.public .public-traffic .section-content .gangbyeon h4 {padding:87px 0 15px 0; font-size:11px; color:#fff; margin-top:0 !important; background-image:url("/mobile/images/introduce/public_bg.png"); background-size:120px 120px; min-height:120px; background-repeat:no-repeat; text-align:center; background-position:50% 0;}
+.introduce.public .public-traffic .section-content p {font-size:12px; color:#666; margin-bottom:40px; text-align:center; }
 .introduce.public .public-traffic .section-content .moran p {margin-bottom:60px; }
-.introduce.public .public-traffic .section-content .jamsil {background-image:url("/mobile/images/introduce/public_bg.png"); background-size:120px 120px; min-height:120px; background-repeat:no-repeat; text-align:center; background-position:50% 0;}
-.introduce.public .public-traffic .section-content .jamsil h4 {padding:87px 0 15px 0; font-size:11px; color:#fff; }
-.introduce.public .public-traffic .section-content .moran {background-image:url("/mobile/images/introduce/public_bg2.png"); background-size:120px 120px; min-height:120px; background-repeat:no-repeat; text-align:center; background-position:50% 0;}
-.introduce.public .public-traffic .section-content .moran h4 {padding:87px 0 15px 0; font-size:11px; color:#fff; }
+.introduce.public .public-traffic .section-content .jamsil h4 {padding:87px 0 15px 0; font-size:11px; color:#fff; margin-top:0 !important; background-image:url("/mobile/images/introduce/public_bg.png"); background-size:120px 120px; min-height:120px; background-repeat:no-repeat; text-align:center; background-position:50% 0;}
+.introduce.public .public-traffic .section-content .moran h4 {padding:87px 0 15px 0; font-size:11px; color:#fff; margin-top:0 !important; background-image:url("/mobile/images/introduce/public_bg2.png"); background-size:120px 120px; min-height:120px; background-repeat:no-repeat; text-align:center; background-position:50% 0;}
+
+
+
+/* car */
+.introduce.car i {font-style:normal; color:#e9193a; font-size:12px; font-weight:300; }
+.introduce.car .tabmenu-wrap .tab-menu li:nth-of-type(4) a {padding:14px 0; }
+.introduce.car .private-car {background-image:url("/mobile/images/introduce/location_bg.gif"); background-size:cover; background-repeat:no-repeat; background-position:50% 50%; min-height:137px; text-align:center; }
+.introduce.car .private-car h3 {background-image:url("/mobile/images/ico_section_header.png"); background-size:20px auto; background-position:50% 22px !important; padding-top:50px !important; margin-bottom:15px !important; font-size:14px; background-repeat:no-repeat; margin-top:0; color:#e9193a; }
+.introduce.car .expressway p {color:#666; font-size:12px; line-height:20px; }
+.introduce.car .expressway .section-header {text-align:left; padding-top:40px !important; }
+.introduce.car .route .section-header {text-align:left; margin:60px 0 40px 0; }
+.introduce.car .route .section-content {padding-bottom:60px !important; }
