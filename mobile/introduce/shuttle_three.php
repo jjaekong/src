@@ -17,7 +17,7 @@
 			<ol class="tab-menu">
 				<li class="active"><a href="/mobile/introduce/location.php">셔틀버스<br>이용</a></li>
 				<li><a href="/mobile/introduce/public.php">대중교통<br>이용</a></li>
-				<li><a href="#">자가용<br>이용</a></li>
+				<li><a href="/mobile/introduce/car.php">자가용<br>이용</a></li>
 				<li><a href="#">길찾기</a></li>
 			</ol>
 			 <ul class="category" role="tablist">
