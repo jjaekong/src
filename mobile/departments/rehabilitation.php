@@ -10,7 +10,7 @@
 				<small>Rehabilitation Medicine Division</small>
 			</h2>
 		</div>
-		<section class="intro">
+		<section class="rehabilitation-intro">
 			<div class="container">
 				<div class="section-header">
 					<h3>재활의학과에서는 치료후에 최적화된 활동을 할 수 있도록 삶의 질을 향상시키고자 하는데 그 목적을 두고 있습니다.</h3>
@@ -26,7 +26,7 @@
 						또한 청소년기부터 시작될 수 있고, 다양한 통증의 원인이 될 수 있는 자세불균형에 대한 정밀검사 및 치료 서비스를 통하여 환자분들의 일상생활의 질을 높이며, 추후에 생길 수 있는 자세불균형의 진행을 사전에 예방할 수 있도록 안내해드립니다.
 					</p>
 					<p>
-						<img class="img-responsive" src="/mobile/images/departments/rehabilitation_img.gif" >
+						<img class="img-responsive" src="/mobile/images/departments/rehabilitation_img.gif" alt="">
 					</p>
 				</div>
 			</div>
@@ -37,7 +37,7 @@
 					<h3>치료분야</h3>
 				</div>
 				<div class="section-content">
-					<ul class="row">
+					<ul class="medical row">
 						<li class="col-xs-4">
 							<figure>
 								<img class="img-responsive" src="/mobile/images/departments/rehabilitation1.png" alt="뇌졸중 (중풍)">
