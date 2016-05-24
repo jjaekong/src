@@ -185,6 +185,27 @@
 				</div>
 			</div>
 		</section>
+
+		
+
+<!-- The Modal -->
+<div id="map-modal" class="layer">
+  <!-- Modal content -->
+  <div class="layer-content">
+	<div class="btn-area">
+		<p><a href="#"><img src="/mobile/images/introduce/close.png" alt="close"></a></p>
+	</div>
+	<div>
+		<img class="img-responsive" src="/mobile/images/introduce/map.gif" alt="지도">
+	</div>
+	<dl>
+		<dt><img src="/mobile/images/introduce/map_ico.png" alt="주소"></dt>
+		<dd><a href="#">경기도 광주시 초월읍 지월리 729-6</a></dd>
+		<dt><img src="/mobile/images/introduce/tel_ico.png" alt="전화번호"></dt>
+		<dd><a href="#">1577-3622</a></dd>
+	</dl>
+  </div>
+</div>
 	</main> 
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/docfoot.php'); ?>
