@@ -3,7 +3,7 @@
 </head>
 <body>
 	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/header.php'); ?>
-	<main id="content" class="introduce rehabilitation">
+	<main id="content" class="departments rehabilitation">
 		<div class="page-title">
 			<h2>
 				재활의학과<br>

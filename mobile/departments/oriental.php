@@ -3,7 +3,7 @@
 </head>
 <body>
 	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/header.php'); ?>
-	<main id="content" class="introduce oriental">
+	<main id="content" class="departments oriental">
 		<div class="page-title">
 			<h2>
 				한의과<br>

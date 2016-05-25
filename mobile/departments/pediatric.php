@@ -3,7 +3,7 @@
 </head>
 <body>
 	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/header.php'); ?>
-	<main id="content" class="introduce pediatric">
+	<main id="content" class="departments pediatric">
 		<div class="page-title">
 			<h2>
 				가정의학과 / 소아과<br>

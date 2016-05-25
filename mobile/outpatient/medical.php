@@ -3,7 +3,7 @@
 </head>
 <body>
 	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/header.php'); ?>
-	<main id="content" class="introduce medical">
+	<main id="content" class="outpatient medical">
 		<div class="page-title">
 			<h2>
 				진료안내<br>
@@ -18,38 +18,34 @@
 				<div class="section-content">
 					<ol>
 						<li>
-							<img class="img-responsive" src="/mobile/images/outpatient/medical_img1.png" alt="내원 (팩스)" />	
+							<img src="/mobile/images/outpatient/medical_img1.png" alt="내원 (팩스)">
 							<p>내원 (팩스)</p>
 						</li>
 						<li>
-							<img class="img-responsive" src="/mobile/images/outpatient/medical_img2.png" alt="원무부에서 진료신청서작성" />	
+							<img src="/mobile/images/outpatient/medical_img2.png" alt="원무부에서 진료신청서작성">
 							<p>원무부에서<br>진료신청서작성</p>
 						</li>
 						<li>
-							<img class="img-responsive" src="/mobile/images/outpatient/medical_img3.png" alt="내원 (팩스)" />	
-							<p>내원 (팩스)</p>
+							<img src="/mobile/images/outpatient/medical_img3.png" alt="접수">
+							<p>접수</p>
 						</li>
 						<li>
-							<img class="img-responsive" src="/mobile/images/outpatient/medical_img4.png" alt="내원 (팩스)" />	
-							<p>내원 (팩스)</p>
+							<img src="/mobile/images/outpatient/medical_img4.png" alt="진료">
+							<p>진료</p>
 						</li>
 						<li>
-							<img class="img-responsive" src="/mobile/images/outpatient/medical_img5.png" alt="내원 (팩스)" />	
-							<p>내원 (팩스)</p>
+							<img src="/mobile/images/outpatient/medical_img5.png" alt="수납">
+							<p>수납</p>
 						</li>
 						<li>
-							<img class="img-responsive" src="/mobile/images/outpatient/medical_img6.png" alt="내원 (팩스)" />	
-							<p>내원 (팩스)</p>
+							<img src="/mobile/images/outpatient/medical_img6.png" alt="검사실 / 치료실 약국">
+							<p>검사실 / 치료실<br>약국</p>
 						</li>
 					</ol>
 
 					<h4>외래진료 접수시 환전본인 신분증 제출<br>(의료보험카드, 주민등록증, 여권)</h4>
-					<dl>
-						<dt>초진시</dt>
-						<dd>진료신청서 작성 후 접수</dd>
-						<dt>재진시</dt>
-						<dd>환자분 확인 후 접수 (친족 외 타인 명의 접수 불가)</dd>
-					</dl>
+					<p>초진시 : 진료신청서 작성 후 접수</p>
+					<p>재진시 : 환자분 확인 후 접수 (친족 외 타인 명의 접수 불가)</p>
 
 					<h4>환자 친족 (배우자, 직계존속ㆍ비속)이 신청하는 경우</h4>
 					<p>신청인 신분증, 가족관계 증명서 혹은 주민등록등본 서류<br>(의료보험증 인정 안됨)</p>
@@ -70,11 +66,11 @@
 							<table class="table">
 								<colgroup>
 									<col style="width: 35px">
-									<col style="width: 53px">
-									<col style="width: 53px">
-									<col style="width: 53px">
-									<col style="width: 53px">
-									<col style="width: 53px">
+									<col style="width: 52px">
+									<col style="width: 52px">
+									<col style="width: 52px">
+									<col style="width: 52px">
+									<col style="width: 52px">
 								</colgroup>
 								<thead>
 									<tr>
@@ -88,20 +84,40 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>셀내용1</td>
-										<td>셀내용2</td>
-										<td>셀내용3</td>
-										<td>셀내용4</td>
-										<td>셀내용5</td>
-										<td>셀내용5</td>
+										<th>월</th>
+										<td></td>
+										<td>정경훈</td>
+										<td colspan="3">김형빈</td>
 									</tr>
 									<tr>
-										<td>셀내용1</td>
-										<td>셀내용2</td>
-										<td>셀내용3</td>
-										<td>셀내용4</td>
-										<td>셀내용5</td>
-										<td>셀내용5</td>
+										<th>화</th>
+										<td>조형근</td>
+										<td>정경훈</td>
+										<td colspan="3">김형빈<br>(10:00~)</td>
+									</tr>
+									<tr>
+										<th>수</th>
+										<td></td>
+										<td>윤용훈</td>
+										<td colspan="3">김형빈<br>(10:00~)</td>
+									</tr>
+									<tr>
+										<th>목</th>
+										<td>조형근</td>
+										<td></td>
+										<td colspan="3">김형빈<br>(10:00~)</td>
+									</tr>
+									<tr>
+										<th>금</th>
+										<td>김동진</td>
+										<td>윤용훈</td>
+										<td colspan="3">김형빈</td>
+									</tr>
+									<tr>
+										<th>토</th>
+										<td></td>
+										<td></td>
+										<td colspan="3">김형빈<br>(10:00~)</td>
 									</tr>
 								</tbody>
 							</table>
@@ -112,39 +128,65 @@
 						<div class="table-wrap">
 							<table class="table">
 								<colgroup>
-									<col style="width: 100px">
-									<col>
-									<col>
-									<col>
-									<col>
-									<col>
+									<col style="width: 35px">
+									<col style="width: 52px">
+									<col style="width: 52px">
+									<col style="width: 52px">
+									<col style="width: 52px">
+									<col style="width: 52px">
 								</colgroup>
 								<thead>
 									<tr>
-										<th>셀제목1</th>
-										<th>셀제목2</th>
-										<th>셀제목3</th>
-										<th>셀제목4</th>
-										<th>셀제목5</th>
-										<th>셀제목5</th>
+										<th>진료<br>시간</th>
+										<th>1진료실</th>
+										<th>2진료실</th>
+										<th>3진료실</th>
+										<th>4진료실</th>
+										<th>5진료실</th>
 									</tr>
 								</thead>
 								<tbody>
 									<tr>
-										<td>셀내용1</td>
-										<td>셀내용2</td>
-										<td>셀내용3</td>
-										<td>셀내용4</td>
-										<td>셀내용5</td>
-										<td>셀내용5</td>
+										<th>월</th>
+										<td>조형근</td>
+										<td>윤용훈</td>
+										<td></td>
+										<td>김동진</td>
+										<td></td>
 									</tr>
 									<tr>
-										<td>셀내용1</td>
-										<td>셀내용2</td>
-										<td>셀내용3</td>
-										<td>셀내용4</td>
-										<td>셀내용5</td>
-										<td>셀내용5</td>
+										<th>화</th>
+										<td>김동진</td>
+										<td></td>
+										<td colspan="3">김형빈</td>
+									</tr>
+									<tr>
+										<th>수</th>
+										<td>조형근</td>
+										<td>정경훈</td>
+										<td colspan="3">김형빈</td>
+									</tr>
+									<tr>
+										<th>목</th>
+										<td>김동진</td>
+										<td>윤용훈</td>
+										<td colspan="3">김형빈</td>
+									</tr>
+									<tr>
+										<th>금</th>
+										<td>조형근</td>
+										<td>정경훈</td>
+										<td></td>
+										<td></td>
+										<td></td>
+									</tr>
+									<tr>
+										<th>토</th>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
 									</tr>
 								</tbody>
 							</table>
@@ -154,86 +196,6 @@
 			</div>
 		</section>
 	</main>
-<style type="text/css">
-/* medical */
-.introduce.medical .medical-intro .section-content ol {overflow:hidden; width:100%; }
-.introduce.medical .medical-intro .section-content ol li {width:50%; text-align:center; display:inline-block; padding:0 23px; }
-.introduce.medical .medical-intro .section-content ol li:nth-of-type(1) {
-	float:left;
-	padding-bottom:40px;
-	background-image:url("/mobile/images/outpatient/right_arrow.png");
-	background-size:7px auto;
-	background-position:100% 40%;
-	background-repeat:no-repeat;
-}
-.introduce.medical .medical-intro .section-content ol li:nth-of-type(2) {
-	float:right;
-	background-image:url("/mobile/images/outpatient/bottom_arrow.png");
-	background-size:auto 7px;
-	background-position:50% 100%;
-	background-repeat:no-repeat;
-	padding-bottom:20px;
-}
-.introduce.medical .medical-intro .section-content ol li:nth-of-type(3) {
-	float:right; 
-	padding-top:20px;
-	background-image:url("/mobile/images/outpatient/left_arrow.png");
-	background-size:7px auto;
-	background-position:0 50%;
-	background-repeat:no-repeat;
-
-}
-.introduce.medical .medical-intro .section-content ol li:nth-of-type(4) {
-	float:left; 
-	padding-top:20px; 
-}
-.introduce.medical .medical-intro .section-content ol li:nth-of-type(5) {
-	clear:both;
-	float:left; 
-}
-.introduce.medical .medical-intro .section-content ol li:nth-of-type(6) {
-	float:right; 
-}
-
-.introduce.medical .medical-intro .section-content h4 {font-size:13px; color:#333; line-height:21px; text-align:left; font-weight:300; margin-top:30px; }
-.introduce.medical .medical-intro .section-content dl {overflow:hidden; margin-top:30px; }
-.introduce.medical .medical-intro .section-content dl dt {position:relative; float:left; padding:0 10px 0 15px; font-size:12px; color:#333; font-weight:300; }
-.introduce.medical .medical-intro .section-content dl dt:before {position:absolute; top:0; left:0; content:"▶"; color:#e9193a; font-size:10px; }
-.introduce.medical .medical-intro .section-content dl dt:after {position:absolute; top:0; right:0; content:":"; font-weight:300; }
-.introduce.medical .medical-intro .section-content dl dd {font-size:12px; color:#666; padding-left:65px; }
-.introduce.medical .medical-intro .section-content dl dd:nth-of-type(1) {margin-bottom:10px; }
-.introduce.medical .medical-intro .section-content h4:nth-of-type(2) {margin:60px 0 30px 0; }
-.introduce.medical .medical-intro .section-content p {position:relative; padding:0 10px 0 15px; font-size:12px; color:#333; font-size:12px; }
-.introduce.medical .medical-intro .section-content p:nth-of-type(1) {margin-bottom:10px; }
-.introduce.medical .medical-intro .section-content p:before {position:absolute; top:0; left:0; content:"▶"; color:#e9193a; font-size:10px; }
-
-.introduce.medical .schedule .section-header {margin-top:60px; }
-.introduce.medical .schedule .section-header p {position:relative; padding-left:15px; font-size:12px; color:#666; margin:10px 0 0 0; }
-.introduce.medical .schedule .section-header p:before {position:absolute; top:0; left:0; content:"※"; }
-
-.introduce.medical .schedule .section-content {margin-top:30px; }
-.introduce.medical .schedule .section-content h4 {position:relative; padding-left:15px; font-size:12px; color:#333; margin:10px 0 0 0; }
-.introduce.medical .schedule .section-content h4:before {position:absolute; top:0; left:0; content:"▶"; color:#e9193a; font-size:10px; }
-
-
-.introduce.medical .schedule .section-content .morning .table-wrap .table { 
-
-}
-.introduce.medical .schedule .section-content .morning .table-wrap .table tr th{ 
-	font-size:12px;
-	letter-spacing:-2px;
-	vertical-align:middle;
-}
-.introduce.medical .schedule .section-content .afternoon .table-wrap .table {
-
-}
-.introduce.medical .schedule .section-content .afternoon .table-wrap .table {
-
-}
-
-
-
-</style>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/docfoot.php'); ?>
 </body>

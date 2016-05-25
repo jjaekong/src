@@ -3,7 +3,7 @@
 </head>
 <body>
 	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/header.php'); ?>
-	<main id="content" class="introduce internal">
+	<main id="content" class="departments internal">
 		<div class="page-title">
 			<h2>
 				내과<br>
