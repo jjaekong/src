@@ -3,13 +3,11 @@
 </head>
 <body>
 	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/header.php'); ?>
-	<main id="content" class="community photo-list">
+	<main id="content" class="community health">
 		<div class="page-title">
-			<h2>
-				전/후사진
-			</h2>
+			<h2>건강정보</h2>
 		</div>
-		<section class="photo">
+		<section class="health-info">
 			<div class="container">
 				<div class="section-header">
 					<div class="search-area">
@@ -28,63 +26,51 @@
 					</div>
 				</div>
 				<div class="section-content">
-					<ul class="photo-review row">
-						<li class="col-xs-6">
-							<figure>
-								<img class="img-responsive" src="/mobile/images/community/photo_img1.gif" alt="재활치료 전/후 사진">
-								<figcaption>
-									김** 님의 재활치료 전/후 사진입니다.<br>
-									<small>2016. 04. 03</small>
-								</figcaption>
-							</figure>
+					<ul class="board-list">
+						<li>
+							<a href="#">
+								<span class="tag">[건강정보]</span>
+								<p>뒷통수, 뒷목, 어깨가 뻣뻣하나요? 통증이 심한가뒷통수, 뒷목, 어깨가 뻣뻣하나요? 통증이 심한가</p>
+								<small>2016.04.03</small>
+							</a>
 						</li>
-						<li class="col-xs-6">
-							<figure>
-								<img class="img-responsive" src="/mobile/images/community/photo_img2.gif" alt="재활치료 전/후 사진">
-								<figcaption>
-									김** 님의 재활치료 전/후 사진입니다.<br>
-									<small>2016. 04. 03</small>
-								</figcaption>
-							</figure>
+						<li>
+							<a href="#">
+								<span class="tag">[건강정보]</span>
+								<p>근골격계질환 - 체외충격파치료</p>
+								<small>2016.04.03</small>
+							</a>
 						</li>
-						<li class="col-xs-6">
-							<figure>
-								<img class="img-responsive" src="/mobile/images/community/photo_img1.gif" alt="재활치료 전/후 사진">
-								<figcaption>
-									김** 님의 재활치료 전/후 사진입니다.<br>
-									<small>2016. 04. 03</small>
-								</figcaption>
-							</figure>
+						<li>
+							<a href="#">
+								<span class="tag">[건강정보]</span>
+								<p>오십견 - 유착성 견관절염의 치료</p>
+								<small>2016.04.03</small>
+							</a>
 						</li>
-						<li class="col-xs-6">
-							<figure>
-								<img class="img-responsive" src="/mobile/images/community/photo_img2.gif" alt="재활치료 전/후 사진">
-								<figcaption>
-									김** 님의 재활치료 전/후 사진입니다.<br>
-									<small>2016. 04. 03</small>
-								</figcaption>
-							</figure>
+						<li>
+							<a href="#">
+								<span class="tag">[건강정보]</span>
+								<p>당신의 척추는 안녕하신가요?</p>
+								<small>2016.04.03</small>
+							</a>
 						</li>
-						<li class="col-xs-6">
-							<figure>
-								<img class="img-responsive" src="/mobile/images/community/photo_img1.gif" alt="재활치료 전/후 사진">
-								<figcaption>
-									김** 님의 재활치료 전/후 사진입니다.<br>
-									<small>2016. 04. 03</small>
-								</figcaption>
-							</figure>
+						<li>
+							<a href="#">
+								<span class="tag">[건강정보]</span>
+								<p>체형 및 자세분석의 필요성</p>
+								<small>2016.04.03</small>
+							</a>
 						</li>
-						<li class="col-xs-6">
-							<figure>
-								<img class="img-responsive" src="/mobile/images/community/photo_img2.gif" alt="재활치료 전/후 사진">
-								<figcaption>
-									김** 님의 재활치료 전/후 사진입니다.<br>
-									<small>2016. 04. 03</small>
-								</figcaption>
-							</figure>
+						<li>
+							<a href="#">
+								<span class="tag">[건강정보]</span>
+								<p>뒷통수, 뒷목, 어깨가 뻣뻣하나요? 통증이 심한가뒷통수, 뒷목, 어깨가 뻣뻣하나요? 통증이 심한가</p>
+								<small>2016.04.03</small>
+							</a>
 						</li>
 					</ul>
-				</div>
+				</div> 
 				<div class="btn-area">
 					<p>
 						<a href="#" class="btn btn-pink">글쓰기</a>

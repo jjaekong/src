@@ -65,12 +65,12 @@
 						<div class="table-wrap">
 							<table class="table">
 								<colgroup>
-									<col style="width: 35px">
-									<col style="width: 52px">
-									<col style="width: 52px">
-									<col style="width: 52px">
-									<col style="width: 52px">
-									<col style="width: 52px">
+									<col style="min-width: 35px">
+									<col style="min-width: 52px">
+									<col style="min-width: 52px">
+									<col style="min-width: 52px">
+									<col style="min-width: 52px">
+									<col style="min-width: 52px">
 								</colgroup>
 								<thead>
 									<tr>
@@ -128,12 +128,12 @@
 						<div class="table-wrap">
 							<table class="table">
 								<colgroup>
-									<col style="width: 35px">
-									<col style="width: 52px">
-									<col style="width: 52px">
-									<col style="width: 52px">
-									<col style="width: 52px">
-									<col style="width: 52px">
+									<col style="min-width: 35px">
+									<col style="min-width: 52px">
+									<col style="min-width: 52px">
+									<col style="min-width: 52px">
+									<col style="min-width: 52px">
+									<col style="min-width: 52px">
 								</colgroup>
 								<thead>
 									<tr>
