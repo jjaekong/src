@@ -111,6 +111,141 @@ address, p, dl {
       #header .btn-menu .bar:nth-of-type(1) {
         margin-top: 0; }
 
+#nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 999; }
+  #nav .nav-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 121px;
+    width: 270px;
+    height: 100%;
+    background-color: #fff;
+    transition: all .3s; }
+    #nav .nav-container .btn-nav-close {
+      position: absolute;
+      top: 0;
+      left: -50px;
+      padding: 13px;
+      min-width: auto;
+      width: 50px;
+      height: 50px;
+      background-color: transparent; }
+      #nav .nav-container .btn-nav-close img {
+        position: relative;
+        height: 100%; }
+    #nav .nav-container .member {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 50px; }
+      #nav .nav-container .member li {
+        float: left;
+        width: 50%; }
+        #nav .nav-container .member li a {
+          display: block;
+          width: 100%;
+          height: 100%;
+          font-size: 12px;
+          line-height: 50px;
+          text-align: center;
+          color: #fff;
+          background-color: #363636; }
+        #nav .nav-container .member li:nth-of-type(1) a {
+          border-right: 1px solid rgba(11, 11, 11, 0.6); }
+        #nav .nav-container .member li:nth-of-type(2) a {
+          border-left: 1px solid rgba(86, 86, 86, 0.8); }
+    #nav .nav-container .quick {
+      position: absolute;
+      top: 50px;
+      width: 100%;
+      height: 71px;
+      border-bottom: 1px solid #eaeaea; }
+      #nav .nav-container .quick li {
+        float: left;
+        width: 33.33%;
+        height: 100%; }
+        #nav .nav-container .quick li a {
+          display: block;
+          padding-top: 40px;
+          width: 100%;
+          height: 100%;
+          font-size: 11px;
+          text-align: center;
+          color: #555;
+          background-size: auto 18px;
+          background-repeat: no-repeat;
+          background-position: 50% 18px; }
+        #nav .nav-container .quick li:nth-of-type(1) a {
+          background-image: url(/mobile/images/ico_pc_sm.png); }
+        #nav .nav-container .quick li:nth-of-type(2) a {
+          background-image: url(/mobile/images/ico_watch_sm.png); }
+        #nav .nav-container .quick li:nth-of-type(3) a {
+          background-image: url(/mobile/images/ico_mappin_sm.png); }
+    #nav .nav-container .nav-content {
+      overflow: scroll;
+      height: 100%; }
+      #nav .nav-container .nav-content .gnb > li {
+        border-bottom: 1px solid #ededed; }
+        #nav .nav-container .nav-content .gnb > li > a {
+          display: block;
+          padding-left: 10px;
+          width: 100%;
+          height: 40px;
+          line-height: 40px;
+          font-weight: bold;
+          color: #333;
+          background-image: url(/mobile/images/ico_plus_circle.png);
+          background-size: 15px 15px;
+          background-repeat: no-repeat;
+          background-position: 240px 50%; }
+        #nav .nav-container .nav-content .gnb > li > ul {
+          display: none;
+          padding-top: 10px;
+          padding-bottom: 10px; }
+          #nav .nav-container .nav-content .gnb > li > ul > li > a {
+            display: block;
+            padding-left: 10px;
+            width: 100%;
+            height: 27px;
+            line-height: 27px;
+            color: #666; }
+        #nav .nav-container .nav-content .gnb > li.active > a {
+          background-image: url(/mobile/images/ico_minus_circle.png);
+          background-color: #e9193a;
+          color: #fff; }
+        #nav .nav-container .nav-content .gnb > li.active > ul {
+          display: block; }
+      #nav .nav-container .nav-content .contact {
+        padding: 30px 10px; }
+        #nav .nav-container .nav-content .contact .btn-tel {
+          display: block;
+          width: 100%;
+          height: 40px;
+          background-color: #e9193a;
+          text-align: center;
+          color: #fff;
+          line-height: 40px; }
+          #nav .nav-container .nav-content .contact .btn-tel .bar {
+            padding-left: 5px;
+            padding-right: 5px; }
+  #nav.collapsed {
+    right: -100%; }
+    #nav.collapsed .nav-container {
+      right: -270px; }
+
+body.nav-opened {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%; }
+
 #content {
   min-height: 100px;
   background-color: #fff; }
@@ -209,11 +344,11 @@ address, p, dl {
   #content .board-list {
     border-top: 2px solid #444; }
     #content .board-list li {
-      padding-top: 15px;
-      padding-bottom: 15px;
       border-bottom: 1px solid #f3f3f3; }
       #content .board-list li a {
         display: block;
+        padding-top: 15px;
+        padding-bottom: 15px;
         color: #333; }
         #content .board-list li a .tag {
           color: #555;

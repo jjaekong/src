@@ -12,7 +12,7 @@
             </ol>
         </div>
     </div>
-    <main id="content" class="community customer faq">
+    <main id="content" class="customer faq">
         <div class="page-header">
             <h2>자주하는 질문</h2>
         </div>

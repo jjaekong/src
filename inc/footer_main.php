@@ -135,3 +135,14 @@
         <button type="button" class="btn">퀵메뉴 <span>닫기</span><span class="glyphicon glyphicon-remove"></span></button>
     </nav>
 </footer>
+<!--[if lt IE 9]>
+<div class="lt-ie9-not-supported-modal">
+    <div class="lt-ie9-not-supported-bg"></div>
+    <div class="lt-ie9-not-supported-content">
+        <h1><small>인터넷익스플로러</small><br>업그레이드 안내</h1>
+        <p class="notice">인터넷 익스플로러 8 이하버전에서는<br> 사이트 이용이 원활하지 않을 수 있으니 반드시<br> <strong>최신버전으로 업그레이드 후 이용</strong>하시기 바랍니다.</p>
+        <p class="icon"><img src="/images/ico_ie_pc.jpg" alt=""></p>
+        <a href="http://windows.microsoft.com/ko-kr/internet-explorer/download-ie" target="_blank">지금 업그레이드하기</a>
+    </div>
+</div>
+<![endif]-->
