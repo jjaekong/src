@@ -251,39 +251,6 @@
 			</div>
 		</div>
 	</main>
-<style>
-
-.member.login-terms .container {
-	overflow:hidden;
-	min-height:842px;
-	background-image:url("/mobile/images/member/member_bg.gif");
-	background-size:cover;
-	background-position:0 0;
-	background-repeat:no-repeat;
-	padding:40px 0 60px 0;  
-}
-.member.login-terms .container .privacy {overflow:hidden; background-color:#fff; margin:0 10px; padding:0 10px; }
-.member.login-terms .container .privacy .choice {float:right; margin-top:10px; }
-.member.login-terms .container .privacy .choice label {font-size:12px; color:#666; }
-.member.login-terms .container .privacy .choice label:nth-of-type(1) {margin-right:10px; }
-
-.member.login-terms .container .privacy .section-header {padding:40px 0 20px 0; }
-.member.login-terms .container .privacy .section-header h3 {text-align:center; color:#333 !important; background-position:50% 0;}
-.member.login-terms .container .privacy .section-content {border:1px solid #dbdbdb; max-height:183px; overflow:scroll; padding:11px; }
-.member.login-terms .container .privacy .section-content p {font-size:11px; color:#666; line-height:16px; }
-
-.member.login-terms .container .terms {overflow:hidden; background-color:#fff; margin:0 10px; padding:0 10px 40px 10px; }
-.member.login-terms .container .terms .choice {float:right; margin-top:10px; }
-.member.login-terms .container .terms .choice label {font-size:12px; color:#666; }
-.member.login-terms .container .terms .choice label:nth-of-type(1) {margin-right:10px; }
-.member.login-terms .container .terms .section-header {padding:40px 0 20px 0; }
-.member.login-terms .container .terms .section-header h3 {text-align:center; color:#333 !important; background-position:50% 0;}
-.member.login-terms .container .terms .section-content {border:1px solid #dbdbdb; max-height:183px; overflow:scroll; padding:11px; }
-.member.login-terms .container .terms .section-content p {font-size:11px; color:#666; line-height:16px; }
-
-.member.login-terms .container .btn-area {float:right; margin-top:30px; }
-.member.login-terms .container .btn-area p .btn {min-width:70px !important; }
-</style>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/docfoot.php'); ?>
 </body>

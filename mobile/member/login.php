@@ -23,7 +23,7 @@
 						</div>
 						<div class="form-group">
 							<label class="sr-only" for="user-password">비밀번호</label>
-							<input type="user-password" class="form-control" id="user-password" placeholder="비밀번호를 입력해주세요.">
+							<input type="password" class="form-control" id="user-password" placeholder="비밀번호를 입력해주세요.">
 						</div>
 					</form>
 					<div class="btn-area">
