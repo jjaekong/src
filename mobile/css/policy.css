@@ -1,5 +1,5 @@
 /* sevice-terms */
-.policy.sevice-terms .terms {
+.policy.sevice-terms .container {
 	height:634px;
 	background-image:url("/mobile/images/policy/policy_bg.gif");
 	background-size:cover;
@@ -7,15 +7,15 @@
 	background-repeat:no-repeat;
 	padding:40px 0 60px 0;  
 }
-.policy.sevice-terms .terms .container {background-color:#fff; margin:0 10px; padding-bottom:40px; }
-.policy.sevice-terms .terms .container .section-header {padding:40px 0 20px 0; }
-.policy.sevice-terms .terms .container .section-header h3 {text-align:center; color:#333 !important; background-position:50% 0;}
-.policy.sevice-terms .terms .container .section-content {border:1px solid #f3f3f3; max-height:366px; overflow:scroll; padding:11px; }
-.policy.sevice-terms .terms .container .section-content p {font-size:11px; color:#666; line-height:16px; }
+.policy.sevice-terms .container .terms {background-color:#fff; margin:0 10px; padding:0 10px 40px 10px; }
+.policy.sevice-terms .container .terms .section-header {padding:40px 0 20px 0; }
+.policy.sevice-terms .container .terms .section-header h3 {text-align:center; color:#333 !important; background-position:50% 0;}
+.policy.sevice-terms .container .terms .section-content {border:1px solid #dbdbdb; max-height:366px; overflow:scroll; padding:11px; }
+.policy.sevice-terms .container .terms .section-content p {font-size:11px; color:#666; line-height:16px; }
 
 
 /* privacy-statsment */
-.policy.privacy-statsment .privacy {
+.policy.privacy-statsment .container {
 	height:634px;
 	background-image:url("/mobile/images/policy/policy_bg.gif");
 	background-size:cover;
@@ -23,8 +23,8 @@
 	background-repeat:no-repeat;
 	padding:40px 0 60px 0;  
 }
-.policy.privacy-statsment .privacy .container {background-color:#fff; margin:0 10px; padding-bottom:40px; }
-.policy.privacy-statsment .privacy .container .section-header {padding:40px 0 20px 0; }
-.policy.privacy-statsment .privacy .container .section-header h3 {text-align:center; color:#333 !important; background-position:50% 0;}
-.policy.privacy-statsment .privacy .container .section-content {border:1px solid #f3f3f3; max-height:366px; overflow:scroll; padding:11px; }
-.policy.privacy-statsment .privacy .container .section-content p {font-size:11px; color:#666; line-height:16px; }
+.policy.privacy-statsment .container .privacy {background-color:#fff; margin:0 10px; padding:0 10px 40px 10px; }
+.policy.privacy-statsment .container .privacy .section-header {padding:40px 0 20px 0; }
+.policy.privacy-statsment .container .privacy .section-header h3 {text-align:center; color:#333 !important; background-position:50% 0;}
+.policy.privacy-statsment .container .privacy .section-content {border:1px solid #dbdbdb; max-height:366px; overflow:scroll; padding:11px; }
+.policy.privacy-statsment .container .privacy .section-content p {font-size:11px; color:#666; line-height:16px; }

@@ -32,7 +32,25 @@
 .community.news-view .view .btn-area p a:first-child {min-width:70px !important; margin-left:0px !important; }
 
 
-
+/* news-write */
+.community.news-write .write .write-form {margin-top:20px; }
+.community.news-write .write .write-form table {border-top:2px solid #444; width:100%; }
+.community.news-write .write .write-form table tr {border-bottom:1px solid #f3f3f3; height:40px; }
+.community.news-write .write .write-form table tr th {background-color:#f7f7f7; vertical-align:middle; line-height:40px; width:30%; font-size:12px; color:#444; font-weight:normal; padding-left:10px; }
+.community.news-write .write .write-form table tr th label {font-weight:normal; }
+.community.news-write .write .write-form table tr td {padding:6px 0 6px 10px; }
+.community.news-write .write .write-form table tr td input {width:60%; border-radius:0; }
+.community.news-write .write .write-form table tr td .form-control:hover {border-color:#e9193a; }
+.community.news-write .write .write-form table tr td .form-control {border-color:#e6e6e6; }
+.community.news-write .write .write-form table tr:nth-of-type(3) td input {width:95%; border-radius:0; }
+.community.news-write .write .write-form table tr:nth-of-type(4) td {padding:6px 0; }
+.community.news-write .write .write-form table tr:nth-of-type(4) {height:142px; }
+.community.news-write .write .write-form table tr:nth-of-type(4) td textarea {border-radius:0; height:130px; }
+.community.news-write .write .write-form table tr:nth-of-type(5) td input {width:100px; height:35px;  }
+.community.news-write .write .btn-area {overflow:hidden; padding:30px 0 60px 0; }
+.community.news-write .write .btn-area p {float:right; }
+.community.news-write .write .btn-area p a {min-width:70px !important; margin-left:10px !important; font-size:12px; }
+.community.news-write .write .btn-area p a:first-child {min-width:70px !important; margin-left:0px !important; }
 
 
 /* review */

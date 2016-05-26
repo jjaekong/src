@@ -1,0 +1,23 @@
+/* login */
+.member.login .container {
+	background-image:url("/mobile/images/member/member_bg.gif");
+	background-size:cover;
+	background-position:0 0;
+	background-repeat:no-repeat;
+	padding:40px 0 60px 0;  
+}
+.member.login .container .login {background-color:#fff; margin:0 10px; padding:0 10px 40px 10px; }
+.member.login .container .login .section-header {padding:40px 0 20px 0; }
+.member.login .container .login .section-header h3 {text-align:center; color:#333 !important; background-position:50% 0;}
+.member.login .container .login .section-header p {font-size:13px; color:#444; text-align:center; }
+.member.login .container .section-content .login-input .form-group input {width:100%; border-radius:0; margin-bottom:13px; }
+.member.login .container .section-content .login-input .form-group:nth-of-type(2) input {margin-bottom:0px; }
+.member.login .container .section-content .login-input .form-control:hover {border-color:#e9193a; }
+.member.login .container .section-content .login-input .form-control {border-color:#e6e6e6; }
+.member.login .container .btn-area {padding:20px 0 30px 0;  }
+.member.login .container .btn-area p a {width:100% !important; height:40px; font-size:14px; line-height:24px; }
+.member.login .container ul {text-align:center; }
+.member.login .container ul li {display:inline; font-size:12px; padding-right:11px; }
+.member.login .container ul li:last-child {position:relative; padding-left:11px; }
+.member.login .container ul li:last-child:before {position:absolute; top:0; left:0; content:"|"; font-size:10px; color:#666; }
+.member.login .container ul li a {color:#666; text-decoration:none; }

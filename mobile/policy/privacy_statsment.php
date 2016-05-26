@@ -7,8 +7,8 @@
 		<div class="page-title">
 			<h2>개인정보 취급방침</h2>
 		</div>
-		<section class="privacy">
-			<div class="container">
+		<div class="container">
+			<section class="privacy">
 				<div class="section-header">
 					<h3>개인정보 취급방침</h3>
 				</div>
@@ -103,8 +103,8 @@
 						 시행일자 : 2014년 5월 1일
 					</p>
 				</div>
-			</div>
-		</section>
+			</section>
+		</div>
 	</main>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/docfoot.php'); ?>

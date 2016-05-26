@@ -7,8 +7,8 @@
 		<div class="page-title">
 			<h2>이용약관</h2>
 		</div>
-		<section class="terms">
-			<div class="container">
+		<div class="container">
+			<section class="terms">
 				<div class="section-header">
 					<h3>이용약관</h3>
 				</div>
@@ -128,8 +128,8 @@
 						병원과 이용자간에 제기된 소송에는 대한민국법을 적용합니다.
 					</p>
 				</div>
-			</div>
-		</section>
+			</section>
+		</div>
 	</main>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/docfoot.php'); ?>
