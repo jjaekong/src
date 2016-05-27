@@ -105,12 +105,12 @@
 						 시행일자 : 2014년 5월 1일
 					</p>
 				</div>
-				<div class="choice">
+				<div class="privacy-choice">
 					<label class="radio-inline">
-						<input type="radio" name="first-consent" id="first-consent" value="option1" checked>동의합니다.
+						<input type="radio" name="privacy-choice" id="first-consent" value="option1" checked>동의합니다.
 					</label>
 					<label class="radio-inline">
-						<input type="radio" name="first-not-consent" id="first-not-consent" value="option2">동의하지않습니다.
+						<input type="radio" name="privacy-choice" id="first-not-consent" value="option2">동의하지않습니다.
 					</label>
 				</div>
 			</section>
@@ -234,12 +234,12 @@
 						병원과 이용자간에 제기된 소송에는 대한민국법을 적용합니다.
 					</p>
 				</div>
-				<div class="choice">
+				<div class="terms-choice">
 					<label class="radio-inline">
-						<input type="radio" name="consent" id="consent" value="option1" checked>동의합니다.
+						<input type="radio" name="terms-choice" id="consent" value="option1" checked>동의합니다.
 					</label>
 					<label class="radio-inline">
-						<input type="radio" name="not-consent" id="not-consent" value="option2">동의하지않습니다.
+						<input type="radio" name="terms-choice" id="not-consent" value="option2">동의하지않습니다.
 					</label>
 				</div>
 			</section>
@@ -255,3 +255,6 @@
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/docfoot.php'); ?>
 </body>
 </html>
+
+
+

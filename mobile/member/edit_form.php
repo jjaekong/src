@@ -5,8 +5,8 @@
 	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/header.php'); ?>
 	<main id="content" class="member edit-form">
 		<div class="page-title">
-			<h2>회원가입<br>
-				<small>Join</small>
+			<h2>개인정보수정<br>
+				<small>Modify</small>
 			</h2>
 		</div>
 		<div class="container">

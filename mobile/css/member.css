@@ -34,9 +34,9 @@
 	padding:40px 0 60px 0;  
 }
 .member.login-terms .container .privacy {overflow:hidden; background-color:#fff; margin:0 10px; padding:0 10px; }
-.member.login-terms .container .privacy .choice {float:right; margin-top:10px; }
-.member.login-terms .container .privacy .choice label {font-size:12px; color:#666; }
-.member.login-terms .container .privacy .choice label:nth-of-type(1) {margin-right:10px; }
+.member.login-terms .container .privacy .privacy-choice {float:right; margin-top:10px; }
+.member.login-terms .container .privacy .privacy-choice label {font-size:12px; color:#666; }
+.member.login-terms .container .privacy .privacy-choice label:nth-of-type(1) {margin-right:10px; }
 
 .member.login-terms .container .privacy .section-header {padding:40px 0 20px 0; }
 .member.login-terms .container .privacy .section-header h3 {text-align:center; color:#333 !important; background-position:50% 0;}
@@ -44,9 +44,9 @@
 .member.login-terms .container .privacy .section-content p {font-size:11px; color:#666; line-height:16px; }
 
 .member.login-terms .container .terms {overflow:hidden; background-color:#fff; margin:0 10px; padding:0 10px 40px 10px; }
-.member.login-terms .container .terms .choice {float:right; margin-top:10px; }
-.member.login-terms .container .terms .choice label {font-size:12px; color:#666; }
-.member.login-terms .container .terms .choice label:nth-of-type(1) {margin-right:10px; }
+.member.login-terms .container .terms .terms-choice {float:right; margin-top:10px; }
+.member.login-terms .container .terms .terms-choice label {font-size:12px; color:#666; }
+.member.login-terms .container .terms .terms-choice label:nth-of-type(1) {margin-right:10px; }
 .member.login-terms .container .terms .section-header {padding:40px 0 20px 0; }
 .member.login-terms .container .terms .section-header h3 {text-align:center; color:#333 !important; background-position:50% 0;}
 .member.login-terms .container .terms .section-content {border:1px solid #dbdbdb; max-height:183px; overflow:scroll; padding:11px; }
