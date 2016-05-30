@@ -213,12 +213,12 @@
 
 
 /* appoint-login */ 
-.customer.appoint-login ol {text-align:center; padding:20px 30px; border-bottom:1px solid #f3f3f3; }
-.customer.appoint-login ol li {position:relative; display:inline-block; vertical-align:top; width:24%; }
-.customer.appoint-login ol li img {width:46px; }
-.customer.appoint-login ol li h3 {font-size:11px; text-align:center; padding-top:10px; margin:0; line-height:12px; }
-.customer.appoint-login ol li:after {position:absolute; top:16px; left:100%; content:"▶"; color:#d6d6d6; font-size:10px; }
-.customer.appoint-login ol li:nth-of-type(4):after {content:""; }
+.customer.appoint-login .steps {text-align:center; padding:20px 30px; border-bottom:1px solid #f3f3f3; }
+.customer.appoint-login .steps li {position:relative; display:inline-block; vertical-align:top; width:24%; }
+.customer.appoint-login .steps li img {width:46px; }
+.customer.appoint-login .steps li h3 {font-size:11px; text-align:center; padding-top:10px; margin:0; line-height:12px; }
+.customer.appoint-login .steps li:after {position:absolute; top:16px; left:100%; content:"▶"; color:#d6d6d6; font-size:10px; }
+.customer.appoint-login .steps li:nth-of-type(4):after {content:""; }
 .customer.appoint-login .container .online-reserve .section-header h3 {text-align:center; color:#333 !important; background-position:50% 0; margin-top:25px !important; }
 .customer.appoint-login .container .online-reserve .section-header p {font-size:13px; color:#444; text-align:center; }
 .customer.appoint-login .container .online-reserve .section-content {padding:10px 0 60px 0; }
