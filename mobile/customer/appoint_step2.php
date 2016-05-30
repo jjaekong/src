@@ -63,7 +63,7 @@
 					<div class="btn-area">
 						<p>
 							<a href="#" class="btn btn-gray">메인으로</a>
-							<a href="#" class="btn btn-pink">전화연결</a>
+							<a href="tel:15773622" class="btn btn-pink">전화연결</a>
 						</p>
 					</div>
 				</div>
