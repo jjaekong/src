@@ -220,7 +220,7 @@
                                     <small>재활의학과 전문의</small>
                                 </figcaption>
                             </figure>
-                            <div class="btn-group" data-toggle="buttons">
+                            <div class="btn-group">
                                 <label class="btn active">
                                     <input type="radio" name="#" autocomplete="off"> 오전
                                 </label>
