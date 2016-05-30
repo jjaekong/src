@@ -213,12 +213,12 @@
 
 
 /* steps */ 
-.steps {text-align:center; padding:20px 0; border-bottom:1px solid #f3f3f3; }
-.steps li {position:relative; display:inline-block; vertical-align:top; width:24%; }
-.steps li img {width:46px; }
-.steps li h3 {font-size:11px; text-align:center; padding-top:10px; margin:0; line-height:12px; }
-.steps li:after {position:absolute; top:16px; left:100%; margin-left:-4px; content:"▶"; color:#d6d6d6; font-size:10px; }
-.steps li:nth-of-type(4):after {content:""; }
+.customer .steps {text-align:center; padding:20px 0; border-bottom:1px solid #f3f3f3; }
+.customer .steps li {position:relative; display:inline-block; vertical-align:top; width:24%; }
+.customer .steps li img {width:46px; }
+.customer .steps li h3 {font-size:11px; text-align:center; padding-top:10px; margin:0; line-height:12px; }
+.customer .steps li:after {position:absolute; top:16px; left:100%; margin-left:-4px; content:"▶"; color:#d6d6d6; font-size:10px; }
+.customer .steps li:nth-of-type(4):after {content:""; }
 
 /* appoint-login */ 
 .customer.appoint-login .container .online-reserve .section-header h3 {text-align:center; color:#333 !important; background-position:50% 0; margin-top:25px !important; }
@@ -271,3 +271,78 @@
 	background-repeat:no-repeat;
 	padding-left:15px;
 }
+
+
+/* phone-number */
+.customer .phone-number {border-top:2px solid #666; }
+.customer .phone-number li {overflow:hidden; padding:20px 10px; border-bottom:0.1px solid #f3f3f3; }
+.customer .phone-number li h6 {float:left; font-size:13px; padding:16px 0; margin-bottom:0; font-weight:300; }
+.customer .phone-number li .btn-area {float:right; }
+.customer .phone-number li .btn-area p a {display:block; min-width:110px !important; height:30px; margin-bottom:5px; font-size:12px; padding-left:14px; }
+.customer .phone-number li .btn-area p a:last-child {margin-bottom:0; }
+.customer .phone-number li .btn-area p .btn-pink {
+	background-image:url("/mobile/images/customer/tel_bg2.png");
+	background-repeat:no-repeat;
+	background-size:10px auto;
+	background-position:9px 10px;
+}
+.customer .btn-area p .btn-gray {
+	min-width:110px !important;
+	height:30px;
+	padding-left:9px !important;
+	background-image:url("/mobile/images/customer/home_bg2.png");
+	background-repeat:no-repeat;
+	background-size:8px auto;
+	background-position:14px 10px;
+}
+.customer .btn-area p .btn-line {
+	min-width:110px !important;
+	height:30px;
+	padding-left:16px !important;
+	background-image:url("/mobile/images/customer/fax_bg.png");
+	background-repeat:no-repeat;
+	background-size:11px auto;
+	background-position:8px 10px;
+}
+.customer .btn-area p .btn {padding:5px 0; }
+
+/* contact */
+.customer.contact .major-number .section-header h3 {background:none !important;   }
+.customer.contact .major-number .section-content .phone-number li:nth-of-type(2) h6 {padding:0; }
+.customer.contact .major-number .section-content .phone-number li:nth-of-type(5) h6 {padding:0; }
+.customer.contact .major-number .section-content .phone-number li:nth-of-type(2) .btn-area p a {margin-bottom:0; }
+.customer.contact .major-number .section-content .phone-number li:nth-of-type(1) .btn-area .btn-pink:nth-of-type(2) {background-position:17px 10px; padding-left:11px; }
+.customer.contact .major-number .section-content .phone-number li:nth-of-type(3) .btn-area .btn-pink:nth-of-type(2) {background-position:17px 10px; padding-left:11px; }
+
+
+.customer.contact .rehabilitation .section-header h3 {background:none !important; margin-top:60px !important; padding-top:0 !important; }
+.customer.contact .rehabilitation .section-content .phone-number li:nth-of-type(4) h6 {padding:0; }
+
+.customer.contact .convalescence .section-header h3 {background:none !important; margin-top:60px !important; }
+.customer.contact .convalescence .section-content .phone-number li:nth-of-type(1) h6 {padding:0; }
+.customer.contact .convalescence .section-content .phone-number li:nth-of-type(3) h6 {padding:0; }
+.customer.contact .convalescence .section-content .phone-number li:nth-of-type(4) h6 {padding:37px 0; }
+
+.customer.contact .seoul-center .section-header {overflow:hidden; padding:50px 10px 0 0; margin-bottom:12px !important; }
+.customer.contact .seoul-center .section-header h3 {float:left; background:none !important; }
+.customer.contact .seoul-center .section-header .btn-area {float:right; }
+.customer.contact .seoul-center .section-header .btn-area .btn-gray {margin-top:18px; }
+.customer.contact .seoul-center .section-content .phone-number li .btn-area .btn-pink {background-position:12px 10px; }
+.customer.contact .seoul-center .section-content .phone-number li h6 {padding:0; }
+.customer.contact .seoul-center .section-content .phone-number li:nth-of-type(3) h6 {padding:8px 0;}
+.customer.contact .seoul-center .section-content .phone-number li:nth-of-type(3) p:last-child {text-align:center; margin-top:5px; font-size:11px; }
+.customer.contact .seoul-center .section-content .phone-number li:nth-of-type(3) p:last-child:before {content:"※"; padding-right:2px;} 
+
+.customer.contact .health .section-header {overflow:hidden; padding:50px 10px 0 0; margin-bottom:12px !important;}
+.customer.contact .health .section-header h3 {float:left; background:none !important; }
+.customer.contact .health .section-header .btn-area {float:right; }
+.customer.contact .health .section-header .btn-area .btn-gray {margin-top:18px; }
+.customer.contact .health .section-content .phone-number li h6 {padding:0; }
+
+.customer.contact .language {padding-bottom:60px; }
+.customer.contact .language .section-header {overflow:hidden; padding:50px 10px 0 0; margin-bottom:12px !important;}
+.customer.contact .language .section-header h3 {float:left; background:none !important; }
+.customer.contact .language .section-header .btn-area {float:right; }
+.customer.contact .language .section-header .btn-area .btn-gray {margin-top:18px; }
+.customer.contact .language .section-content .phone-number li h6 {padding:0; }
+.customer.contact .language .section-content .phone-number li:nth-of-type(3) .btn-area .btn-pink {background-position:9px 10px; }
