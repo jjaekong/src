@@ -1,8 +1,8 @@
 <nav id="topnav">
     <ul>
         <li><a href="tel:15773622"><img src="/mobile/images/ico_mobile_xs.png" alt="" height="13"> 전화문의</a></li>
-        <li><a href="#"><img src="/mobile/images/ico_calendar_xs.png" alt="" height="13"> 온라인예약</a></li>
-        <li><a href="#"><img src="/mobile/images/ico_mappin_xs.png" alt="" height="13"> 오시는 길</a></li>
+        <li><a href="/mobile/customer/appoint_login.php"><img src="/mobile/images/ico_calendar_xs.png" alt="" height="13"> 온라인예약</a></li>
+        <li><a href="/mobile/introduce/location.php"><img src="/mobile/images/ico_mappin_xs.png" alt="" height="13"> 오시는 길</a></li>
     </ul>
 </nav>
 <header id="header">

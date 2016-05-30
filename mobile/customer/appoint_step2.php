@@ -3,14 +3,14 @@
 </head>
 <body>
 	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/header.php'); ?>
-	<main id="content" class="customer appoint-login">
+	<main id="content" class="customer appoint-step2">
 		<div class="page-title">
 			<h2>온라인 예약</h2>
 		</div>
 		<div class="container">
 			<ol class="steps">
 				<li>
-					<img src="/mobile/images/customer/reserve1_on.png" alt=""><br>
+					<img src="/mobile/images/customer/reserve1.png" alt=""><br>
 					<h3>로그인</h3>
 				</li>
 				<li>
@@ -18,7 +18,7 @@
 					<h3>희망날짜, 의료진 및 진료시간 선택</h3>
 				</li>
 				<li>
-					<img src="/mobile/images/customer/reserve3.png" alt=""><br>
+					<img src="/mobile/images/customer/reserve3_on.png" alt=""><br>
 					<h3>예약 신청 내용 확인</h3>
 				</li>
 				<li>
