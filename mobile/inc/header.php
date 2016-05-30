@@ -15,7 +15,8 @@
         <span class="sr-only">메뉴버튼</span>
     </button>
 </header>
-<nav id="nav" class="collapsed">
+<nav id="nav" class="collapsed" tabindex="-1">
+    <div class="nav-backdrop"></div>
     <div class="nav-container">
         <button type="button" class="btn btn-nav-close"><img src="/mobile/images/btn_close.png" alt="네비게이션 닫기"></button>
         <ul class="member">

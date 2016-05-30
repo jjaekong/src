@@ -118,7 +118,14 @@ address, p, dl {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.9);
-  z-index: 999; }
+  z-index: 900; }
+  #nav .nav-backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 901; }
   #nav .nav-container {
     position: absolute;
     top: 0;
@@ -127,7 +134,8 @@ address, p, dl {
     width: 270px;
     height: 100%;
     background-color: #fff;
-    transition: all .3s; }
+    transition: all .3s;
+    z-index: 910; }
     #nav .nav-container .btn-nav-close {
       position: absolute;
       top: 0;
@@ -455,5 +463,26 @@ body.nav-opened {
         font-size: 11px;
         color: #999;
         line-height: 26px; }
+
+.under-construction {
+  background-image: url(/mobile/images/bg_under.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  text-align: center; }
+  .under-construction .container {
+    padding-top: 150px;
+    padding-bottom: 60px;
+    background-image: url(/mobile/images/img_pad.jpg);
+    background-repeat: no-repeat;
+    background-size: 90px auto;
+    background-position: 50% 45px; }
+    .under-construction .container h1 {
+      font-size: 28px;
+      font-weight: 300;
+      letter-spacing: -2px; }
+    .under-construction .container p {
+      font-size: 13px;
+      line-height: 15px; }
 
 /*# sourceMappingURL=default.css.map */

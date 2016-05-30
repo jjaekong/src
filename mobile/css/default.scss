@@ -142,7 +142,15 @@ address, p, dl {
     width: 100%;
     height: 100%;
     background-color: rgba(#000, .9);
-    z-index: 999;
+    z-index: 900;
+    .nav-backdrop {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 901;
+    }
     .nav-container {
         position: absolute;
         top: 0;
@@ -152,6 +160,7 @@ address, p, dl {
         height: 100%;
         background-color: #fff;
         transition: all .3s;
+        z-index: 910;
         .btn-nav-close {
             position: absolute;
             top: 0;
@@ -590,6 +599,31 @@ body.nav-opened {
                     line-height: 26px;
                 }
             }
+        }
+    }
+}
+
+.under-construction {
+    background-image: url(/mobile/images/bg_under.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    text-align: center;
+    .container {
+        padding-top: 150px;
+        padding-bottom: 60px;
+        background-image: url(/mobile/images/img_pad.jpg);
+        background-repeat: no-repeat;
+        background-size: 90px auto;
+        background-position: 50% 45px;
+        h1 {
+            font-size: 28px;
+            font-weight: 300;
+            letter-spacing: -2px;
+        }
+        p {
+            font-size: 13px;
+            line-height: 15px;
         }
     }
 }
