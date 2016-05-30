@@ -253,8 +253,9 @@
 	font-size:10px; 
 	color: #e9193a;
 }
+
 .customer.appoint-step2 .reserve-confirm .section-content .btn-area {margin:32px 0 60px 0; text-align:center; }
-.customer.appoint-step2 .reserve-confirm .section-content .btn-area p a {min-width:140px; height:36px; }
+.customer.appoint-step2 .reserve-confirm .section-content .btn-area p a {min-width:140px !important; height:36px; }
 .customer.appoint-step2 .reserve-confirm .section-content .btn-area p .btn-gray {
 	background-image:url("/mobile/images/customer/home_bg.png");
 	background-position:37px 11px;
