@@ -1,0 +1,35 @@
+/* panel-group */
+.panel-group {margin:0; border-bottom:1px solid #ddd; }
+.panel-group .panel {border-radius:0; border:0;  margin:0 !important; }
+.panel-group .panel .panel-heading:first-child {border-top:1px solid #ddd; }
+.panel-group .panel .panel-heading {padding:0; background-color:#fff; }
+.panel-group .panel .panel-heading .panel-title {font-weight:300; }
+.panel-group .panel .panel-heading .panel-title a {
+	background-image:url("/mobile/images/customer/top_arrow.png");
+	background-repeat:no-repeat;
+	background-size:10px auto;
+	background-position:96% 50%;
+	background-color:#444; 
+	color:#fff;
+}
+.panel-group .panel .panel-heading .panel-title a i {color:#fff; }
+.panel-group .panel .panel-heading .panel-title a.collapsed {
+	background-image:url("/mobile/images/customer/bottom_arrow.png");
+	background-repeat:no-repeat;
+	background-size:10px auto;
+	background-position:96% 50%;
+	background-color:#fff; 
+	color:#444;  
+}
+.panel-group .panel .panel-heading .panel-title a.collapsed i {background-color:#fff; color:#e9193a;  }
+.panel-group .panel .panel-heading {position:relative; }
+.panel-group .panel .panel-heading h4 {color:#444; font-size:13px;  }
+.panel-group .panel .panel-heading h4 a {min-width:100%; padding:15px 40px 15px 40px; display:block; text-decoration:none; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; }
+.panel-group .panel .panel-heading h4 i {position:absolute; top:14px; left:17px; font-style:normal; padding-right:10px; color:#e9193a; font-size:13px; }
+.panel-group .panel .panel-body {position:relative; padding:28px 28px 28px 40px; font-size:12px; line-height:21px; color:#666; border:0; }
+.panel-group .panel .panel-body i {position:absolute; top:27px; left:17px; font-style:normal; font-size:13px; padding-right:10px; color:#e9193a; }
+
+
+/* faq */
+.customer.faq .faq-view .section-header {margin-top:20px; }
+.customer.faq .faq-view {padding-bottom:60px; }
