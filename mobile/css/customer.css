@@ -33,3 +33,203 @@
 /* faq */
 .customer.faq .faq-view .section-header {margin-top:20px; }
 .customer.faq .faq-view {padding-bottom:60px; }
+
+
+/* certificate */
+.customer.certificate .certificate-info .section-header {padding:20px 0; }
+.customer.certificate .certificate-info .section-header h3 {background:none !important; }
+.customer.certificate .certificate-info .section-header p {color:#666; font-size:12px; line-height:18px; margin-top:14px; }
+
+/* panel-group */
+.customer.certificate .certificate-info .section-content .panel-group .panel .panel-heading h4 a {padding:20px; }
+.customer.certificate .certificate-info .section-content .panel-group .panel .panel-body {padding:20px 10px; }
+.customer.certificate .certificate-info .section-content .panel-group .panel .panel-body h4 {
+	padding-top: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #e9193a;
+    line-height: 23px;
+    background-image: url("/mobile/images/ico_section_header.png");
+    background-size: 20px auto;
+    background-repeat: no-repeat;
+}
+.customer.certificate .certificate-info .section-content .panel-group .panel .panel-body h5 {margin-top:60px; font-size:13px; color:#333; }
+.customer.certificate .certificate-info .section-content .panel-group .panel .panel-body h5:nth-of-type(1) {margin-top:30px; }
+.customer.certificate .certificate-info .section-content .panel-group .panel .panel-body ol li {position:relative; margin-top:10px; font-size:12px; color:#666; padding-left:15px; }
+.customer.certificate .certificate-info .section-content .panel-group .panel .panel-body ol li:before {
+	position:absolute; 
+	top:0; left:0; 
+	content:"��"; 
+	font-size:10px; 
+	color: #e9193a;
+}
+.customer.certificate .certificate-info .section-content .panel-group .panel .panel-body p {position:relative; font-size:12px; color:#666; padding-left:15px; }
+.customer.certificate .certificate-info .section-content .panel-group .panel .panel-body p:before {
+	position:absolute; 
+	top:0; left:0; 
+	content:"*"; 
+}
+
+.customer.certificate .container .btn-area {margin:20px 0 60px 0; }
+.customer.certificate .container .btn-area .btn-pink {
+	background-image:url("/mobile/images/customer/down_bg.png"); 
+	background-size:9px auto; 
+	background-position:8px 11px; 
+	background-repeat:no-repeat; 
+	padding-left:20px;
+	margin-right:10px;
+}
+.customer.certificate .container .btn-area .btn-gray { 
+	background-image:url("/mobile/images/customer/down_bg.png"); 
+	background-size:9px auto; 
+	background-position:8px 11px; 
+	background-repeat:no-repeat; 
+	padding-left:20px;
+}
+
+.customer.certificate .outpatients .section-header h4 {background:none !important; padding:0 !important; }
+
+.customer.certificate .outpatients .section-content ol {overflow:hidden; width:100%; margin-bottom:60px; }
+.customer.certificate .outpatients .section-content ol li {width:50%; text-align:center; /*height:170px;*/ display:inline-block; padding:0 23px 20px 23px; vertical-align:top; }
+.customer.certificate .outpatients .section-content ol li p {margin-top:10px; }
+
+.customer.certificate .outpatients .section-content ol li img {width:100px; height:100px;  }
+.customer.certificate .outpatients .section-content ol li:nth-of-type(1) {
+	position:relative;
+	float:left;
+}
+.customer.certificate .outpatients .section-content ol li:nth-of-type(1):after {
+	position:absolute; 
+	top:33px;
+	right:-9px;
+	display:block;
+	content:url("/mobile/images/outpatient/right_arrow.png");
+	transform:scale(.4);
+}
+
+.customer.certificate .outpatients .section-content ol li:nth-of-type(2) {
+	position:relative;
+	float:right;
+	
+}
+.customer.certificate .outpatients .section-content ol li:nth-of-type(2):after {
+	position:absolute; 
+	bottom:-13px;
+	display:inline-block;
+	text-align:center;
+	margin-left:-17px;
+	content:url("/mobile/images/outpatient/bottom_arrow.png");
+	transform:scale(.4);
+}
+
+.customer.certificate .outpatients .section-content ol li:nth-of-type(3) {
+	padding-top:20px;
+	position:relative;
+	float:right; 
+}
+.customer.certificate .outpatients .section-content ol li:nth-of-type(3):after {
+	position:absolute;
+	top:53px;
+	left:-9px;
+	display:block;
+	content:url("/mobile/images/outpatient/left_arrow.png");
+	transform:scale(.4);
+}
+.customer.certificate .outpatients .section-content ol li:nth-of-type(4) {
+	float:left; 
+	padding-top:20px;
+}
+
+.customer.certificate .inpatient .section-header h4 {background:none !important; padding:0 !important; }
+.customer.certificate .inpatient .section-content ol {overflow:hidden; width:100%; margin-bottom:60px; }
+.customer.certificate .inpatient .section-content ol li {width:50%; text-align:center; /*height:170px;*/ display:inline-block; padding:0 23px 20px 23px; vertical-align:top; }
+.customer.certificate .inpatient .section-content ol li p {margin-top:10px; }
+
+.customer.certificate .inpatient .section-content ol li img {width:100px; height:100px; }
+.customer.certificate .inpatient .section-content ol li:nth-of-type(1) {
+	position:relative;
+	float:left;
+}
+.customer.certificate .inpatient .section-content ol li:nth-of-type(1):after {
+	position:absolute; 
+	top:33px;
+	right:-9px;
+	display:block;
+	content:url("/mobile/images/outpatient/right_arrow.png");
+	transform:scale(.4);
+}
+
+.customer.certificate .inpatient .section-content ol li:nth-of-type(2) {
+	position:relative;
+	float:right;
+}
+.customer.certificate .inpatient .section-content ol li:nth-of-type(2):after {
+	position:absolute; 
+	bottom:-13px;
+	display:inline-block;
+	text-align:center;
+	margin-left:-17px;
+	content:url("/mobile/images/outpatient/bottom_arrow.png");
+	transform:scale(.4);
+}
+
+.customer.certificate .inpatient .section-content ol li:nth-of-type(3) {
+	padding-top:20px;
+	float:right; 
+}
+
+.customer.certificate .certificate-issue .section-header h4 {background:none !important; padding:0 !important; }
+.customer.certificate .certificate-issue .section-content .table-wrap {background:none !important; padding:0 !important; table-layout:fixed; margin:30px 0 60px 0; }
+.customer.certificate .certificate-issue .section-content .table-wrap .table thead {border-left:#4f4f4f; }
+.customer.certificate .certificate-issue .section-content .table-wrap .table thead tr th {background-color:#4f4f4f; color:#fff; font-size:13px; border-bottom:0; border-right:1px solid #d7d7d7; text-align:center; font-weight:300; }
+.customer.certificate .certificate-issue .section-content .table-wrap .table thead tr th:nth-of-type(2) {border-right:1px solid #4f4f4f; }
+.customer.certificate .certificate-issue .section-content .table-wrap .table tbody tr td {border-left:1px solid #d7d7d7; border-right:1px solid #d7d7d7; text-align:center; font-size:12px; color:#666; }
+.customer.certificate .certificate-issue .section-content .table-wrap .table thead tr {height:41px; }
+.customer.certificate .certificate-issue .section-content .table-wrap .table tbody tr {height:41px; }
+.customer.certificate .certificate-issue .section-content .table-wrap .table tbody tr td {height:41px; vertical-align:middle; }
+.customer.certificate .certificate-issue .section-content .table-wrap .table tbody tr:nth-of-type(1) td:first-child {background-color:#f9f9f9; }
+.customer.certificate .certificate-issue .section-content .table-wrap .table tbody tr:nth-of-type(3) td:first-child {background-color:#f9f9f9; }
+.customer.certificate .certificate-issue .section-content .table-wrap .table tbody tr:nth-of-type(4) td:first-child {background-color:#f9f9f9; }
+.customer.certificate .certificate-issue .section-content .table-wrap .table tbody tr:nth-of-type(5) td:first-child {background-color:#f9f9f9; }
+.customer.certificate .certificate-issue .section-content .table-wrap .table tbody tr:nth-of-type(6) td:first-child {background-color:#f9f9f9; }
+.customer.certificate .certificate-issue .section-content .table-wrap .table tbody tr:nth-of-type(8) td:first-child {background-color:#f9f9f9; }
+.customer.certificate .certificate-issue .section-content .table-wrap .table tbody tr:nth-of-type(11) td:first-child {background-color:#f9f9f9; }
+.customer.certificate .certificate-issue .section-content .table-wrap .table tbody tr:nth-of-type(12) td:first-child {background-color:#f9f9f9; }
+.customer.certificate .certificate-issue .section-content .table-wrap .table tbody tr:nth-of-type(13) td:first-child {background-color:#f9f9f9; }
+.customer.certificate .certificate-issue .section-content .table-wrap .table tbody tr:nth-of-type(14) td:first-child {background-color:#f9f9f9; }
+.customer.certificate .certificate-issue .section-content .table-wrap .table tbody tr:nth-of-type(16) td:first-child {background-color:#f9f9f9; }
+.customer.certificate .certificate-issue .section-content .table-wrap .table tbody tr:nth-of-type(18) td:first-child {background-color:#f9f9f9; }
+.customer.certificate .certificate-issue .section-content .table-wrap .table tbody tr:nth-of-type(20) td:first-child {background-color:#f9f9f9; }
+.customer.certificate .certificate-issue .section-content .table-wrap .table tbody tr:nth-of-type(21) td:first-child {background-color:#f9f9f9; }
+.customer.certificate .certificate-issue .section-content .table-wrap .table tbody tr:nth-of-type(22) td:first-child {background-color:#f9f9f9; }
+.customer.certificate .certificate-issue .section-content .table-wrap .table tbody tr:nth-of-type(23) td:first-child {background-color:#f9f9f9; }
+.customer.certificate .certificate-issue .section-content .table-wrap .table tbody tr:nth-of-type(24) td:first-child {background-color:#f9f9f9; }
+.customer.certificate .certificate-issue .section-content .table-wrap .table tbody tr:nth-of-type(25) td:first-child {background-color:#f9f9f9; }
+.customer.certificate .certificate-issue .section-content .table-wrap .table tbody tr:nth-of-type(26) td:first-child {background-color:#f9f9f9; }
+.customer.certificate .certificate-issue .section-content .table-wrap .table tbody tr:nth-of-type(26) {border-bottom:1px solid #d7d7d7; }
+.customer.certificate .certificate-issue .section-content .table-wrap .table tbody tr:nth-of-type(27) {border-bottom:1px solid #d7d7d7; }
+
+
+
+/* appoint-login */ 
+.customer.appoint-login ol {text-align:center; padding:20px 30px; border-bottom:1px solid #f3f3f3; }
+.customer.appoint-login ol li {position:relative; display:inline-block; vertical-align:top; width:24%; }
+.customer.appoint-login ol li img {width:46px; }
+.customer.appoint-login ol li h3 {font-size:11px; text-align:center; padding-top:10px; margin:0; line-height:12px; }
+.customer.appoint-login ol li:after {position:absolute; top:16px; left:100%; content:"▶"; color:#d6d6d6; font-size:10px; }
+.customer.appoint-login ol li:nth-of-type(4):after {content:""; }
+.customer.appoint-login .container .online-reserve .section-header h3 {text-align:center; color:#333 !important; background-position:50% 0; margin-top:25px !important; }
+.customer.appoint-login .container .online-reserve .section-header p {font-size:13px; color:#444; text-align:center; }
+.customer.appoint-login .container .online-reserve .section-content {padding:10px 0 60px 0; }
+.customer.appoint-login .container .online-reserve .section-content .login-input .form-group input {width:100%; border-radius:0; margin-bottom:13px; }
+.customer.appoint-login .container .online-reserve .section-content .login-input .form-group:nth-of-type(2) input {margin-bottom:0px; }
+.customer.appoint-login .container .online-reserve .section-content .login-input .form-control:hover {border-color:#e9193a; }
+.customer.appoint-login .container .online-reserve .section-content .login-input .form-control {border-color:#e6e6e6; }
+.customer.appoint-login .container .online-reserve .btn-area {padding:20px 0 30px 0;  }
+.customer.appoint-login .container .online-reserve .btn-area p a {width:100% !important; height:40px; font-size:14px; line-height:24px; }
+.customer.appoint-login .container .online-reserve ul {text-align:center; }
+.customer.appoint-login .container .online-reserve ul li {display:inline; font-size:12px; padding-right:11px; }
+.customer.appoint-login .container .online-reserve ul li:last-child {position:relative; padding-left:11px; }
+.customer.appoint-login .container .online-reserve ul li:last-child:before {position:absolute; top:0; left:0; content:"|"; font-size:10px; color:#666; }
+.customer.appoint-login .container .online-reserve ul li a {color:#666; text-decoration:none; }
