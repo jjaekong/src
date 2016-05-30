@@ -26,31 +26,46 @@
 					<h3>완료 후 예약일에 방문</h3>
 				</li>
 			</ol>
-			<section class="online-reserve">
+			<section class="reserve-confirm">
 				<div class="section-header">
-					<h3>LOGIN</h3>
-					<p>SRC 재활병원 서비스를 이용하시려면<br> 로그인이 필요합니다.</p>
+					<h3>예약 신청 확인</h3>
 				</div>
 				<div class="section-content">
-					<form class="login-input"> 
-						<div class="form-group">
-							<label class="sr-only" for="user-id">아이디</label>
-							<input type="text" class="form-control" id="user-id" placeholder="아이디를 입력해주세요.">
-						</div>
-						<div class="form-group">
-							<label class="sr-only" for="user-password">비밀번호</label>
-							<input type="password" class="form-control" id="user-password" placeholder="비밀번호를 입력해주세요.">
-						</div>
-					</form>
+					<div class="table-wrap">
+						<table class="table">
+							<colgroup>
+								<col style="min-width:80px"/>
+								<col style="min-width:220px"/>
+							</colgroup>
+							<tbody>
+								<tr>
+									<th>예약날짜</th>
+									<td>2016년 05월 25일</td>
+								</tr>
+								<tr>
+									<th>예약센터</th>
+									<td>한의과</td>
+								</tr>
+								<tr>
+									<th>담당의료진</th>
+									<td>박정현</td>
+								</tr>
+								<tr>
+									<th>예약시간</th>
+									<td>오전</td>
+								</tr>
+							</tbody>
+						</table>
+						<p>선택하신 예약 내용을 확인해 주세요.</p>
+						<p>예약완료는 예약 담당자와의 상담 후 확정이 됩니다.</p>
+						<p>담당자와의 전화상담이 되지 않았을 경우<br>상담전화 : 031 - 799 - 3713, 3817로 연락을 주시면 신속한 상담으로 도와드리겠습니다.</p>
+					</div>
 					<div class="btn-area">
 						<p>
-							<a href="#" class="btn btn-pink">로그인</a>
+							<a href="#" class="btn btn-gray">메인으로</a>
+							<a href="#" class="btn btn-pink">전화연결</a>
 						</p>
 					</div>
-					<ul>
-						<li><a href="#">회원가입</a></li>
-						<li><a href="#">아이디 / 비밀번호찾기</a></li>
-					</ul>
 				</div>
 			</section>
 		</div>
