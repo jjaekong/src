@@ -7,25 +7,25 @@
 		<div class="page-title">
 			<h2>온라인 예약</h2>
 		</div>
-		<ol class="steps">
-			<li>
-				<img src="/mobile/images/customer/reserve1_on.png" alt=""><br>
-				<h3>로그인</h3>
-			</li>
-			<li>
-				<img src="/mobile/images/customer/reserve2.png" alt=""><br>
-				<h3>희망날짜, 의료진 및 진료시간 선택</h3>
-			</li>
-			<li>
-				<img src="/mobile/images/customer/reserve3.png" alt=""><br>
-				<h3>예약 신청 내용 확인</h3>
-			</li>
-			<li>
-				<img src="/mobile/images/customer/reserve4.png" alt=""><br>
-				<h3>완료 후 예약일에 방문</h3>
-			</li>
-		</ol>
 		<div class="container">
+			<ol class="steps">
+				<li>
+					<img src="/mobile/images/customer/reserve1_on.png" alt=""><br>
+					<h3>로그인</h3>
+				</li>
+				<li>
+					<img src="/mobile/images/customer/reserve2.png" alt=""><br>
+					<h3>희망날짜, 의료진 및 진료시간 선택</h3>
+				</li>
+				<li>
+					<img src="/mobile/images/customer/reserve3.png" alt=""><br>
+					<h3>예약 신청 내용 확인</h3>
+				</li>
+				<li>
+					<img src="/mobile/images/customer/reserve4.png" alt=""><br>
+					<h3>완료 후 예약일에 방문</h3>
+				</li>
+			</ol>
 			<section class="online-reserve">
 				<div class="section-header">
 					<h3>LOGIN</h3>
@@ -59,4 +59,3 @@
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/docfoot.php'); ?>
 </body>
 </html>
-		

@@ -258,8 +258,10 @@
 								<col style="min-width:100px"/>
 							</colgroup>
 							<thead>
-								<th>종류</th>
-								<th colspan="2">비용</th>
+								<tr>
+									<th>종류</th>
+									<th colspan="2">비용</th>
+								</tr>
 							</thead>
 							<tbody>
 								<tr>
