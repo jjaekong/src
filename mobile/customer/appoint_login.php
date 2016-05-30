@@ -7,26 +7,26 @@
 		<div class="page-title">
 			<h2>온라인 예약</h2>
 		</div>
+		<ol>
+			<li>
+				<img src="/mobile/images/customer/reserve1_on.png" alt="로그인"><br>
+				<h3>로그인</h3>
+			</li>
+			<li>
+				<img src="/mobile/images/customer/reserve2.png" alt="로그인"><br>
+				<h3>희망날짜, 의료진 및 진료시간 선택</h3>
+			</li>
+			<li>
+				<img src="/mobile/images/customer/reserve3.png" alt="로그인"><br>
+				<h3>예약 신청 내용 확인</h3>
+			</li>
+			<li>
+				<img src="/mobile/images/customer/reserve4.png" alt="로그인"><br>
+				<h3>완료 후 예약일에 방문</h3>
+			</li>
+		</ol>
 		<div class="container">
 			<section class="online-reserve">
-				<ol class="row">
-					<li class="col-xs-3">
-						<img src="/mobile/images/customer/reserve1_on.png" alt="로그인"><br>
-						<h3>로그인</h3>
-					</li>
-					<li class="col-xs-3">
-						<img src="/mobile/images/customer/reserve2.png" alt="로그인"><br>
-						<h3>희망날짜, 의료진 및 진료시간 선택</h3>
-					</li>
-					<li class="col-xs-3">
-						<img src="/mobile/images/customer/reserve3.png" alt="로그인"><br>
-						<h3>예약 신청 내용 확인</h3>
-					</li>
-					<li class="col-xs-3">
-						<img src="/mobile/images/customer/reserve4.png" alt="로그인"><br>
-						<h3>완료 후 예약일에 방문</h3>
-					</li>
-				</ol>
 				<div class="section-header">
 					<h3>LOGIN</h3>
 					<p>SRC 재활병원 서비스를 이용하시려면<br> 로그인이 필요합니다.</p>
