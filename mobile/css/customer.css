@@ -75,17 +75,17 @@
 .customer.certificate .container .btn-area .btn-pink {
 	background-image:url("/mobile/images/customer/down_bg.png"); 
 	background-size:9px auto; 
-	background-position:8px 11px; 
+	background-position:9px 11px; 
 	background-repeat:no-repeat; 
-	padding-left:20px;
+	padding-left:10px !important;
 	margin-right:10px;
 }
 .customer.certificate .container .btn-area .btn-gray { 
 	background-image:url("/mobile/images/customer/down_bg.png"); 
 	background-size:9px auto; 
-	background-position:8px 11px; 
+	background-position:9px 11px; 
 	background-repeat:no-repeat; 
-	padding-left:20px;
+	padding-left:10px !important;
 }
 
 .customer.certificate .outpatients .section-header h4 {background:none !important; padding:0 !important; }
@@ -253,8 +253,9 @@
 	font-size:10px; 
 	color: #e9193a;
 }
+
 .customer.appoint-step2 .reserve-confirm .section-content .btn-area {margin:32px 0 60px 0; text-align:center; }
-.customer.appoint-step2 .reserve-confirm .section-content .btn-area p a {min-width:140px; height:36px; }
+.customer.appoint-step2 .reserve-confirm .section-content .btn-area p a {min-width:140px !important; height:36px; }
 .customer.appoint-step2 .reserve-confirm .section-content .btn-area p .btn-gray {
 	background-image:url("/mobile/images/customer/home_bg.png");
 	background-position:37px 11px;

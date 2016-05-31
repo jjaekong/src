@@ -31,7 +31,7 @@
         <div class="nav-content">
             <ul class="gnb">
                 <li>
-                    <a href="#">병원소개</a>
+                    <a href="/mobile/introduce/about.php">병원소개</a>
                     <ul>
                         <li><a href="/mobile/introduce/greeting.php">인사말</a></li>
                         <li><a href="/mobile/introduce/about.php">병원소개</a></li>
@@ -42,7 +42,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="#">진료과목</a>
+                    <a href="/mobile/departments/rehabilitation.php">진료과목</a>
                     <ul>
                         <li><a href="/mobile/departments/rehabilitation.php">재활의학과</a></li>
                         <li><a href="/mobile/departments/internal.php">내과</a></li>
@@ -78,21 +78,21 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="#">고객서비스</a>
+                    <a href="/mobile/customer/faq.php">고객서비스</a>
                     <ul>
                         <li><a href="/mobile/customer/faq.php">자주하는 질문</a></li>
                         <li><a href="/mobile/customer/certificate.php">제증명서 발금안내</a></li>
                         <li><a href="/mobile/customer/appoint_login.php">온라인 예약</a></li>
-                        <li><a href="#">부서 전화번호</a></li>
+                        <li><a href="/mobile/customer/contact.php">부서 전화번호</a></li>
                         <li><a href="#">비급여 항목</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="#">커뮤니티</a>
+                    <a href="/mobile/community/news_list.php">커뮤니티</a>
                     <ul>
                         <li><a href="/mobile/community/news_list.php">병원소식</a></li>
                         <li><a href="/mobile/community/review.php">치료후기</a></li>
-                        <li><a href="/community/photo_list.php">전/후사진</a></li>
+                        <li><a href="/mobile/community/photo_list.php">전/후사진</a></li>
                         <li><a href="/mobile/community/health.php">건강정보</a></li>
                         <li><a href="#">영상게시판</a></li>
                         <li><a href="#">사회공헌사업</a></li>

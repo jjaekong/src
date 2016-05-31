@@ -32,8 +32,8 @@
 						</p>
 					</div>
 					<ul>
-						<li><a href="#">회원가입</a></li>
-						<li><a href="#">아이디 / 비밀번호찾기</a></li>
+						<li><a href="/mobile/member/login_terms.php">회원가입</a></li>
+						<li><a href="/mobile/member/privacy_statsment.php">아이디 / 비밀번호찾기</a></li>
 					</ul>
 				</div>
 			</section>
