@@ -347,3 +347,17 @@
 .customer.contact .language .section-header .btn-area .btn-gray {margin-top:18px; }
 .customer.contact .language .section-content .phone-number li h6 {padding:0; }
 .customer.contact .language .section-content .phone-number li:nth-of-type(3) .btn-area .btn-pink {background-position:9px 10px; }
+
+
+/* appoint_list */
+.customer.appoint_list .reservation-confirm {padding:25px 0 50px 0;}
+.customer.appoint_list .reservation-confirm .section-content ul li:first-child {border-top:2px solid #444; }
+.customer.appoint_list .reservation-confirm .section-content ul li {position:relative; border-bottom:1px solid #d7d7d7; padding:20px 10px 20px 10px; }
+.customer.appoint_list .reservation-confirm .section-content ul li .btn {position:absolute; top:12px; right:10px; min-width:60px !important; height:23px; font-size:11px; padding:1px; }
+.customer.appoint_list .reservation-confirm .section-content ul li .btn-charcoal {background-color:#c9c9c9; color:#fff; }
+.customer.appoint_list .reservation-confirm .section-content ul li dl {overflow:hidden; }
+.customer.appoint_list .reservation-confirm .section-content ul li dl dt {position:relative; padding-left:15px; float:left; font-size:12px; color:#333; font-weight:normal; }
+.customer.appoint_list .reservation-confirm .section-content ul li dl dt:before {position:absolute; top:0; left:0; content:"▶"; font-size:10px; color:#e9193a; }
+.customer.appoint_list .reservation-confirm .section-content ul li dl dd {padding-left:100px; font-size:12px; color:#666; margin-bottom:5px; }
+.customer.appoint_list .reservation-confirm .section-content ul li dl dd:last-child {margin-bottom:0;}
+.customer.appoint_list .reservation-confirm .pagination {margin:30px 0 0 0; }
