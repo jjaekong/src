@@ -341,3 +341,58 @@
         }
     }
 }
+
+.community.confirm-pw {
+    .confirm-section {
+        background-image: url(/images/community/bg_confirm_pw.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+        .confirm-form {
+            margin: 150px auto;
+            width: 400px;
+            h4 {
+                margin-bottom: 30px;
+                padding-top: 90px;
+                font-size: 22px;
+                color: #666;
+                font-weight: 300;
+                letter-spacing: -1px;
+                background-image: url(/images/community/ico_lock.png);
+                background-repeat: no-repeat;
+                background-position: 50% 0;
+            }
+            .form-group {
+                margin-bottom: 40px;
+                .form-control {
+                    height: 40px;
+                    border-radius: 0;
+                    box-shadow: none;
+                    &:focus {
+                        border-color: #e9193a;
+                    }
+                }
+            }
+            .btn-area {
+                p {
+                    text-align: center;
+                    .btn {
+                        margin-left: 5px;
+                        margin-right: 5px;
+                        width: 150px;
+                        height: 40px;
+                        line-height: 28px;
+                        font-size: 16px;
+                        &.btn-confirm {
+                            background-color: #e9193a;
+                            &:hover,
+                            &:focus {
+                                opacity: .9;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

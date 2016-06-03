@@ -487,4 +487,33 @@
       background-repeat: no-repeat;
       background-position: 0 50%; }
 
+.customer.appoint.list .appoint-list .section-header {
+  margin-top: 60px;
+  margin-bottom: 60px; }
+.customer.appoint.list .appoint-list .table th, .customer.appoint.list .appoint-list .table td {
+  height: 60px; }
+.customer.appoint.list .appoint-list .table thead th {
+  border-top: 0 !important;
+  background-color: #4f4f4f;
+  color: #fff;
+  border-color: rgba(241, 241, 241, 0.2) !important; }
+.customer.appoint.list .appoint-list .table tbody td {
+  border-color: rgba(171, 171, 171, 0.3) !important; }
+.customer.appoint.list .appoint-list .table .btn {
+  width: 130px;
+  height: 38px;
+  color: #fff;
+  line-height: 26px; }
+  .customer.appoint.list .appoint-list .table .btn.btn-cancel {
+    background-color: #c9c9c9; }
+    .customer.appoint.list .appoint-list .table .btn.btn-cancel:hover, .customer.appoint.list .appoint-list .table .btn.btn-cancel:focus {
+      background-color: #aaa; }
+  .customer.appoint.list .appoint-list .table .btn.btn-confirmed {
+    background-color: #e9193a; }
+    .customer.appoint.list .appoint-list .table .btn.btn-confirmed:hover, .customer.appoint.list .appoint-list .table .btn.btn-confirmed:focus {
+      opacity: .9; }
+.customer.appoint.list .appoint-list .paging {
+  margin-top: 55px;
+  margin-bottom: 130px; }
+
 /*# sourceMappingURL=customer.css.map */

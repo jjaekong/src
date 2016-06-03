@@ -710,3 +710,54 @@
         }
     }
 }
+
+.customer.appoint.list {
+    .appoint-list {
+        .section-header {
+            margin-top: 60px;
+            margin-bottom: 60px;
+        }
+        .table {
+            th, td {
+                height: 60px;
+            }
+            thead {
+                th {
+                    border-top: 0 !important;
+                    background-color: #4f4f4f;
+                    color: #fff;
+                    border-color: rgba(#f1f1f1, .2) !important;
+                }
+            }
+            tbody {
+                td {
+                    border-color: rgba(#ababab, .3) !important;
+                }
+            }
+            .btn {
+                width: 130px;
+                height: 38px;
+                color: #fff;
+                line-height: 26px;
+                &.btn-cancel {
+                    background-color: #c9c9c9;
+                    &:hover,
+                    &:focus {
+                        background-color: #aaa;
+                    }
+                }
+                &.btn-confirmed {
+                    background-color: #e9193a;
+                    &:hover,
+                    &:focus {
+                        opacity: .9;
+                    }
+                }
+            }
+        }
+        .paging {
+            margin-top: 55px;
+            margin-bottom: 130px;
+        }
+    }
+}

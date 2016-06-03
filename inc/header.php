@@ -76,6 +76,7 @@
                         <li><a href="#">자주하는 질문</a></li>
                         <li><a href="#">제증명서 발급안내</a></li>
                         <li><a href="#">온라인 예약</a></li>
+                        <li><a href="#">예약확인</a></li>
                         <li><a href="#">부서 전화번호</a></li>
                         <li><a href="#">비급여 항목</a></li>
                     </ul>

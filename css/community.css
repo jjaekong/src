@@ -194,4 +194,44 @@
             background-repeat: no-repeat;
             background-position: 0 50%; }
 
+.community.confirm-pw .confirm-section {
+  background-image: url(/images/community/bg_confirm_pw.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%; }
+  .community.confirm-pw .confirm-section .confirm-form {
+    margin: 150px auto;
+    width: 400px; }
+    .community.confirm-pw .confirm-section .confirm-form h4 {
+      margin-bottom: 30px;
+      padding-top: 90px;
+      font-size: 22px;
+      color: #666;
+      font-weight: 300;
+      letter-spacing: -1px;
+      background-image: url(/images/community/ico_lock.png);
+      background-repeat: no-repeat;
+      background-position: 50% 0; }
+    .community.confirm-pw .confirm-section .confirm-form .form-group {
+      margin-bottom: 40px; }
+      .community.confirm-pw .confirm-section .confirm-form .form-group .form-control {
+        height: 40px;
+        border-radius: 0;
+        box-shadow: none; }
+        .community.confirm-pw .confirm-section .confirm-form .form-group .form-control:focus {
+          border-color: #e9193a; }
+    .community.confirm-pw .confirm-section .confirm-form .btn-area p {
+      text-align: center; }
+      .community.confirm-pw .confirm-section .confirm-form .btn-area p .btn {
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 150px;
+        height: 40px;
+        line-height: 28px;
+        font-size: 16px; }
+        .community.confirm-pw .confirm-section .confirm-form .btn-area p .btn.btn-confirm {
+          background-color: #e9193a; }
+          .community.confirm-pw .confirm-section .confirm-form .btn-area p .btn.btn-confirm:hover, .community.confirm-pw .confirm-section .confirm-form .btn-area p .btn.btn-confirm:focus {
+            opacity: .9; }
+
 /*# sourceMappingURL=community.css.map */

@@ -93,7 +93,7 @@ address, p, dl {
     top: 5px;
     padding: 0;
     width: 35px;
-    min-width: auto;
+    min-width: 35px;
     height: 35px;
     background-color: #fff; }
   #header .btn-home {
@@ -141,7 +141,7 @@ address, p, dl {
       top: 0;
       left: -50px;
       padding: 13px;
-      min-width: auto;
+      min-width: 50px;
       width: 50px;
       height: 50px;
       background-color: transparent; }
@@ -258,12 +258,12 @@ body.nav-opened {
   min-height: 100px;
   background-color: #fff; }
   #content .page-title {
+    height: 70px;
     border-bottom: 1px solid #f3f3f3; }
     #content .page-title h1, #content .page-title h2, #content .page-title h3, #content .page-title h4, #content .page-title h5, #content .page-title h6 {
       margin-top: 0;
       margin-bottom: 0;
       padding-top: 20px;
-	  padding-bottom: 20px;
       font-size: 16px;
       color: #333;
       text-align: center;
