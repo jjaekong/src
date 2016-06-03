@@ -25,45 +25,6 @@
 			</div>
 		</div>
 	</main>
-<style>
-.community.confirm-pw .pw-check {
-	padding:30px 0 60px 0;
-	background-image:url('/mobile/images/community/community_bg.png');
-	background-repeat:no-repeat;
-	background-size:99px auto;
-	background-position:20% 23%;
-}
-.community.confirm-pw .pw-check > h4 {
-	background-image:url('/mobile/images/community/lock.png');
-	background-repeat:no-repeat;
-	background-size:24px auto;
-	background-position:50% 0;
-	text-align:center;
-	padding-top:48px;
-	font-size:12px; 
-	color:#666;
-	margin:0;
-}
-.community.confirm-pw .pw-check .pw-input .form-group {text-align:center;}
-.community.confirm-pw .pw-check .pw-input .form-group input { 
-	margin:18px 0 20px 0 !important;
-	width:200px;
-	height:28px;
-	border-radius:0;
-	display:inline;
-	font-size:12px;
-}
-.community.confirm-pw .pw-check .pw-input .btn-area {
-	text-align:center;
-}
-.community.confirm-pw .pw-check .pw-input .btn-area p .btn {
-	min-width:70px !important; 
-	height:31px !important;
-}
-.community.confirm-pw .pw-check .pw-input .btn-area p .btn-pink {margin-right:10px; }
-
-
-</style>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/docfoot.php'); ?>
 </body>
