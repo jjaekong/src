@@ -24,14 +24,14 @@
 								<th><label for="password">비밀번호</label></th>
 								<td><input type="password" class="form-control" id="password"></td>
 							</tr>
-							<tr>
+							<tr class="subject">
 								<th><label for="subject">제목</label></th>
 								<td><input type="text" class="form-control" id="subject"></td>
 							</tr>
-							<tr>
+							<tr class="text-field">
 								<td colspan="2"><textarea class="form-control"></textarea></td>
 							</tr>
-							<tr>
+							<tr class="file">
 								<th><label for="file">첨부파일</label></th>
 								<td><input type="file" class="form-control" id="file"></td>
 							</tr>
