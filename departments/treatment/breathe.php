@@ -41,7 +41,7 @@
                     <a href="/departments/treatment/balance.php">균형치료</a>
                 </li>
                 <li role="presentation">
-                    <a href="#">통증치료</a>
+                    <a href="/departments/treatment/pain.php">통증치료</a>
                 </li>
                 <li role="presentation">
                     <a href="#">삼킴장애치료</a>
