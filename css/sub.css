@@ -134,7 +134,7 @@
         border-color: #ccc; }
   .search-form form .btn {
     position: absolute;
-    top: 0;
+    top: 0; 
     right: 0;
     min-width: 40px;
     width: 40px;
@@ -176,5 +176,82 @@
 
 .filter-bar .search-form {
   float: right; }
+.arrow-list li {
+    background-image: url(/images/sub/arrow_right.png);
+    background-repeat: no-repeat;
+    background-position: 0px 12px;
+    font-size: 16px;
+    color: #666;
+    line-height: 30px;
+    padding-left: 15px
+}
+.panel-group {
+    margin: 0;
+}
+.panel-group .panel {
+    border-radius: 0px;
+    border: 0;
+    margin-top: 0 !important;
+}
+.panel-group .panel .panel-heading {
+    background-image: url(/images/sub/look_img.png);
+    background-repeat: no-repeat;
+    background-position: 0px 50%;
+    background-color: #fff;
+    padding: 24px 30px;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+}
+.panel-group .panel .panel-heading h4 a {
+    display: inline-block;
+    font-size: 19px;
+    color: #333;
+}
+.panel-group .panel .panel-body {
+    font-size: 16px;
+    color: #666;
+    line-height: 30px;
+    padding: 40px 0;
+    border-top: 0 !important;
+    border-bottom: 1px solid #ccc;
+}
+.panel-group .panel .panel-body > h4 {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+    margin-bottom: 30px;
+}
+.panel-group .panel .panel-body > p {
+    font-size: 16px;
+    color: #666;
+    line-height: 30px;
+}
+#content > .container section .section-header h2 {
+    margin: 0;
+    margin-bottom: 20px;
+    padding-top: 28px;
+    color: #e9193a;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -1px;
+    background: url(/images/icon_title.png) no-repeat;
+}
+
+.inline-dl dt {
+    display: inline;
+    font-size: 16px;
+    color: #333;
+    font-weight: 500;
+}
+.inline-dl dd {
+    display: inline;
+    font-size: 16px;
+    color: #666;
+    letter-spacing: -1px;
+}
+.inline-dl dd:before {
+    content: ":";
+}
 
 /*# sourceMappingURL=sub.css.map */

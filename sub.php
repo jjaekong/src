@@ -5,7 +5,7 @@
         margin-top: 100px;
     }
 </style>
-<!-- //스타일 추가 -->
+<!-- //스타일 추가 --> 
 </head>
 <body>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
@@ -180,7 +180,73 @@
                     </div>
                 </div>
             </div>
-            
+            <div style="margin:30px 0">
+                <ul class="arrow-list">
+                    <li>content</li>
+                    <li>content</li>
+                    <li>content</li>
+                    <li>content</li>
+                    <li>content</li>
+                </ul>
+            </div>
+            <div style="margin:30px 0;">
+                <div class="panel-group accordion-list" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-1" >
+                                    재활병원입니다.
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse-1" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <h4>정의</h4>
+                                <p>척추는 목에서부터</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-2" class="collapsed">
+                                    제목 #2
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse-2" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                내용 #2
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-3" class="collapsed">
+                                    제목 #3
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse-3" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                내용 #3
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section style="margin:30px 0;">
+                <div class="section-header">
+                    <h2>제목</h2>
+                </div>
+            </section>
+            <dl class="inline-dl">
+                <dt>메트 및 이동훈련</dt>
+                <dd>
+                    서거나 보행을 하기 위해 메트 및 침상에서 이루어지는 기본적인 훈련으로 근력 및 관절가동범위향상, 체간, 및 사진의 움직임향상, 균형능력향상, 돌아눕기, 일어나 앉기, 심폐기능강화등의 훈련을 통하여 일상생활동작 증진과 보행을 위한 기초 훈련을 받습니다.
+                </dd>
+            </dl>
         </div>
         <!-- // 실제 작업 영역 -->
     </main>
