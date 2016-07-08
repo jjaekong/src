@@ -49,16 +49,167 @@
 .outpatient .container {
     padding: 100px 15px 140px;
 }
+.outpatient h3 {
+    font-size: 18px;
+    color: #333;
+    margin: 40px 0 30px;
+}
 .outpatient p {
+    font-size: 16px;
+    color: #666;
+    line-height: 30px;
+    letter-spacing: -0.5px;
+}
+.outpatient .container .nav-pills {
+    margin-bottom: 60px;
+}
+
+/* correction */
+.outpatient.correction .clinic {
+    background-image: url(/images/outpatient/correction_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 95px;
+}
+.outpatient.correction .clinic .section-content {
+    padding-top: 627px;
+}
+
+
+/* spine */
+.outpatient.spine .spine-joint {
+    background-image: url(/images/outpatient/spine_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+}
+.outpatient.spine .spine-joint .section-content {
+    height: 790px;
+    margin-top: 10px;
+}
+.outpatient.spine .spine-joint .section-content > div:nth-of-type(1) p {
+    margin-top: 54px;
+}
+.outpatient.spine .spine-joint .section-content > div:nth-of-type(1) p:first-child {
+    margin-top: 0;
+}
+
+.outpatient.spine .spine-joint .section-content > div:nth-of-type(2) p:nth-of-type(2) {
+    margin-top: 10px;
+}
+.outpatient.spine .spine-joint .section-content > div:nth-of-type(2) p:last-child {
+    margin-top: 98px;
+}
+.outpatient.spine .spine-clinic { 
+    margin-top: 120px;
+}
+.outpatient.spine .spine-clinic .section-header h2 {
+    margin-bottom: 0 !important;
+}
+.outpatient.spine .panel-group > .panel > .panel-collapse h5:nth-of-type(2) {
+    margin-top: 40px;
+}
+
+
+/* joint */
+.outpatient.joint section .panel-group {
+    margin-top: 311px;
+}
+.outpatient.joint section .panel-group > .panel > .panel-collapse h5:nth-of-type(2) {
+    margin-top: 40px;
+}
+.outpatient.joint .shoulder {
+    background-image: url(/images/outpatient/joint_bg01.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 85px;
+}
+.outpatient.joint .elbow {
+    background-image: url(/images/outpatient/joint_bg02.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 85px;
+    margin-top: 120px;
+}
+.outpatient.joint .hand {
+    background-image: url(/images/outpatient/joint_bg03.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 85px;
+    margin-top: 120px;
+}
+.outpatient.joint .pelvis {
+    background-image: url(/images/outpatient/joint_bg04.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 85px;
+    margin-top: 120px;
+}
+.outpatient.joint .knee {
+    background-image: url(/images/outpatient/joint_bg05.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 85px;
+    margin-top: 120px;
+}
+.outpatient.joint .ankle {
+    background-image: url(/images/outpatient/joint_bg06.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 85px;
+    margin-top: 120px;
+}
+.outpatient.joint .ankle .panel-group > .panel > .panel-collapse .panel-body dl {
+    overflow: hidden;
+    margin-top: 55px;
+}
+.outpatient.joint .ankle .panel-group > .panel > .panel-collapse .panel-body dl dt {
+    float: left;
+    display: inline-block;
+    clear: both;
+    font-size: 16px;
+    color: #666;
+    font-weight: 400;
+    line-height: 30px;
+}
+.outpatient.joint .ankle .panel-group > .panel > .panel-collapse .panel-body dl dd {
+    float: left;
     font-size: 16px;
     color: #666;
     line-height: 30px;
     letter-spacing: -1px;
 }
+.outpatient.joint .ankle .panel-group > .panel > .panel-collapse .panel-body dl dd:before {
+    content:":";
+    padding:0 5px;
+}
 
 
-/* correction */
-.outpatient.correction  
+/* surgery */
+.outpatient.surgery .clinic {
+    min-height: 600px;
+    background-image: url(/images/outpatient/surgery_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 208px;
+}
+.outpatient.surgery .clinic .section-content {
+    margin-top: 20px;
+}
+.outpatient.surgery .clinic .section-content .arrow-list {
+    margin-top: 400px;
+}
+
+/* muscle-pain */
+.outpatient.muscle-pain .clinic {
+    min-height: 600px;
+    background-image: url(/images/outpatient/surgery_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 93px;
+}
+.outpatient.muscle-pain .clinic p { 
+    margin-top: 390px;
+}
+
+
+
+
+
+
+
+
+
 
 
 

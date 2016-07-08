@@ -192,6 +192,7 @@
     border-radius: 0px;
     border: 0;
     margin-top: 0 !important;
+    box-shadow: none;
 }
 .panel-group .panel .panel-heading {
     background-image: url(/images/sub/look_img.png);
