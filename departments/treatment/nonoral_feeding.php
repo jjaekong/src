@@ -12,7 +12,7 @@
             </ol>
         </div>
     </div>
-    <main id="content" class="departments balance"><!-- 클래스명은 대메뉴 > 서브메뉴명의 방식으로 -->
+    <main id="content" class="departments nonoral-feeding"><!-- 클래스명은 대메뉴 > 서브메뉴명의 방식으로 -->
         <div class="page-header"><!-- 배경은 위의 클래스명을 이용하여 -->
             <h2>SRC 치료법</h2>
         </div>
@@ -37,13 +37,13 @@
                 <li role="presentation">
                     <a href="/departments/treatment/underwater.php">수중재활치료</a>
                 </li>
-                <li role="presentation" class="active">
+                <li role="presentation">
                     <a href="/departments/treatment/balance.php">균형치료</a>
                 </li>
                 <li role="presentation">
                     <a href="/departments/treatment/pain.php">통증치료</a>
                 </li>
-                <li role="presentation">
+                <li role="presentation" class="active">
                     <a href="/departments/treatment/nonoral_feeding.php">삼킴장애치료</a>
                 </li>
                 <li role="presentation">
@@ -55,34 +55,26 @@
             </ul>
             <section class="treatment">
                 <div class="section-header">
-                    <h2>균형치료</h2>
+                    <h2>삼킴장애치료</h2>
                 </div>
-                <p>
-                    중추신경계 손상 및 근골격계 손상 등으로 인해 균형과 보행능력저하를 가진 환자에 균형장애에 관련한 다양한 원인을 파악하고 환자 각자게 맞는 프로그램을 제공하여 치료에 접근하고 있습니다.
-                </p>
-                <h3>치료대상</h3>
-                <ul class="arrow-list">
-                    <li>
-                        <dl class="inline-dl">
-                            <dt>성인</dt>
-                            <dd>
-                                뇌졸중, 외상성 뇌손상, 척수손상, 성인뇌성마비, 파킨슨병 등의 중추신경계 손상 및 근골격계 질환자 중 독립적으로 서있는 자세가 가능한 환자
-                            </dd>
-                        </dl>
-                    </li>
-                    <li>
-                        <dl class="inline-dl">
-                            <dt>소아</dt> 
-                            <dd>
-                                BPPM은 1930년 바드라가즈에서 개발되었습니다. 바드라가즈링은 움직임의 범위, 긴장완화, 늘임, 지구력, 특별한 저항 패턴들을 이용하여 근육을 재교육하는 방법으로 등척성, 등장성, 등속성 운동과 수동적 활동이 포함되어 정상적인 운동패턴의 형식과 신경근을 촉진하기 위한 기초적인 감각 수용기의 혼합으로 이루어져 있습니다.
-                            </dd>
-                        </dl>
-                    </li>
-                </ul>
-                <h3>평가 및 치료방법</h3>
-                <p>
-                    독립적인 4개의 지면반력 장치 (Force Plate) 를 이용하여 4영역 (좌, 우측 각각의 TOE 및 HEEL) 을 측정하여 각 영역간 상호작용 및 동조화현상 (Interaction / Synchronization) 을 분석하여 균형장애의 다양한 원인을 파악하며, 11가지의 바이오피드백 훈련 프로그램을 이용하여 균형능력 증진과 낙상정도를 감소시켜 보다 효율적인 보행능력향상에 도움을 주는 치료방법입니다.
-                </p>
+                <div class="section-content">
+                    <p>
+                        여러 신경학적 질환과 흔히 연관되어 있으며, 일상생활에는 큰 장애가 될 수 있는 병증입니다. 이로인해 적절한 음식섭취가 이루어지지 않아 충분한 영양공급에 방해가 될 수 있으며 삼킴장애가 최소한으로만 있는 분들도 수분섭취의 빈도가 줄어들어 탈수가 생길 수가 있습니다. 또한 음식물 등의 기도흡인으로 인하여 흡인성 폐렴이 발생할 수도 있으며 이는 생명을 위협할 수 있는 심각한 질환으로 사전예방이 가장 중요하기 때문에 삼킴장애에 대한 적절한 진단 및 치료가 중요합니다.
+                    </p>
+                    <h3>치료대상</h3>
+                    <ul class="arrow-list">
+                        <li>뇌졸중 후 삼킴장애</li>
+                        <li>경추수술 후 삼킴장애</li>
+                        <li>이비인후과적 수술 (후두암, 인두암, 설암제거 및 재건술 등) 후 삼킴장애</li>
+                        <li>파킨슨병 연관 삼킴장애</li>
+                        <li>노인성 치매관련 삼킴장애</li>
+                        <li>기타 (비관, 위루관을 통한 음식섭취 중인 분)</li>
+                    </ul>
+                    <h3>평가 및 상담</h3>
+                    <p>
+                        본원에서는 비디오연하영상조영술 (Videofluoroscopic Study Of Swallowing) 을 시행하여 기도 내 흡인여부는 물론 삼킴과정 중 어느요소에 문제가 있는지를 정확히 확인하고, 이에 대하여 구강치료, 작업치료, 전기자극치료 및 다양한 경우에 맞춘 삼킴 기술 교육을 시행함과 더불어  환자의 상태에 맞는 삼킴장애용 특수식이를 처방하여 환자분들이 보다 편하고 건강함 삶을 즐길 수 있도록 치료하고 있습니다.
+                    </p>
+                </div>
             </section>
         </div>
         <!-- // 실제 작업 영역 -->
