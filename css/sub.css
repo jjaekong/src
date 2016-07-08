@@ -202,10 +202,11 @@
     border-bottom: 1px solid #ccc;
     border-radius: 0;
 }
-.panel-group .panel .panel-heading h4 a {
-    display: inline-block;
+.panel-group > .panel > .panel-heading > h4 a {
     font-size: 19px;
     color: #333;
+    font-weight: 300;
+    margin: 0;
 }
 .panel-group .panel .panel-body {
     font-size: 16px;
@@ -215,16 +216,20 @@
     border-top: 0 !important;
     border-bottom: 1px solid #ccc;
 }
-.panel-group .panel .panel-body > h4 {
+.panel-group > .panel > .panel-collapse h5 {
     font-size: 18px;
     color: #333;
     margin: 0;
     margin-bottom: 30px;
+    font-weight: 500;
 }
 .panel-group .panel .panel-body > p {
     font-size: 16px;
     color: #666;
     line-height: 30px;
+}
+.panel-group .panel .panel-body > p img {
+    margin-top: 30px;
 }
 #content > .container section .section-header h2 {
     margin: 0;
@@ -237,7 +242,6 @@
     letter-spacing: -1px;
     background: url(/images/icon_title.png) no-repeat;
 }
-
 .inline-dl dt {
     display: inline;
     font-size: 16px;

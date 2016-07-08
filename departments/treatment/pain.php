@@ -50,7 +50,7 @@
                     <a href="/departments/treatment/imbalance.php">자세불균형</a>
                 </li>
                 <li role="presentation">
-                    <a href="/departments/treatment/lymphoma.php">림프부종치료</a>
+                    <a href="/departments/treatment/lymphedema.php">림프부종치료</a>
                 </li>
             </ul>
             <section class="treatment">
@@ -145,118 +145,214 @@
                     <h2>치료방법</h2>
                 </div>
                 <div class="section-content">
-                    <ul>
-                        <li>
-                            <h6>DNA 주사 - PDRN 주사요법</h6>
-                            <dl>
-                                <dt>정의</dt>
-                                <dd>
-                                    인체의 DNA 조각을 손상 부위에 주사하여 손상된 조직의 세포 성장을 촉진시켜 통증을 감소시켜주기 때문에 손상된 인대, 근육, 힘줄, 연골 치료에 효과적인 치료입니다.
-                                </dd>
-                            </dl>
-                        </li>
-                        <li>
-                            <h6>연골주사</h6>
-                            <dl>
-                                <dt>정의</dt>
-                                <dd>
-                                    무릎 관절은 사람 몸의 하중을 가장 많이 받고 있는 가장 먼저 퇴행성 변화가 오는 부위입니다. 정상 관절에는 히알우론산성분이라는 성분이 있는데 퇴행성 관절염이 오면 이 성문이 없어지면서 연골 및 활액의 탄력성이 떨어져 외부 충격을 흡수하지 못하고 보호하지 못해 통증이 심해집니다. 연골주사는 이런 히알우론산 성분을 관절 내부로 주입하여 연골 활액의 탄력성을 회복시켜주고 통증을 감소시켜줍니다.
-                                </dd>
-                            </dl>
-                        </li>
-                        <li>
-                            <h6>증식치료</h6>
-                            <dl>
-                                <dt>정의</dt>
-                                <dd>
-                                    인대와 힘줄 등 약해진 뼈 조직의 약화로 퇴행성 관절 질환, 오십견, 디스크 등의 병이 나타나는데 증식치료로 새로운 세포 조직의 생성을 자극해 불완전한 조직을 재생시켜 신경계 기능을 향상 시키는 치료로 가장 자연적인 치료법 중에 하나입니다.
-                                </dd>
-                            </dl>
-                        </li>
-                        <li>
-                            <h6>이온도입기치료</h6>
-                            <dl>
-                                <dt>정의</dt>
-                                <dd>
-                                    골성 관절염, 신경염, 근염, 근경축, 경련성, 부종, 유착 등을 치료하고 이온도입에서는 주로 근경축 및 경련성 완화, 부종 완화, 염증 완화, 유착완화 목적으로 사용한다.
-                                </dd>
-                            </dl>
-                        </li>
-                        <li>
-                            <h6>도수치료</h6>
-                            <dl>
-                                <dt>정의</dt>
-                                <dd>
-                                    급성 요통환자, 디스크환자 등 하중과 비틀림의 물리역학적 원리를 이용하여 디스크 혹은 일부분을 본래 자리로 되돌려주어 긴장 유지를 통해 증상을 완화시키는 보존적 치료방법입니다.
-                                </dd>
-                            </dl>
-                        </li>
-                        <li>
-                            <h6>온열치료</h6>
-                            <dl>
-                                <dt>정의</dt>
-                                <dd>
-                                    온열찜 (Hotpack), 적외선 치료 (Infrared), 파라핀욕 (Paraffin bath) 등이 있으며 온열치료는 혈액 순환의 촉진과 대사 작용의 증가로 인하여 경직 및 통증 완화에 사용합니다.
-                                    <img src="/images/departments/therapymethod_img01.jpg" alt="
-                                    온열찜 (Hotpack), 적외선 치료 (Infrared), 파라핀욕 (Paraffin bath)">
-                                </dd>
-                            </dl>
-                        </li>
-                        <li>
-                            <h6>전기치료</h6>
-                            <dl>
-                                <dt>정의</dt>
-                                <dd>
-                                    경피신경전기자극치료(TENS), 간섭전류치료 (ICT), 초음파치료 (Ultra Sound),  극초단파치료 (Microwave), 전기자극치료(EST), 은침전기자극치로 (SSP), 공기압밥치료 (PCT) 등이 있으며 급성 및 만성 통증에 사용합니다.
-                                </dd>
-                            </dl>
-                        </li>
-                        <li>
-                            <h6>견인치료</h6>
-                            <dl>
-                                <dt>정의</dt>
-                                <dd>
-                                    추간판 탈출증 및 추간판 병변 등으로 인한 통증이나 방사통이 있을 경우 견인을 통하여 긴장된 척추주위의 근육 및 관절을 이완시키고 추간공의 확장,  척추 만곡의 회복을 통한 통증감소에 사용합니다. 
-                                </dd>
-                            </dl>
-                        </li>
-                        <li>
-                            <h6>레이저 치료</h6>
-                            <dl>
-                                <dt>정의</dt>
-                                <dd>
-                                    방사되는 광에너지(레이저)를 피부에 조사하여 통증 완화와 조직의 회복 촉진을 통한 상처 회복에 사용합니다.
-                                </dd>
-                            </dl>
-                        </li>
-                        <li>
-                            <h6>무중력 감압치료 (Spine-MT)</h6>
-                            <dl>
-                                <dt>정의</dt>
-                                <dd>
-                                    삐둘어지거나 단축된 척추근육과 관절을 먼저 치료한 후 디스크의 종류와 탈출 방향에 따라 3차원적으로 디스크를 감압 및 교정하는 치료입니다. 실시간 근긴장을 탐지하고 장력 조절을 통해 최적의 감압을 유지함으로써 수핵의 탈출을 줄이고 척추종판과 모세혈관의 활동을 촉진하여 영얀분과 산소 등을 디스크 내부로 이동시켜 치유를 촉진합니다. 치료 활성화를 위해 4대의 장비로 운영되고 있습니다.
-                                </dd>
-                            </dl>
-                        </li>
-                        <li>
-                            <h6>체외충격파치료 (ESWT)</h6>
-                            <dl>
-                                <dt>정의</dt>
-                                <dd>
-                                    체외충격파치료는 충격파를 발생하는 치료기를 사용하여 외과적 수술없이 체외에서 근골격계 등의 통증을 치료하는 치료법입니다. 근골격계 질환인  건초염, 석회회성 건초염, 족저근막염, 테니스엘보, 근막동통증후군 등의 질환에 사용합니다. 치료 활성화를 위해  집중형충격파 (Focus Type), 방사형압력파 (Radial Type) 의 장비가 운영되고 있습니다.
-                                </dd>
-                            </dl>
-                        </li>
-                        <li>
-                            <h6>스크램블러 (Pain Scramblar)</h6>
-                            <dl>
-                                <dt>정의</dt>
-                                <dd>
-                                    인공 무통 신경정보통 생성하여 경피성 전극을 통해 통각신경 경로에 무통신호를 뇌로 전달하여 비침습적으로 통증을 치료하는 장비입니다.
-                                </dd>
-                            </dl>
-                        </li>
-                    </ul>
+                    <div class="panel-group accordion-list" id="therapy-list">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#therapy-list" href="#collapse-1" >
+                                        DNA 주사 - PDRN 주사요법
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse-1" class="panel-collapse collapse in">
+                                <div class="panel-body">
+                                    <h5>정의</h5>
+                                    <p>
+                                        인체의 DNA 조각을 손상 부위에 주사하여 손상된 조직의 세포 성장을 촉진시켜 통증을 감소시켜주기 때문에 손상된 인대, 근육, 힘줄, 연골 치료에 효과적인 치료입니다.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#therapy-list" href="#collapse-2" class="collapsed">
+                                        연골주사
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse-2" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <h5>정의</h5>
+                                    <p>
+                                        인체의 DNA 조각을 손상 부위에 주사하여 손상된 조직의 세포 성장을 촉진시켜 통증을 감소시켜주기 때문에 손상된 인대, 근육, 힘줄, 연골 치료에 효과적인 치료입니다.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#therapy-list" href="#collapse-3" class="collapsed">
+                                        증식치료
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse-3" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <h5>정의</h5>
+                                    <p>
+                                        인대와 힘줄 등 약해진 뼈 조직의 약화로 퇴행성 관절 질환, 오십견, 디스크 등의 병이 나타나는데 증식치료로 새로운 세포 조직의 생성을 자극해 불완전한 조직을 재생시켜 신경계 기능을 향상 시키는 치료로 가장 자연적인 치료법 중에 하나입니다.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#therapy-list" href="#collapse-4" class="collapsed">
+                                        이온도입기치료
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse-4" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <h5>정의</h5>
+                                    <p>
+                                        골성 관절염, 신경염, 근염, 근경축, 경련성, 부종, 유착 등을 치료하고 이온도입에서는 주로 근경축 및 경련성 완화, 부종 완화, 염증 완화, 유착완화 목적으로 사용한다.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#therapy-list" href="#collapse-5" class="collapsed">
+                                        도수치료
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse-5" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <h5>정의</h5>
+                                    <p>
+                                        급성 요통환자, 디스크환자 등 하중과 비틀림의 물리역학적 원리를 이용하여 디스크 혹은 일부분을 본래 자리로 되돌려주어 긴장 유지를 통해 증상을 완화시키는 보존적 치료방법입니다.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#therapy-list" href="#collapse-6" class="collapsed">
+                                        온열치료
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse-6" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <h5>정의</h5>
+                                    <p>
+                                        온열찜 (Hotpack), 적외선 치료 (Infrared), 파라핀욕 (Paraffin bath) 등이 있으며 온열치료는 혈액 순환의 촉진과 대사 작용의 증가로 인하여 경직 및 통증 완화에 사용합니다.
+                                        <img src="/images/departments/therapymethod_img01.jpg" alt="온열찜, 적외선 치료, 파라핀욕">
+                                    </p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#therapy-list" href="#collapse-7" class="collapsed">
+                                        전기치료
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse-7" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <h5>정의</h5>
+                                    <p>
+                                        경피신경전기자극치료(TENS), 간섭전류치료 (ICT), 초음파치료 (Ultra Sound),  극초단파치료 (Microwave), 전기자극치료(EST), 은침전기자극치로 (SSP), 공기압밥치료 (PCT) 등이 있으며 급성 및 만성 통증에 사용합니다.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#therapy-list" href="#collapse-8" class="collapsed">
+                                        견인치료
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse-8" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <h5>정의</h5>
+                                    <p>
+                                        추간판 탈출증 및 추간판 병변 등으로 인한 통증이나 방사통이 있을 경우 견인을 통하여 긴장된 척추주위의 근육 및 관절을 이완시키고 추간공의 확장,  척추 만곡의 회복을 통한 통증감소에 사용합니다. 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#therapy-list" href="#collapse-9" class="collapsed">
+                                        레이저 치료
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse-9" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <h5>정의</h5>
+                                    <p>
+                                        방사되는 광에너지(레이저)를 피부에 조사하여 통증 완화와 조직의 회복 촉진을 통한 상처 회복에 사용합니다.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#therapy-list" href="#collapse-10" class="collapsed">
+                                        무중력 감압치료 (Spine-MT)
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse-10" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <h5>정의</h5>
+                                    <p>
+                                        삐둘어지거나 단축된 척추근육과 관절을 먼저 치료한 후 디스크의 종류와 탈출 방향에 따라 3차원적으로 디스크를 감압 및 교정하는 치료입니다. 실시간 근긴장을 탐지하고 장력 조절을 통해 최적의 감압을 유지함으로써 수핵의 탈출을 줄이고 척추종판과 모세혈관의 활동을 촉진하여 영얀분과 산소 등을 디스크 내부로 이동시켜 치유를 촉진합니다. 치료 활성화를 위해 4대의 장비로 운영되고 있습니다.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#therapy-list" href="#collapse-11" class="collapsed">
+                                        체외충격파치료 (ESWT)
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse-11" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <h5>정의</h5>
+                                    <p>
+                                        체외충격파치료는 충격파를 발생하는 치료기를 사용하여 외과적 수술없이 체외에서 근골격계 등의 통증을 치료하는 치료법입니다. 근골격계 질환인  건초염, 석회회성 건초염, 족저근막염, 테니스엘보, 근막동통증후군 등의 질환에 사용합니다. 치료 활성화를 위해  집중형충격파 (Focus Type), 방사형압력파 (Radial Type) 의 장비가 운영되고 있습니다.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#therapy-list" href="#collapse-12" class="collapsed">
+                                        스크램블러 (Pain Scramblar)
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse-12" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <h5>정의</h5>
+                                    <p>
+                                        인공 무통 신경정보통 생성하여 경피성 전극을 통해 통각신경 경로에 무통신호를 뇌로 전달하여 비침습적으로 통증을 치료하는 장비입니다.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
         </div>

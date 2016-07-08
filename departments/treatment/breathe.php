@@ -50,7 +50,7 @@
                     <a href="/departments/treatment/imbalance.php">자세불균형</a>
                 </li>
                 <li role="presentation">
-                    <a href="/departments/treatment/lymphoma.php">림프부종치료</a>
+                    <a href="/departments/treatment/lymphedema.php">림프부종치료</a>
                 </li>
             </ul>
             <section class="rehabilitation">

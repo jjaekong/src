@@ -190,11 +190,11 @@
                 </ul>
             </div>
             <div style="margin:30px 0;">
-                <div class="panel-group accordion-list" id="accordion">
+                <div class="panel-group accordion-list" id="therapy-list">
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-1" >
+                                <a role="button" data-toggle="collapse" data-parent="#therapy-list" href="#collapse-1" >
                                     재활병원입니다.
                                 </a>
                             </h4>
@@ -209,7 +209,7 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-2" class="collapsed">
+                                <a role="button" data-toggle="collapse" data-parent="#therapy-list" href="#collapse-2" class="collapsed">
                                     제목 #2
                                 </a>
                             </h4>
@@ -223,7 +223,7 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-3" class="collapsed">
+                                <a role="button" data-toggle="collapse" data-parent="#therapy-list" href="#collapse-3" class="collapsed">
                                     제목 #3
                                 </a>
                             </h4>
