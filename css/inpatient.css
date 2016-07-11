@@ -1,5 +1,5 @@
 .inpatient .page-header{background:url(../images/inpatient/visual.jpg) no-repeat top center;}
-.inpatient .container{padding:60px 15px 140px 15px;letter-spacing:-1px;}
+.inpatient .container{padding:100px 15px 140px 15px;letter-spacing:-1px;}
 .inpatient .container h1{margin-top:0;padding-top:33px;color:#e9193a;font-size:22px;font-weight:400;line-height:30px;letter-spacing:-1px;background:url(../images/icon_title.png) no-repeat;}
 .inpatient .container h1 span{padding-left:15px;color:#666;font-size:15px;font-weight:300;}
 .inpatient .container hr{height:1px;padding-top:60px;margin-bottom:60px;border-bottom:1px dashed #999;border-top:none;}
@@ -23,7 +23,9 @@
 .rehabGuide .container .reservationBox span{margin-top:20px;color:#fff;font-size:18px;font-weight:300;display:block;}
 .rehabGuide .container .reservationBox a{position:absolute;top:0;right:0;width:350px;height:200px;text-align:center;text-decoration:none;background:url(../images/outpatient/icon_calendal.png) no-repeat 55px 50%;display:block;}
 .rehabGuide .container .reservationBox a i{padding-left:90px;color:#fff;line-height:200px;font-size:28px;font-style:normal;display:inline-block;}
-
+.inpatient .container .nav-pills {
+    padding-bottom: 60px;
+}
 
 /*vip*/
 .vip .container .partCon ul{width:100%;margin-top:40px;display:inline-block;}

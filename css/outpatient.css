@@ -58,7 +58,7 @@
     font-size: 16px;
     color: #666;
     line-height: 30px;
-    letter-spacing: -0.5px;
+    letter-spacing: -1px;
 }
 .outpatient .container .nav-pills {
     margin-bottom: 60px;
@@ -215,10 +215,334 @@
 }
 .outpatient.digestion .internal .section-content figure {
     float: left;
+    margin-top: 10px;
 }
 .outpatient.digestion .internal .section-content figure:nth-of-type(2) {
     margin-left: 10px;
 }
+.outpatient.digestion .internal .section-content figure figcaption {
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+    margin: 20px 0 40px 0;
+}
+.outpatient.digestion .internal .section-content .stomach {
+    float: left;
+    margin-right: 30px;
+}
+.outpatient.digestion .internal .section-content .stomach h5 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.outpatient.digestion .internal .section-content .large-intestine {
+    float: left;
+}
+.outpatient.digestion .internal .section-content .large-intestine h5 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.outpatient.digestion .endoscopy {
+    margin-top: 120px;
+}
+
+/* adult-disease */
+.outpatient.adult-disease .diabetes .arrow {
+    background-image: url(/images/sub/arrow_right.png);
+    background-repeat: no-repeat;
+    background-position: 0px 12px;
+    font-size: 16px;
+    color: #666;
+    line-height: 30px;
+    padding-left: 15px
+}
+.outpatient.adult-disease .diabetes .inline-dl .arrow {
+    background-position: 0 10px; 
+}
+.outpatient.adult-disease .diabetes .table-wrap .table thead tr th {
+    background-color: #4f4f4f !important;
+    color: #fff !important;
+    border-right: 1px solid #4f4f4f;
+    border-left: 1px solid #4f4f4f;
+}
+.outpatient.adult-disease .diabetes .table-wrap .table tbody tr td {
+    border-right: 1px solid #ccc;
+}
+.outpatient.adult-disease .diabetes .table-wrap .table tbody tr td:first-child {
+    background-color: #f9f9f9;
+    border-left: 1px solid #ccc;
+    color: #333;
+}
+.outpatient.adult-disease .diabetes-management {
+    height: 1500px;
+    background-image: url(/images/outpatient/disease_bg01.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+}
+.outpatient.adult-disease .complications {
+    margin-top: 120px;
+}
+.outpatient.adult-disease .complications p:nth-of-type(2) {
+    margin-top: 55px;
+}
+.outpatient.adult-disease .hypertension {
+    margin-top: 120px;
+}
+.outpatient.adult-disease .hypertension > dl {
+    margin-top: 20px;
+}
+.outpatient.adult-disease .hypertension > dl > dt {
+    display:inline;
+    color: #666;
+    font-weight: 400;
+    font-size: 15px;
+}
+.outpatient.adult-disease .hypertension {
+    background-image: url(/images/outpatient/disease_bg02.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 458px;
+}
+.outpatient.adult-disease .hypertension > dl > dd {
+    color: #666;
+    font-size: 15px;
+    display: inline-block;
+}
+.outpatient.adult-disease .hypertension > dl > dt:before {
+    content: "(";
+}
+.outpatient.adult-disease .hypertension > dl > dd:before {
+    content: ":";
+    padding:0 5px;
+}
+.outpatient.adult-disease .hypertension > dl > dd:after {
+    content: ")";
+}
+.outpatient.adult-disease .hypertension > h3:nth-of-type(2) {
+    margin-top: 510px;
+}
+.outpatient.adult-disease .hypertension .inline-dl dd:before {
+    padding-right: 4px;
+}
+
+.outpatient.adult-disease .treatment {
+    margin-top: 120px;
+}
+.outpatient.adult-disease .treatment .arrow-list li .table-wrap {
+    margin-top: 40px;
+}
+.outpatient.adult-disease .treatment .arrow-list li .table-wrap .table {
+    margin-bottom: 30px;
+}
+.outpatient.adult-disease .treatment .arrow-list li .table-wrap .table thead tr th {
+    background-color: #4f4f4f !important;
+    color: #fff !important;
+    border-right: 1px solid #4f4f4f;
+    border-left: 1px solid #4f4f4f;
+}
+.outpatient.adult-disease .treatment .arrow-list li .table-wrap .table tbody tr td {
+    border-right: 1px solid #ccc;
+    padding: 36px 0;
+}
+.outpatient.adult-disease .treatment .arrow-list li .table-wrap .table tbody tr td:first-child {
+    border-left: 1px solid #ccc;
+}
+.outpatient.adult-disease .treatment .arrow-list li .table-wrap > p {
+    text-align: center;
+    color: #666;
+    font-size: 15px;
+}
+.outpatient.adult-disease .treatment .arrow-list li:nth-of-type(2) {
+    margin-top: 40px;
+}
+.outpatient.adult-disease .hyperlipidemia {
+    margin-top: 120px;
+}
+.outpatient.adult-disease .hyperlipidemia-therapy {
+    height: 422px;
+    background-image: url(/images/outpatient/disease_bg03.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+    margin-top: 120px;
+}
+.outpatient.adult-disease .hyperlipidemia-therapy .arrow-list {
+    width: 616px;
+}
+
+
+/* internal-secretion */
+.outpatient.internal-secretion .thyroid {
+    background-image: url(/images/outpatient/internal_secretion.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+    margin-top: 120px;
+}
+.outpatient.internal-secretion .thyroid > p {
+    width: 570px;
+}
+.outpatient.internal-secretion .thyroid .arrow-list {
+    width: 570px;
+}
+.outpatient.internal-secretion .thyroid .arrow-list:last-child {
+    width: 100%;
+}
+
+
+/* checkup */
+.outpatient.checkup .checkup-list {
+    
+}
+.outpatient.checkup .checkup-list .attention {
+    font-size: 15px;
+    color: #999;
+    text-align: left;
+    padding-left: 15px;
+}
+.outpatient.checkup .checkup-list .attention:before {
+    content: "※";
+}
+.outpatient.checkup .checkup-list .standard {
+    text-align: left;
+    padding-left: 15px;
+    text-align: center;
+}
+.outpatient.checkup .checkup-list .standard:before {
+    content: "*";
+}
+.outpatient.checkup .checkup-list .table-wrap .table thead tr th {
+    background-color: #4f4f4f !important;
+    color: #fff !important;
+    border-right: 1px solid #4f4f4f;
+    border-left: 1px solid #4f4f4f;
+}
+.outpatient.checkup .checkup-list .table-wrap .table tbody tr td {
+    border-right: 1px solid #ccc;
+    text-align: center;
+    padding: 30px 0;
+    line-height: 30px;
+}
+.outpatient.checkup .checkup-list .table-wrap .table tbody tr td:first-child {
+    background-color: #f9f9f9;
+    border-left: 1px solid #ccc;
+    color: #333;
+}
+.number-list > li {
+    counter-increment:my-list-index; 
+    font-size: 16px;
+    color: #666;
+    line-height: 30px;
+}
+.number-list > li:before {
+    display:inline-block;
+    content:counter(my-list-index)"."; 
+    font-size:16px; 
+    padding-right: 5px;
+}
+.number-list > li .inline-dl {
+    display: inline;
+}
+.number-list > li .inline-dl > dt {
+    font-weight: 400;
+    color: #666;
+}
+.outpatient.checkup .checkup-list > .arrow-list {
+    margin-bottom: 30px;
+}
+
+
+
+/* vaccination */
+.outpatient.vaccination .herpes-zoster {
+    background-image: url(/images/outpatient/vaccination.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 0; 
+}
+.outpatient.vaccination .herpes-zoster > p {
+    width: 600px;
+}
+.outpatient.vaccination .herpes-zoster .inline-dl dt {
+    font-size: 15px;
+    color: #666;
+    text-align: left;
+    font-weight: 400;
+}
+.outpatient.vaccination .herpes-zoster .inline-dl dt:before {
+    content: "※";
+}
+.outpatient.vaccination .herpes-zoster .inline-dl dd:before {
+    padding:0 5px;
+}
+.outpatient.vaccination .herpes-zoster > p:nth-of-type(6) {
+    width: 100%;
+}
+.outpatient.vaccination .pneumonia {
+    margin-top: 120px;
+}
+.outpatient.vaccination .pneumonia .table-wrap {
+    margin-top: 30px;
+}
+.outpatient.vaccination .pneumonia .table-wrap .table thead tr th {
+    background-color: #4f4f4f !important;
+    color: #fff !important;
+    border-right: 1px solid #4f4f4f;
+    border-left: 1px solid #4f4f4f;
+}
+.outpatient.vaccination .pneumonia .table-wrap .table tbody tr td {
+    border-right: 1px solid #ccc;
+    text-align: center;
+    padding: 30px 0;
+    line-height: 30px;
+}
+.outpatient.vaccination .pneumonia .table-wrap .table tbody tr td:first-child {
+    background-color: #f9f9f9;
+    border-left: 1px solid #ccc;
+    color: #333;
+}
+.outpatient.vaccination .pneumonia .table-wrap .table tbody tr td .attention {
+    color: #333;
+}
+.outpatient.vaccination .pneumonia .table-wrap .table tbody tr td .attention:before {
+    content: "※";
+    color: #333;
+}
+
+
+/* oriental-medicine */
+.outpatient.oriental-medicine .container {
+    padding-top: 60px;
+}
+.outpatient.oriental-medicine .intro {
+    background-image: url(/images/outpatient/oriental_medicine.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 170px;
+}
+.outpatient.oriental-medicine .intro .panel-group {
+    margin-top: 340px;
+}
+.outpatient.oriental-medicine .intro .panel-group .panel .panel-body {
+    padding: 35px 20px;
+}
+.outpatient.oriental-medicine .intro .panel-group .panel .panel-heading {
+    background-position: 20px 50%;
+}
+.outpatient.oriental-medicine .intro .panel-group .panel .panel-heading h4 {
+   padding-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

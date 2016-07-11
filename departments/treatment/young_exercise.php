@@ -7,8 +7,8 @@
         <div class="container">
             <ol class="breadcrumb">
                 <li><a href="/"><span class="glyphicon glyphicon-home"></span></a></li>
-                <li><a href="#">병원소개</a></li>
-                <li class="active">병원소개</li>
+                <li><a href="#">진료과목</a></li>
+                <li class="active">SRC치료법</li>
             </ol>
         </div>
     </div>

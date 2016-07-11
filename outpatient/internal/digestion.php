@@ -7,8 +7,8 @@
         <div class="container">
             <ol class="breadcrumb">
                 <li><a href="/"><span class="glyphicon glyphicon-home"></span></a></li>
-                <li><a href="#">병원소개</a></li>
-                <li class="active">병원소개</li>
+                <li><a href="#">외래진료</a></li>
+                <li class="active">내과/가정의학과</li>
             </ol>
         </div>
     </div>
@@ -26,13 +26,13 @@
                     <a href="/outpatient/internal/adult_disease.php">성인병클리닉</a>
                 </li>
                 <li role="presentation">
-                    <a href="/outpatient/internal/internal_secretion .php">내분비클리닉</a>
+                    <a href="/outpatient/internal/internal_secretion.php">내분비클리닉</a>
                 </li>
                 <li role="presentation">
                     <a href="/outpatient/internal/checkup.php">건강검진</a>
                 </li>
                 <li role="presentation">
-                    <a href="/outpatient/internal/vaccinationphp">예방접종안내</a>
+                    <a href="/outpatient/internal/vaccination.php">예방접종안내</a>
                 </li>
             </ul>
             <section class="internal">
@@ -69,7 +69,58 @@
                         <img src="/images/outpatient/digestion_img02.jpg" alt="항문, 내시경, 에스자대장, 하행대장, 횡형대장, 상행대장, 맹장">
                         <figcaption>대장 내시경</figcaption>
                     </figure>
+                    <h3>SRC 병원 내시경 센터에서 하는 검사</h3>
+                    <p>
+                        내시경은 눈으로 몸 안을 직접 보면서 검사하고 병이 발견되면 조직검사를 바로 시행할 수가 있어서 병의 진단률이 매우 높습니다.  최근에는 고화질의 HD급 영상과 확대 내시경을 통해 아주 작은 위암, 대장암 또는 암이 되기 직전의 병변까지 관찰할 수 있습니다.
+                    </p>
+                    <ul class="arrow-list">
+                        <li>
+                            <dl class="inline-dl">
+                                <dt>식도, 위, 십이지장 내시경</dt>
+                                <dd>전자 내시경 장비를 이용하여 식도, 위, 십이지장의 질환을 진단합니다.</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl class="inline-dl">
+                                <dt>대장 내시경 검사</dt>
+                                <dd>
+                                    최신의 전자 내시경 장비를 이용하여 소장말단(소장의 끝부분), 대장 및 직장, 항문 부위의 질환을 진단 및 치료하는 검사입니다. 대장암으로 진행이 가능한 병변인 선종을 미리 절제하는 것이 대장암 예방에 가장 효과적입니다.
+                                </dd>
+                            </dl>
+                        </li>
+                    </ul>
+                    <div class="stomach">
+                        <h5>위 내시경 검사로 진단 가능한 질환</h5>
+                        <img src="/images/outpatient/stomach.jpg" alt="급성위염, 위궤양, 다발성 식도궤양, 조기 위암, 진행성 위암, 위림프종, 위축성 위염, 위선종, 십이지장선종">
+                    </div>
+                    <div class="large-intestine">
+                        <h5>대장 내시경 검사로 진단 가능한 질환</h5>
+                         <img src="/images/outpatient/large_intestine.jpg" alt="심한 내치질, 결핵성 대장염, 궤양성 대장염, 허혈성 대장염, 대장 흑색종, 대장 용종, 조기 대장암, 진행성 대장암">
+                    </div>
                 </div>
+            </section>
+            <section class="endoscopy">
+                <div class="section-header">
+                    <h2>수면내시경에 대한 오해와 진실</h2>
+                </div>
+                <ul class="arrow-list">
+                    <li>
+                        <dl class="inline-dl">
+                            <dt>수면내시경은 아프다</dt>
+                            <dd>
+                                식도를 통해서 들어가는 내시경 검사는 사람들로 하여금 공포감을 조성할 수 도 있지만, 수면내시경을 받지 못할 만큼 큰 고통은 사실 없습니다.<br> 다만 내시경 기구가 목을 넘어갈 때 조금의 고통은 있을 수 있지만 그리 큰 고통은 아니며, 목을 넘어간 후에는 큰 고통없이 식도, 위, 십이지장 암검사를 받을 수 있습니다.
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl class="inline-dl">
+                            <dt>의식이 없어진다</dt>
+                            <dd>
+                                수면내시경은 깊은 잠에 빠지는 내시경이 아닙니다. 수면내시경은 물위에 떠있는 것처럼 의식이 있으면서, 마음이 편한 상태로 내시경을 하는 방법입니다.<br>그러므로 수면내시경을 하면 의식이 없어진다는 것은 잘못된 생각입니다.
+                            </dd>
+                        </dl>
+                    </li>
+                </ul>
             </section>
         </div>
         <!-- // 실제 작업 영역 -->
