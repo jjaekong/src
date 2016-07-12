@@ -393,17 +393,79 @@
 }
 
 
+/* rehabilitation  */
+.inpatient.rehabilitation .recuperation {
+    height: 420px;
+    background-image: url(/images/inpatient/rehabilitation_bg01.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+}
+.inpatient.rehabilitation .business {
+    margin-top: 120px;
+    height: 270px;
+    background-image: url(/images/inpatient/rehabilitation_bg02.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+}
+.inpatient.rehabilitation .business p {
+    width: 500px;
+}
+.inpatient.rehabilitation .characteristic {
+    margin-top: 120px;
+}
+.inpatient.rehabilitation .treatment {
+    margin-top: 120px;
+}
+.inpatient.rehabilitation .treatment .section-header h2{
+    margin-bottom: 40px !important;
+}
+.inpatient.rehabilitation .treatment > ul > li {
+    display: inline-block;
+    width: 170px;
+    margin-right: 20px;
+    vertical-align: top;
+    text-align: center;
+    padding-top: 196px;
+    font-size: 16px;
+    color: #666;
+}
+.inpatient.rehabilitation .treatment > ul > li > b {
+    font-weight: 500;
+}
+.inpatient.rehabilitation .treatment > ul > li:nth-of-type(1) {
+    background-image: url(/images/inpatient/treatment_img01.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+}
+.inpatient.rehabilitation .treatment > ul > li:nth-of-type(2) {
+    background-image: url(/images/inpatient/treatment_img02.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+}
+.inpatient.rehabilitation .treatment > ul > li:nth-of-type(3) {
+    background-image: url(/images/inpatient/treatment_img03.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+}
+.inpatient.rehabilitation .treatment > ul > li:nth-of-type(4) {
+    background-image: url(/images/inpatient/treatment_img04.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+}
+.inpatient.rehabilitation .treatment > ul > li:nth-of-type(5) {
+    background-image: url(/images/inpatient/treatment_img05.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+}
+.inpatient.rehabilitation .treatment > ul > li:nth-of-type(6) {
+    background-image: url(/images/inpatient/treatment_img06.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+}
 
 
 
-
-
-
-
-
-
-
-
+ 
 
 
 
