@@ -516,4 +516,78 @@
   margin-top: 55px;
   margin-bottom: 130px; }
 
+
+/* sum-list */
+.customer.sum-list .container {
+    padding:60px 15px 140px 15px !important;
+}
+.customer.sum-list .section-header {
+    padding: 0;
+    background: none;
+}
+.customer.sum-list .section-header h2 {
+    margin-bottom: 0 !important;
+}
+.customer.sum-list .table-wrap {
+    position: relative;
+    padding-top: 40px;
+}
+.customer.sum-list .table-wrap .inline-dl {
+    position: absolute;
+    top: -20px;
+    right: 0;
+}
+.customer.sum-list .table-wrap .inline-dl > dt {
+    font-size: 15px;
+    font-weight: 400;
+    color: #666;
+}
+.customer.sum-list .table-wrap .inline-dl > dd {
+    font-size: 15px;
+    font-weight: 400;
+    color: #666;
+}
+.customer.sum-list .table-wrap .inline-dl > .attention:before {
+    content: "※";
+    padding-right: 5px;
+}
+.customer.sum-list .table-wrap .table {
+    margin-bottom: 120px;
+}
+.customer.sum-list .table-wrap:last-child .table {
+    margin-bottom: 0;
+}
+.customer.sum-list .table-wrap .table thead tr th {
+    background-color: #4f4f4f;
+    color: #fff;
+    font-size: 16px;
+    border-right: 1px solid #4f4f4f;
+    border-left: 1px solid #4f4f4f;
+}
+.customer.sum-list .table-wrap .table tbody tr td {
+    background-color: #f9f9f9;
+    color: #666;
+    font-size: 16px;
+    border-left: 1px solid #ccc;
+}
+.customer.sum-list .table-wrap .table tbody tr td:last-child {
+    border-right: 1px solid #ccc;
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*# sourceMappingURL=customer.css.map */
