@@ -412,13 +412,116 @@
 
 
 
+/* video */
+.community.video .container {
+    padding: 60px 15px 150px 15px !important;
+}
+.community.video .video-list header {
+    position: relative;
+    width: 100%;
+    height: 56px;
+}
+.community.video .video-list .filter-dropdown {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.community.video .video-list .filter-dropdown .btn-group .btn {
+    width: 170px;
+    font-size: 16px;
+    color: #666;
+}
+.community.video .video-list .search-form {
+    width: 324px;
+    padding-right: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.community.video .video-list .search-form form .form-group .form-control {
+    font-size: 16px;
+    color: #666;
+}
+.community.video .video-list .list {
 
+}
+.community.video .video-list .list > li {
+    width: 270px;
+    height: 388px;
+    margin: 0 27px 30px 0;
+    display: inline-block;
+    border: 1px solid #e7e7e7;
 
-
-
-
-
-
+}
+.community.video .video-list .list > li:nth-of-type(4) {
+    margin-right: 0;
+}
+.community.video .video-list .list > li:nth-of-type(8) {
+    margin-right: 0;
+}
+.community.video .video-list .list > li > a > figure > figcaption > h3 {
+    width: 200px;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    margin: 30px 0 15px 0;
+}
+.community.video .video-list .list > li > a > figure > figcaption > p {
+    font-size: 14px;
+}
+.community.video .video-list .list > li > a > figure > figcaption > p > span {
+    position: relative;
+    padding-left: 15px;
+}
+.community.video .video-list .list > li > a > figure > figcaption > p > span:before {
+    position: absolute;
+    top: 2px;
+    left: 4px;
+    content: "|";
+    font-size: 10px;
+}
+.community.video .video-list .list > li > a {
+    text-align: center;
+    color: #222;
+    width: 270px;
+    height: 388px;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+}
+.community.video .video-list .list > li > a >
+figure > figcaption > p:hover {
+    color: #fff;
+}
+.community.video .video-list .list > li > a:hover {
+    color: #fff;
+    background-color: #e9193a;
+}
+.community.video .video-list .list > li > a:focus {
+    color: #fff;
+    background-color: #e9193a;
+}
+.community.video .video-list .btn-area {
+    overflow: hidden;
+    margin: 20px 0 16px 0;
+}
+.community.video .video-list .btn-area .btn-pink {
+    float: right;
+    width: 100px;
+    height: 40px;
+    background-image: none;
+    font-size: 16px;
+    line-height: 40px;
+    padding: 0;
+}
+.community.video .video-list .paging .pagination {
+    margin: 0;
+}
+.community.video .video-list .paging .pagination > li:nth-of-type(2) a {
+    margin-right: 10px;
+}
 
 
 

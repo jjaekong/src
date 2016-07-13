@@ -97,3 +97,375 @@
 .partner .container .table03 tbody td{color:#666;font-size:16px;font-weight:300;line-height:54px;text-align:center;border-bottom:1px solid #ccc;}
 .partner .container .table03 tbody td.rline{border-right:1px solid #ccc;}
 .partner .container .table03 tbody td a{margin-left:40px;padding-left:30px;color:#999;text-align:left;background:url(../images/introduce/icon_web.gif) no-repeat 0 50%;display:block;}
+
+
+
+
+/* medical-team */
+.introduce.medical-team .page-header > h2 > small{
+    font-size: 24px;
+    margin-top: 10px;
+    display: block;
+    color: #777;
+    letter-spacing: 0;
+}
+.introduce.medical-team .container {
+    padding: 60px 15px 150px 15px;
+}
+.introduce.medical-team .team .section-header > h2 {
+    font-size: 40px !important;
+    padding-top: 38px !important;
+}
+.introduce.medical-team .team .section-header > h2 > small {
+    display: inline-block;
+    color: #444;
+    font-size: 22px;
+    margin-top: 15px;
+}
+.team-list > li {
+    width: 170px;
+    display: inline-block;
+    margin-right: 27px;
+    padding: 0;
+}
+.team-list > li:nth-of-type(6) {
+    margin-right: 0;
+}
+.team-list > li > a {
+    position: relative;
+    width: 170px !important;
+    text-decoration: none;
+}
+.team-list > li > a:hover span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #e9193a;
+    background-image: url(/images/introduce/hover_plus.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.team-list > li > a > figure > img {
+    width: 170px;
+    height: 170px;
+    border: 1px solid #f5f5f5;
+    border-radius: 50%;
+
+}
+.team-list > li > a > figure > figcaption {
+    margin-top: 20px;
+    width: 170px;
+    text-align: center;
+}
+.team-list > li > a > figure > figcaption > dl > dt {
+    font-size: 16px;
+    color: #333;
+    font-weight: 400;
+}
+.team-list > li > a > figure > figcaption > dl > dd {
+    font-size: 15px;
+    color: #666;
+}
+.introduce.medical-team .team .section-content h3 {
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: #333;
+}
+.introduce.medical-team .team .section-content .rehabilitation {
+    margin-top: 70px;
+}
+.introduce.medical-team .team .section-content .convalescence  {
+    margin-top: 60px;
+}
+
+
+/************ Modal ************/
+.modal.medical-team {
+    display: block; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 9999; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(25, 25, 25, .9); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal.medical-team .staff-content {
+    overflow: hidden;
+    position: relative;
+    background-color: #fff;
+    margin: 10% auto 0; /* 15% from the top and centered */
+    padding: 30px;
+    border-radius: 0;
+    width: 832px;/* Could be more or less, depending on screen size */
+    height: 543px;
+}
+/* The Close Button */
+.modal.medical-team .staff-content .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 70px;
+    height: 70px;
+    background-color: #e9193a;
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 68px;
+    opacity: 1;
+}
+.modal.medical-team .staff-content > h1 {
+    margin: 0;
+    margin-bottom: 70px;
+    padding-top: 33px;
+    color: #e9193a;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: -1px;
+    background: url(/images/icon_title.png) no-repeat;
+}
+.modal.medical-team .staff-content > figure {
+    float: left;
+}
+.modal.medical-team .staff-content > figure > figcaption {
+    text-align: center;
+    margin-top: 20px;
+}
+.modal.medical-team .staff-content > figure > figcaption > dl > dt {
+    font-size: 18px;
+    color: #222;
+    font-weight: 400;
+}
+.modal.medical-team .staff-content > figure > figcaption > dl > dd {
+    font-size: 16px;
+    color: #222;
+    margin-top: 10px;
+}
+.modal.medical-team .staff-content .staff-history {
+    float: right;
+    overflow: auto;
+    width: 470px;
+    max-height: 343px;
+    padding: 22px 32px;
+    border: 1px solid #f5f5f5;
+    background-color: #fafafa;
+}
+.modal.medical-team .staff-content .staff-history .arrow-list li {
+    font-size: 15px;
+    color: #666;
+    letter-spacing: -1px;
+}
+
+
+/* look_round */
+.introduce.look_round .page-header > h2 > small{
+    font-size: 24px;
+    margin-top: 10px;
+    display: block;
+    color: #777;
+    letter-spacing: 0;
+}
+.introduce.look_round .container {
+    padding: 100px 15px 150px 15px;
+}
+.introduce.look_round .container > .nav.nav-pills.nav-justified > li > a {
+    letter-spacing: -1px;
+    padding: 10px 0;
+}
+.introduce.look_round .container > .tab-content {
+    padding-top: 60px;
+}
+
+.introduce.look_round .container > .tab-content > .ward-1 {
+    position: relative;
+}
+.introduce.look_round .container > .tab-content > .ward-2 {
+    position: relative;
+}
+.introduce.look_round .container > .tab-content > .ward-3 {
+    position: relative;
+}
+.introduce.look_round .container > .tab-content > .ward-4 {
+    position: relative;
+}
+.introduce.look_round .container > .tab-content > .ward-5 {
+    position: relative;
+}
+.introduce.look_round .container > .tab-content > .ward-6 {
+    position: relative;
+}
+.introduce.look_round .container > .tab-content > .ward-7 {
+    position: relative;
+}
+.introduce.look_round .container > .tab-content > .ward-8 {
+    position: relative;
+}
+.introduce.look_round .container > .tab-content > .ward-9 {
+    position: relative;
+}
+.introduce.look_round .container > .tab-content > .ward-10 {
+    position: relative;
+}
+
+.introduce.look_round .container > .tab-content > .tab-pane > p > a {
+    display: block;
+    width: 89px;
+    height: 99px;
+    background-image: url(/images/introduce/point_img01.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.introduce.look_round .container > .tab-content > .ward-1 > p > a {
+    position: absolute;
+    top: 203px;
+    right: 341px;
+}
+.introduce.look_round .container > .tab-content > .ward-2 > p > a {
+    position: absolute;
+    top: 134px;
+    right: 566px;
+}
+.introduce.look_round .container > .tab-content > .ward-3 > p > a {
+    position: absolute;
+    bottom: 258px;
+    right: 331px;
+}
+.introduce.look_round .container > .tab-content > .ward-4 > p > a {
+    position: absolute;
+    top: 22px;
+    left: 323px;
+}
+.introduce.look_round .container > .tab-content > .ward-5 > p > a {
+    position: absolute;
+    top: 155px;
+    right: 422px;
+}
+.introduce.look_round .container > .tab-content > .ward-6 > p > a {
+    position: absolute;
+    top: 72px;
+    left: 258px;
+}
+.introduce.look_round .container > .tab-content > .ward-7 > p > a {
+    position: absolute;
+    top: 140px;
+    left: 193px;
+}
+.introduce.look_round .container > .tab-content > .ward-8 > p > a {
+    position: absolute;
+    top: 136px;
+    left: 295px;
+}
+.introduce.look_round .container > .tab-content > .ward-9 > p > a {
+    position: absolute;
+    top: 222px;
+    left: 244px;
+}
+.introduce.look_round .container > .tab-content > .ward-10 > p > a {
+    position: absolute;
+    bottom: 163px;
+    left: 230px;
+}
+
+
+
+
+
+
+/************ Modal ************/
+.modal.look-round {
+    display: hidden; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 9999; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(25, 25, 25, .5); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal.look-round .modal-content {
+    overflow: hidden;
+    position: relative;
+    margin: 10% auto 0; /* 15% from the top and centered */
+    border-radius: 0;
+    text-align: center;
+    width: 970px;
+    box-shadow: none;
+    border: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0, 0, 0, .0);
+}
+/* The Close Button */
+.modal.look-round .modal-content .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 1;
+}
+.modal.look-round .modal-content > h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    font-size: 22px;
+    margin: 0;
+    font-weight: 300;
+}
+.modal.look-round .modal-content > p > img {
+    margin-top: 40px;
+    width: 970px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
