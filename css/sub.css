@@ -134,7 +134,7 @@
         border-color: #ccc; }
   .search-form form .btn {
     position: absolute;
-    top: 0;
+    top: 0; 
     right: 0;
     min-width: 40px;
     width: 40px;
@@ -176,5 +176,103 @@
 
 .filter-bar .search-form {
   float: right; }
-
+.arrow-list li {
+    background-image: url(/images/sub/arrow_right.png);
+    background-repeat: no-repeat;
+    background-position: 0px 12px;
+    font-size: 16px;
+    color: #666;
+    line-height: 30px;
+    padding-left: 15px
+}
+.panel-group {
+    margin: 0;
+}
+.panel-group .panel {
+    border-radius: 0px;
+    border: 0;
+    margin-top: 0 !important;
+    box-shadow: none;
+}
+.panel-group .panel .panel-heading {
+    background-image: url(/images/sub/look_img.png);
+    background-repeat: no-repeat;
+    background-position: 0px 50%;
+    background-color: #fff;
+    padding: 24px 30px;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+}
+.panel-group > .panel > .panel-heading > h4 a {
+    font-size: 19px;
+    color: #333;
+    font-weight: 300;
+    margin: 0;
+}
+.panel-group .panel .panel-body {
+    font-size: 16px;
+    color: #666;
+    line-height: 30px;
+    padding: 40px 0;
+    border-top: 0 !important;
+    border-bottom: 1px solid #ccc;
+}
+.panel-group > .panel > .panel-collapse h5 {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+.panel-group .panel .panel-body > p {
+    font-size: 16px;
+    color: #666;
+    line-height: 30px;
+}
+.panel-group .panel .panel-body > p img {
+    margin-top: 30px;
+}
+#content > .container section .section-header h2 {
+    margin: 0;
+    margin-bottom: 20px;
+    padding-top: 28px;
+    color: #e9193a;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -1px;
+    background: url(/images/icon_title.png) no-repeat;
+}
+.inline-dl dt {
+    display: inline;
+    font-size: 16px;
+    color: #333;
+    font-weight: 500;
+}
+.inline-dl dd {
+    display: inline;
+    font-size: 16px;
+    color: #666;
+    letter-spacing: -1px;
+}
+.inline-dl dd:before {
+    content: ":";
+}
+.btn-area .btn-pink {
+    width: 180px;
+    height: 50px; 
+    color: #fff;
+    display: block;
+    text-align: center;
+    line-height: 48px;
+    font-size: 18px;
+    padding-left: 18px;
+    background-color: #e9193a;
+    background-image: url(/images/inpatient/cafe_btn.png);
+    background-repeat: no-repeat;
+    background-position: 20px 50%;
+}
+.btn-area .btn-pink:hover {
+    opacity: 0.8;
+}
 /*# sourceMappingURL=sub.css.map */

@@ -20,6 +20,23 @@
         
         <!-- 실제 작업 영역 -->
         <div class="container">
+            <ul class="nav nav-pills nav-justified">
+                <li role="presentation" class="active">
+                    <a href="/inpatient/rehab_guide.php">입원안내</a>
+                </li>
+                <li role="presentation">
+                    <a href="/inpatient/business_team.php">사회사업팀(환자지원프로그램)</a>
+                </li>
+                <li role="presentation">
+                    <a href="/inpatient/menu_guide.php">입원식단안내</a>
+                </li>
+                <li role="presentation">
+                    <a href="/inpatient/vip.php">VIP 입원안내</a>
+                </li>
+                <li role="presentation">
+                    <a href="/inpatient/rehabilitation.php">재활요양병원안내</a>
+                </li>
+            </ul>
 			<h1>재활병원 입원안내</h1>
 			<ul class="clinicProcess">
 				<li>
