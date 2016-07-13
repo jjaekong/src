@@ -8,13 +8,13 @@
             <ol class="breadcrumb">
                 <li><a href="/"><span class="glyphicon glyphicon-home"></span></a></li>
                 <li><a href="#">입원안내</a></li>
-                <li class="active">척추관절재활센터</li>
+                <li class="active">암 요양병원</li>
             </ol>
         </div>
     </div>
     <main id="content" class="inpatient carcinoma"><!-- 클래스명은 대메뉴 > 서브메뉴명의 방식으로 -->
         <div class="page-header"><!-- 배경은 위의 클래스명을 이용하여 -->
-            <h2>척추관절재활센터</h2>
+            <h2>암 요양병원</h2>
         </div>
         <!-- 실제 작업 영역 -->
         <div class="container">
