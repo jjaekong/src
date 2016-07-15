@@ -431,6 +431,7 @@
     font-size: 12px;
 }
 
+
 /* look-round */
 .introduce.look-round .page-title > h2 {
     line-height: 23px !important;
@@ -438,12 +439,6 @@
 .introduce.look-round .container {
     padding: 25px 33px 60px;
 }
-
-
-
-
-
-
 .introduce.look-round .container .visual .bx-wrapper {
     position: relative;
 }
@@ -466,15 +461,9 @@
     color: #222;
     font-size: 30px;
 }
-
-
-
 .introduce.look-round .container .visual .slide {
     padding: 0 23px;
     position: relative;
-}
-.introduce.look-round .container .visual .slide > li {
-
 }
 .introduce.look-round .container .visual .slide > li > h2 {
     position: absolute;
