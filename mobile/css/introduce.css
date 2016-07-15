@@ -431,12 +431,66 @@
     font-size: 12px;
 }
 
+/* look-round */
+.introduce.look-round .page-title > h2 {
+    line-height: 23px !important;
+}
+.introduce.look-round .container {
+    padding: 25px 33px 60px;
+}
 
 
 
 
 
 
+.introduce.look-round .container .visual .bx-wrapper {
+    position: relative;
+}
+.introduce.look-round .container .visual .bx-wrapper .bx-controls {
+    position: absolute;
+    top: 50%;
+    margin-top: -23px;
+    height: 22px;
+    width: 100%;
+}
+.introduce.look-round .container .visual .bx-wrapper .bx-controls .bx-prev {
+    position: absolute;
+    left: -22px;
+    color: #222;
+    font-size: 30px;
+}
+.introduce.look-round .container .visual .bx-wrapper .bx-controls .bx-next {
+    position: absolute;
+    right: -22px;
+    color: #222;
+    font-size: 30px;
+}
+
+
+
+.introduce.look-round .container .visual .slide {
+    padding: 0 23px;
+    position: relative;
+}
+.introduce.look-round .container .visual .slide > li {
+
+}
+.introduce.look-round .container .visual .slide > li > h2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0.8;
+    height: 28px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 28px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
 
 
 

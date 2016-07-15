@@ -36,8 +36,8 @@
                         <li><a href="/mobile/introduce/greeting.php">인사말</a></li>
                         <li><a href="/mobile/introduce/about.php">병원소개</a></li>
                         <li><a href="/mobile/introduce/history.php">연혁</a></li>
-                        <li><a href="#">의료진 소개</a></li>
-                        <li><a href="#">병원 둘러보기</a></li>
+                        <li><a href="/mobile/introduce/medical_team.php">의료진 소개</a></li>
+                        <li><a href="/mobile/introduce/look_round.php">병원 둘러보기</a></li>
                         <li><a href="/mobile/introduce/location.php">오시는 길</a></li>
                     </ul>
                 </li>
