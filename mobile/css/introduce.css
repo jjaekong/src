@@ -328,3 +328,125 @@
 .introduce.car .expressway .section-header {text-align:left; padding-top:40px !important; }
 .introduce.car .route .section-header {text-align:left; margin:60px 0 40px 0; }
 .introduce.car .route .section-content {padding-bottom:60px !important; }
+
+
+/* medical_team */
+.introduce.medical_team .page-title > h2 {
+    line-height: 23px !important;
+}
+.introduce.medical_team .container {
+    padding: 26px 10px 60px 10px;;
+}
+.introduce.medical_team .container .staff .section-header {
+    margin-bottom: 35px !important;
+}
+.introduce.medical_team h4 {
+    font-size: 14px;
+    margin: 0;
+    color: #333;
+}
+.introduce.medical_team .container .staff .team {
+    padding-top: 25px;
+}
+.introduce.medical_team .container .staff .team > li {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 17px;
+}
+.introduce.medical_team .container .staff .team > li > a {
+    text-decoration: none;
+}
+.introduce.medical_team .container .staff .team > li:nth-of-type(5) {
+    margin-bottom: 0;
+}
+.introduce.medical_team .container .staff .team > li:nth-of-type(6) {
+    margin-bottom: 0;
+}
+.introduce.medical_team .container .staff .team > li > a > figure > figcaption > dl {
+    margin-top: 14px;
+}
+.introduce.medical_team .container .staff .team > li > a > figure > figcaption dl > dt {
+    font-size: 11px;
+    color: #333;
+    font-weight: 300;
+}
+.introduce.medical_team .container .staff .team > li a > figure > figcaption > dl > dd {
+    font-size: 10px;
+    color: #666;
+}
+.introduce.medical_team .container .staff .convalescence {
+    margin-top: 56px;
+}
+
+/* staff-view */
+.introduce.staff-view .page-title > h2 {
+    line-height: 23px !important;
+}
+.introduce.staff-view .container {
+    padding: 26px 10px 60px 10px;
+}
+.introduce.staff-view .container .view figure {
+    padding: 0 70px;
+}
+.introduce.staff-view .container .view figure > figcaption {
+    text-align: center;
+}
+.introduce.staff-view .container .view figure > figcaption > dl {
+    margin-top: 15px;
+}
+.introduce.staff-view .container .view figure > figcaption > dl > dt {
+    font-size: 12px;
+    color: #333;
+}
+.introduce.staff-view .container .view figure > figcaption > dl > dt {
+    font-size: 12px;
+    color: #666;
+}
+.introduce.staff-view .container .view .staff-history {
+    min-width: 300px;
+
+    background-color: #f2f2f2;
+    padding: 17px 16px;
+    margin: 26px auto 0;
+}
+.introduce.staff-view .container .view .staff-history > li {
+    font-size: 11px;
+    color: #666;
+    line-height: 26px;
+    letter-spacing: -1px;
+}
+.introduce.staff-view .container .view .staff-history > li:before {
+    content: "▶";
+    color: #e9193a;
+    padding-right: 7px;
+    font-size: 10px;
+}
+.introduce.staff-view .container .view .btn-area {
+    margin-top: 12px;
+    text-align: center;
+}
+.introduce.staff-view .container .view .btn-area .btn-pink {
+    min-width: 70px !important;
+    height: 31px !important;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

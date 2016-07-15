@@ -1,4 +1,7 @@
 /* news */
+.community.news-list .page-title > h2 {
+    line-height: 23px !important;
+}
 .community.news-list .news {padding-bottom:60px; }
 .community.news-list .news .section-header .category {margin-top:25px !important; }
 .community.news-list .news .btn-area {overflow:hidden; padding-top:30px; }
@@ -7,6 +10,9 @@
 .community.news-list .news .paging .pagination {margin-top:30px; }
 
 /* news-view */
+.community.news-view .page-title > h2 {
+    line-height: 23px !important;
+}
 .community.news-view .view .section-header {padding:20px 0; border-bottom:2px solid #444; }
 .community.news-view .view .section-content .view-header {border-bottom:1px solid #f3f3f3; padding-bottom:20px;  }
 .community.news-view .view .section-content .view-header h4 {font-size:13px; color:#333; font-weight:400; }
@@ -33,6 +39,9 @@
 
 
 /* news-write */
+.community.news-write .page-title > h2 {
+    line-height: 23px !important;
+}
 .community.news-write .write .write-form {margin-top:20px; }
 .community.news-write .write .write-form table {border-top:2px solid #444; width:100%; }
 .community.news-write .write .write-form table tr {border-bottom:1px solid #f3f3f3; height:40px; }
@@ -56,6 +65,9 @@
 
 
 /* review */
+.community.review .page-title > h2 {
+    line-height: 23px !important;
+}
 .community.review .review-list {padding-bottom:60px; }
 .community.review .review-list .section-header .tab-menu {margin-top:25px; }
 .community.review .review-list .section-header .tab-menu ul {overflow:hidden; }
@@ -72,6 +84,9 @@
 
 
 /* photo-list */
+.community.photo-list .page-title > h2 {
+    line-height: 23px !important;
+}
 .community.photo-list .photo {padding-bottom:60px; }
 .community.photo-list .photo .section-header {padding-top:20px; }
 .community.photo-list .photo .section-content .photo-review {border-top:2px solid #444; margin:0; }
@@ -85,6 +100,9 @@
 
 
 /* health */
+.community.health .page-title > h2 {
+    line-height: 23px !important;
+}
 .community.health .health-info {padding-bottom:60px; }
 .community.health .health-info .section-header {padding-top:20px; }
 .community.health .health-info .btn-area {overflow:hidden; padding-top:30px; }
@@ -94,6 +112,9 @@
 
 
 /* recruit */
+.community.recruit .page-title > h2 {
+    line-height: 23px !important;
+}
 .community.recruit .recruit-info {padding-bottom:60px; }
 .community.recruit .recruit-info .section-header {padding-top:20px; }
 .community.recruit .recruit-info .section-content .board-list li span {color:#e9193a !important; }
@@ -103,6 +124,9 @@
 .community.recruit .recruit-info .paging .pagination {margin-top:30px; }
 
 /* confirm-pw */
+.community.confirm-pw .page-title > h2 {
+    line-height: 23px !important;
+}
 .community.confirm-pw .pw-check {
 	padding:30px 0 60px 0;
 	background-image:url('/mobile/images/community/community_bg.png');

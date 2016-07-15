@@ -1,4 +1,7 @@
 /* sevice-terms */
+.policy.sevice-terms .page-title > h2 {
+    line-height: 23px !important;
+}
 .policy.sevice-terms .container-wrap {
 	height:634px;
 	background-image:url("/mobile/images/policy/policy_bg.gif");
@@ -17,6 +20,9 @@
 
 
 /* privacy-statsment */
+.policy.privacy-statsment .page-title > h2 {
+    line-height: 23px !important;
+}
 .policy.privacy-statsment .container-wrap {
 	height:634px;
 	background-image:url("/mobile/images/policy/policy_bg.gif");
