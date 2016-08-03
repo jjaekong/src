@@ -19,9 +19,6 @@
         <!-- 실제 작업 영역 -->
         <div class="container">
             <ul class="nav nav-pills nav-justified">
-                <li role="presentation">
-                    <a href="/outpatient/rehabilitation/correction.php">교정클리닉</a>
-                </li>
                 <li role="presentation" class="active">
                     <a href="/outpatient/rehabilitation/spine.php">척추질환클리닉</a>
                 </li>
@@ -33,6 +30,9 @@
                 </li>
                 <li role="presentation">
                     <a href="/outpatient/rehabilitation/muscle_pain.php">근육통/만성통증클리닉</a>
+                </li>
+                <li role="presentation">
+                    <a href="/outpatient/rehabilitation/correction.php">교정클리닉</a>
                 </li>
             </ul>
             <section class="spine-joint">
@@ -80,7 +80,7 @@
                             </div>
                             <div id="collapse-1" class="panel-collapse collapse in">
                                 <div class="panel-body">
-                                    <h5>정의</h5>
+
                                     <p>
                                         척추는 목에서부터 경추, 흉추, 요추, 천골로 이루어져 있습니다. 척추뼈 사이에 물렁뼈를 디스크 라고 하며 외측 섬유륜과 내측의 수핵으로 되어있습니다. 건강한 수핵은 풍부한 수분으로 이루어져 있으나 퇴행성 변화가 일어나면서 수분 함량이 떨어지고 탄력성을 잃게 됩니다. 퇴행성 변화로 디스크의 수핵을 둘러싸고 있는 섬유륜이 찢어지고 그 사이로 수핵이 빠져나오게 되는데 이를 추간판 탈출증 이라고 하고 흔히 디스크 라고 합니다. 빠져나온 디스크는 신경을 누르게 되어 증상을 일으키게 됩니다. 
                                     </p>
@@ -105,7 +105,6 @@
                             </div>
                             <div id="collapse-2" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    <h5>정의</h5>
                                     <p>
                                         경추(목뼈) 사이사이의 디스크가 튀어나와 신경을 누르는 것으로 통증이 발생합니다
                                     </p>
@@ -128,7 +127,6 @@
                             </div>
                             <div id="collapse-3" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    <h5>정의</h5>
                                     <p>
                                         건강한 척추의 경우 정면에서 보았을 때 일자로 반듯하지만, 척추측만증은 C자 혹은 S자로 척추가 휘어져 있습니다.   
                                     </p>
@@ -151,7 +149,6 @@
                             </div>
                             <div id="collapse-4" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    <h5>정의</h5>
                                     <p>
                                         척추강 협착증은 척추강의 내경이 협소해짐에 따라 척추강 내 혈관과 신경조직의 압박을 초래하여 발생하는 척추통증입니다. 협착은 경막 안에 있는 내용물들을 압박하게 되거나 또는 주변 신경근의 국소적 압박을 가하게 되어 통증이 유발됩니다.
                                     </p>
@@ -176,7 +173,6 @@
                             </div>
                             <div id="collapse-5" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    <h5>정의</h5>
                                     <p>
                                         척추뼈와 뼈사이를 연결하는 척추뼈 뒤쪽에 존재하는 관절인 후관절의 디스크가 퇴화되어 퇴행성 변화에 의해 후관절이 손상되어 발생하는 질환입니다. 
                                     </p>
@@ -199,7 +195,6 @@
                             </div>
                             <div id="collapse-6" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    <h5>정의</h5>
                                     <p>
                                        한 척추뼈가 다른 척추 뼈 위 전방으로 튀어나오게 된 상태를 말합니다. 
                                     </p>
@@ -224,7 +219,6 @@
                             </div>
                             <div id="collapse-7" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    <h5>정의</h5>
                                     <p>
                                         말그대로 척추뼈가 분리된 상태를 말합니다. 척추추궁에 문제가 생겨 하나의 척추뼈가 분리되어 따로따로 움직이는 상태를 말합니다.
                                     </p>
@@ -246,7 +240,6 @@
                             </div>
                             <div id="collapse-8" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    <h5>정의</h5>
                                     <p>
                                         외부의 강한 힘에 의해 척추 모양이 납작해진 것처럼 변형되는 골절의 형태를 말합니다. 목뼈와허리에 자주 보입니다. 무거운 물체에 떨어진 것에 맞거나, 바닥에 부딪혔을 때, 엉덩이로 넘어져 척추에 과한 충격을 받은 경우에 발병합니다. 골다공증처럼 뼈 자체에 이상이 있을 때도 잘 발생합니다. 척추안의 척수도 손상될 우려가 있으며, 기침이나 재채기와 같이 가벼운 신체활동에 의해서 악화될 가능성이 있습니다. 
                                     </p>

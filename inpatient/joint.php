@@ -20,7 +20,7 @@
         <div class="container">
             <section class="joint-center">
                 <div class="section-header"> 
-                    <h2>소아재활센터 소개</h2>
+                    <h2>척추관절재활센터</h2>
                 </div>
                 <p>
                     흔히 우리 몸에 통증이 있을 때 신체검사 후에 엑스레이와 초음파, 혹은 CT, MRI 등의 검사를 진행하고, 물리치료나 주사치료, 심할 경우 수술을 실시하는 것이 일반적입니다. 

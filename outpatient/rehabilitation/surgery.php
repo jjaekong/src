@@ -20,9 +20,6 @@
         <div class="container">
             <ul class="nav nav-pills nav-justified">
                 <li role="presentation">
-                    <a href="/outpatient/rehabilitation/correction.php">교정클리닉</a>
-                </li>
-                <li role="presentation">
                     <a href="/outpatient/rehabilitation/spine.php">척추질환클리닉</a>
                 </li>
                 <li role="presentation">
@@ -33,6 +30,9 @@
                 </li>
                 <li role="presentation">
                     <a href="/outpatient/rehabilitation/muscle_pain.php">근육통/만성통증클리닉</a>
+                </li>
+                <li role="presentation">
+                    <a href="/outpatient/rehabilitation/correction.php">교정클리닉</a>
                 </li>
             </ul>
             <section class="clinic">
