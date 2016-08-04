@@ -109,6 +109,46 @@
                     </figcaption>
                 </figure>
             </section>
+            <section class="meal-time">
+                <div class="section-header">
+                    <h3>환자 식사시간 안내</h3>
+                </div>
+                <div class="table-wrap">
+                    <table class="table">
+                        <colgroup>
+                            <col style="width: 60px;">
+                            <col style="width: 130px;">
+                            <col style="width: 130px;">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>구분</th>
+                                <th>하절기(3월~10월)</th>
+                                <th>동절기(11월~2월)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>조식</td>
+                                <td>am 7:30~8:00</td>
+                                <td>am 7:50~8:20</td>
+                            </tr>
+                            <tr>
+                                <td>중식</td>
+                                <td colspan="2">pm 12:00~12:30</td>
+                            </tr>
+                            <tr>
+                                <td>석식</td>
+                                <td colspan="2">pm 17:00~18:00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p>
+                        SRC 재활영양팀의 식사는 진심과 본심에서 시작됩니다.<br>
+                        환자분들이 식사에 대한 신뢰를 가지고 함께 해주시길 바랍니다. 과거부터 현재를 거처 앞으로도 의도된 건강재활식을 제공하겠습니다.
+                    </p>
+                </div>
+            </section>
             <section class="vow">
                 <div class="section-header">
                     <h3>영양팀의 서약<br><i>우리의 "4C" 서약</i></h3>

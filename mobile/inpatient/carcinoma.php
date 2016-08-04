@@ -5,12 +5,12 @@
 	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/header.php'); ?>
 	<main id="content" class="inpatient carcinoma">
 		<div class="page-title">
-			<h2>재활요양병원 입원안내</h2>
+			<h2>암 요양병원 입원안내</h2>
 		</div>
 		<div class="container">
             <section class="bene-life">
                <div class="section-header">
-                   <h3>SRC 재활요양</h3>
+                   <h3>SRC베네라이프 요양병원은<br>암의 완전한 치유를 추구합니다.</h3>
                </div>
                <p>
                    SRC베네라이프 요양병원은 보다 적극적이고 포괄적이며 집중적인 생활습관의 변화를 통하여, 암환자의 재활을 돕고, 재발을 예방할 뿐만 아니라 진정한 치유를 경험할 수 있도록 특화된 병원입니다.

@@ -39,6 +39,7 @@
                         <li><a href="/mobile/introduce/medical_team.php">의료진 소개</a></li>
                         <li><a href="/mobile/introduce/look_round.php">병원 둘러보기</a></li>
                         <li><a href="/mobile/introduce/location.php">오시는 길</a></li>
+                        <li><a href="/mobile/introduce/partner.php">협력기관</a></li>
                     </ul>
                 </li>
                 <li>
@@ -48,7 +49,12 @@
                         <li><a href="/mobile/departments/internal.php">내과</a></li>
                         <li><a href="/mobile/departments/pediatric.php">가정의학과/소아과</a></li>
                         <li><a href="/mobile/departments/oriental.php">한의과</a></li>
-                        <li><a href="#">SRC치료법</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/mobile/outpatient/medical.php">외래센터</a>
+                    <ul>
+                        <li><a href="/mobile/outpatient/medical.php">진료안내</a></li>
                     </ul>
                 </li>
                 <li>

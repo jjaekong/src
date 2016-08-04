@@ -37,74 +37,74 @@
 					<h3>치료분야</h3>
 				</div>
 				<div class="section-content">
-					<ul class="medical row">
-						<li class="col-xs-4">
+					<ul class="medical">
+						<li class="col-xs-4 col-sm-4">
 							<figure>
 								<img class="img-responsive" src="/mobile/images/departments/rehabilitation1.png" alt="뇌졸중 (중풍)">
 								<figcaption>뇌졸중 (중풍)</figcaption>
 							</figure>
 						</li>
-						<li class="col-xs-4">
+						<li class="col-xs-4 col-sm-4">
 							<figure>
 								<img class="img-responsive" src="/mobile/images/departments/rehabilitation2.png" alt="상/하지 마비">
 								<figcaption>상/하지 마비</figcaption>
 							</figure>
 						</li>
-						<li class="col-xs-4">
+						<li class="col-xs-4 col-sm-4">
 							<figure>
 								<img class="img-responsive" src="/mobile/images/departments/rehabilitation3.png" alt="척수손상">
 								<figcaption>척수손상</figcaption>
 							</figure>
 						</li>
-						<li class="col-xs-4">
+						<li class="col-xs-4 col-sm-4">
 							<figure>
 								<img class="img-responsive" src="/mobile/images/departments/rehabilitation4.png" alt="보행이상">
 								<figcaption>보행이상</figcaption>
 							</figure>
 						</li>
-						<li class="col-xs-4">
+						<li class="col-xs-4 col-sm-4">
 							<figure>
 								<img class="img-responsive" src="/mobile/images/departments/rehabilitation5.png" alt="뇌성마비">
 								<figcaption>뇌성마비</figcaption>
 							</figure>
 						</li>
-						<li class="col-xs-4">
+						<li class="col-xs-4 col-sm-4">
 							<figure>
 								<img class="img-responsive" src="/mobile/images/departments/rehabilitation6.png" alt="자세 및 관절의 변형">
 								<figcaption>자세 및<br>관절의 변형</figcaption>
 							</figure>
 						</li>
-						<li class="col-xs-4">
+						<li class="col-xs-4 col-sm-4">
 							<figure>
 								<img class="img-responsive" src="/mobile/images/departments/rehabilitation7.png" alt="요통">
 								<figcaption>요통</figcaption>
 							</figure>
 						</li>
-						<li class="col-xs-4">
+						<li class="col-xs-4 col-sm-4">
 							<figure>
 								<img class="img-responsive" src="/mobile/images/departments/rehabilitation8.png" alt="어깨와 목부위 및 족부 (발목, 발바닥) 통증">
 								<figcaption>어깨와 목부위 및 족부 (발목, 발바닥) 통증</figcaption>
 							</figure>
 						</li>
-						<li class="col-xs-4">
+						<li class="col-xs-4 col-sm-4">
 							<figure>
 								<img class="img-responsive" src="/mobile/images/departments/rehabilitation9.png" alt="각종 관절염 (퇴행성 및 류마티스)">
 								<figcaption>각종 관절염<br>(퇴행성 및 류마티스)</figcaption>
 							</figure>
 						</li>
-						<li class="col-xs-4">
+						<li class="col-xs-4 col-sm-4">
 							<figure>
 								<img class="img-responsive" src="/mobile/images/departments/rehabilitation10.png" alt="기타 각종 만성통증">
 								<figcaption>기타 각종<br>만성통증</figcaption>
 							</figure>
 						</li>
-						<li class="col-xs-4">
+						<li class="col-xs-4 col-sm-4">
 							<figure>
 								<img class="img-responsive" src="/mobile/images/departments/rehabilitation11.png" alt="스포츠 손상">
 								<figcaption>스포츠 손상</figcaption>
 							</figure>
 						</li>
-						<li class="col-xs-4">
+						<li class="col-xs-4 col-sm-4">
 							<figure>
 								<img class="img-responsive" src="/mobile/images/departments/rehabilitation12.png" alt="자세불균형">
 								<figcaption>자세불균형</figcaption>
