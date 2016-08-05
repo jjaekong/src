@@ -50,7 +50,7 @@
                 <div class="section-header">
                     <h3>진료 및 치료영역</h3>
                 </div>
-                <ul>
+                <ul class="row">
                     <li class="col-xs-4 col-sm-4">
                         <figure>
                             <img src="/mobile/images/inpatient/treat_img01.png" class="img-responsive" alt="뇌졸중(중풍) 및 외상뇌손상">

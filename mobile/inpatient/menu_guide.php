@@ -41,7 +41,7 @@
                     <li>나트륨 섭취를 줄이는 양념: 닭가슴살, 돼지, 소고기 기름뺀 부위, 등푸른생선</li>
                 </ul>
                 <h4>의도적 제한식재</h4>
-                <ul class="inline-ul">
+                <ul class="row inline-ul">
                     <li class="col-xs-4 col-sm-4">
                         <figure>
                             <img src="/mobile/images/inpatient/meal_img01.png" class="img-responsive" alt="저설탕">
@@ -153,7 +153,7 @@
                 <div class="section-header">
                     <h3>영양팀의 서약<br><i>우리의 "4C" 서약</i></h3>
                 </div>
-                <ul class="inline-ul">
+                <ul class="row inline-ul">
                     <li class="col-xs-6 col-sm-6">
                         <figure>
                             <img src="/mobile/images/inpatient/vow_img01.png" class="img-responsive" alt="저설탕">

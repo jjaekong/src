@@ -143,7 +143,7 @@
 .inpatient.rehab_guide .visiting .container .reservation .btn-area p a {display:inline-block; text-decoration:none; color:#fff; width:140px; height:30px; padding-left:10px;}
 
 
-/* vip-intro */
+/* vip */
 .inpatient.vip .vip-intro .section-header p {margin:26px 0 20px 0; }
 .inpatient.vip .vip-intro .container .section-content > p {font-size:12px; line-height:21px; color:#444; margin-top:32px; }
 .inpatient.vip .vip-intro .container .section-content p:nth-of-type(4) {margin-top:40px; }
@@ -168,9 +168,15 @@
 	background-position:13px 11px;
 	background-repeat:no-repeat;
 	}
+.inpatient.vip .facilities .container {
+
+}
 .inpatient.vip .facilities .section-content {padding-bottom:60px; border-bottom:1px dashed #c0c0c0; overflow: hidden; }
 .inpatient.vip .facilities .section-header h3 {margin-top:60px !important; }
 .inpatient.vip .vip-room {padding-bottom:60px; }
+.inpatient.vip .vip-room .container {
+
+}
 .inpatient.vip .vip-room .section-header h3 {margin-top:60px !important; }
 .inpatient.vip .section-content ul {margin-top:30px; }
 .inpatient.vip .section-content ul li {width:50%; }

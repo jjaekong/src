@@ -39,7 +39,7 @@
                    입원환자의 편의를 위해 통원치료 (항암/방사선 등의 치료 및 외래진료)를 위한 차량 (삼성, 아산, 분당 서울대, 분당 차병원)을 무료로 제공합니다.
                </p>
                <h4>최고의 치료프로그램</h4>
-               <ul>
+               <ul class="row">
                    <li class="col-sm-6 col-xs-6">
                        <img src="/mobile/images/inpatient/program_img01.png" class="img-responsive" alt="뉴스타트 재활치료">
                        <h5>뉴스타트 재활치료</h5>

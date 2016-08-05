@@ -49,7 +49,7 @@
 					<p>VIP병동은 특별히 준비된 생활편의시설과 SRC만의 VIP간호서비스로 여러분을 모실 준비가 되어있습니다.</p>
 				</div>
 				<div class="section-content">
-					<ul>
+					<ul class="row">
 						<li class="col-xs-3 col-sm-3">
 							<figure>
 								<img class="img-responsive" src="/mobile/images/inpatient/facilities_img1.gif" alt="병실내에는 고급스러운 자재로 환자와 간병인들을 위한 생활 편의시설들이 구성 되어있습니다.">
@@ -93,7 +93,7 @@
 					<p>특별한 환자를 위한 VIP 서비스를 제공합니다.</p>
 				</div>
 				<div class="section-content">
-					<ul>
+					<ul class="row">
 						<li class="col-xs-3 col-sm-3">
 							<figure>
 								<img class="img-responsive" src="/mobile/images/inpatient/facilities_img5.gif" alt="24시간 특별간호서비스가 제공됩니다.특별히 준비된 VIP 간호서비스로 병동의 환자분들을 모십니다.">
