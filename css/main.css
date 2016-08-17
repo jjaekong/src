@@ -108,9 +108,10 @@
     .key-contents .staff img {
       position: absolute;
       bottom: 0;
-      left: 0;
-      width: 100%;
-      z-index: 0; }
+      left: 50%;
+      z-index: 0;
+      margin-left: -500px;
+      max-width: 1000px; }
   .key-contents .appointment {
     height: 500px;
     background-image: url(/images/main/bg_appointment.jpg);

@@ -51,6 +51,7 @@
                         <li><a href="/outpatient/internal/digestion.php">내과/가정의학과</a></li>
                         <li><a href="/outpatient/oriental_medicine.php">한의과</a></li>
                         <li><a href="#">언어심리상담센터</a></li>
+                        <li role="presentation"><span class="bar"></span></li>
                         <li><a href="/outpatient/information.php">진료안내</a></li>
                     </ul>
                 </li>
@@ -63,6 +64,7 @@
                         <li><a href="/inpatient/young.php">소아 재활센터</a></li>
                         <li><a href="/inpatient/joint.php">근골격 재활센터</a></li>
                         <li><a href="/inpatient/business_team.php">환자지원 프로그램</a></li>
+                        <li role="presentation"><span class="bar"></span></li>
                         <li><a href="/inpatient/rehab_guide.php">재활병원 입원안내</a></li>
                         <li><a href="/inpatient/vip.php">VIP병동 입원안내</a></li>
                         <li><a href="/inpatient/menu_guide.php">입원 식단 안내</a></li>

@@ -171,6 +171,13 @@ p, address, label {
                                     color: #fff;
                                 }
                             }
+                            .bar {
+                                display: block;
+                                margin: 17px auto 17px;
+                                width: 50px;
+                                height: 1px;
+                                background-color: #999;
+                            }
                         }
                     }
                     &:focus,
