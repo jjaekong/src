@@ -59,7 +59,7 @@
                     <a href="#">입원(재활센터)</a>
                     <ul>
                         <li><a href="/inpatient/stroke.php">뇌신경 재활센터</a></li>
-                        <li><a href="/inpatient/spine.php">척수손상 재활손상</a></li>
+                        <li><a href="/inpatient/spine.php">척수손상재활센터</a></li>
                         <li><a href="/inpatient/breath.php">호흡 재활센터</a></li>
                         <li><a href="/inpatient/young.php">소아 재활센터</a></li>
                         <li><a href="/inpatient/joint.php">근골격 재활센터</a></li>
