@@ -47,7 +47,7 @@
                 <li>
                     <a href="#">외래센터</a>
                     <ul>
-                        <li><a href="/outpatient/rehabilitation/correction.php">재활의학과</a></li>
+                        <li><a href="/outpatient/rehabilitation/spine.php">재활의학과</a></li>
                         <li><a href="/outpatient/internal/digestion.php">내과/가정의학과</a></li>
                         <li><a href="/outpatient/oriental_medicine.php">한의과</a></li>
                         <li><a href="#">언어심리상담센터</a></li>
