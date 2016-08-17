@@ -139,6 +139,12 @@ p, address, label {
               text-decoration: none; }
               #header #gnb > div > ul > li > ul > li > a:focus, #header #gnb > div > ul > li > ul > li > a:hover {
                 color: #fff; }
+            #header #gnb > div > ul > li > ul > li .bar {
+              display: block;
+              margin: 17px auto 17px;
+              width: 50px;
+              height: 1px;
+              background-color: #999; }
           #header #gnb > div > ul > li:focus > a, #header #gnb > div > ul > li:hover > a {
             color: #e9193a; }
     #header #gnb .backface {
