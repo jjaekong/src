@@ -40,7 +40,7 @@
 .inpatient h3 {
     font-size: 18px;
     color: #333;
-    margin: 40px 0 30px;
+    margin: 40px 0 20px;
 }
 .inpatient p {
     font-size: 16px;
@@ -53,6 +53,7 @@
     overflow: hidden;
 }
 .inpatient.business-team .business {
+    height: 685px;
     background-image: url(/images/inpatient/business_team.jpg);
     background-repeat: no-repeat;
     background-position: 100% 0;
@@ -596,26 +597,36 @@
     padding-right: 5px;
 }
 
+
 /* young */
 .inpatient.young .container {
     padding-top: 60px;
-    overflow: hidden;
 }
-.inpatient.young .intro > h3 {
-    float: left;
+.inpatient.young .intro .section-content {
+    width: 100%;
+    height: 445px;
+    background-image: url(/images/inpatient/young_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+}
+.inpatient.young .intro > .section-content h3 {
     width: 250px;
-    margin-top: 5px;
-}
-.inpatient.young .intro > .arrow-list {
-    float: left;
-    width: 920px;
-}
-.inpatient.young .intro > h3:nth-of-type(2) {
-    margin-top: 35px;
-}
-.inpatient.young .intro > .arrow-list:last-child {
     margin-top: 30px;
+    margin-bottom: 15px;
 }
+.inpatient.young .intro > .section-content .arrow-list {
+    width: 617px;
+}
+.inpatient.young .intro > .section-content h3:nth-of-type(2) {
+    margin-top: 35px;
+    margin-bottom: 15px !important;
+}
+.inpatient.young .intro > .section-content .arrow-list:last-child {
+
+}
+
+
+
 .inpatient.young .advantage {
     padding-top: 120px;
     clear: both;
@@ -662,12 +673,10 @@
     background-repeat: no-repeat;
     background-position: 50% 0;
 }
+
 .inpatient.young .seoul-center {
     margin-top: 120px;
     height: 443px;
-    background-image: url(/images/inpatient/young_bg.jpg);
-    background-repeat: no-repeat;
-    background-position: 100% 0;
 }
 .inpatient.young .seoul-center .section-content {
     overflow: hidden;
@@ -733,15 +742,13 @@
 }
 .inpatient.carcinoma .pursuit .bene-life  {
     width: 440px;
+    height: 568px;
 }
 .inpatient.carcinoma .pursuit .bene-life > p {
     margin-bottom: 40px;
 }
 .inpatient.carcinoma .pursuit .bene-life > p:last-child {
     margin-bottom: 0;
-}
-.inpatient.carcinoma .pursuit .bene-life .btn-area {
-    margin-top: 67px;
 }
 .inpatient.carcinoma .pursuit .bene-life .btn-area .btn-pink {
     background-position: 37px 50%;
@@ -786,22 +793,22 @@
     margin-right: 0;
 }
 .inpatient.carcinoma .pursuit > ul > li:nth-of-type(5) {
-    background-image: url(/images/inpatient/carcinoma_img01.png);
-    background-repeat: no-repeat;
-    background-position: 50% 0;
-}
-.inpatient.carcinoma .pursuit > ul > li:nth-of-type(6) {
     background-image: url(/images/inpatient/carcinoma_img05.png);
     background-repeat: no-repeat;
     background-position: 50% 0;
 }
+.inpatient.carcinoma .pursuit > ul > li:nth-of-type(6) {
+    background-image: url(/images/inpatient/carcinoma_img06.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+}
 .inpatient.carcinoma .pursuit > ul > li:nth-of-type(7) {
-    background-image: url(/images/inpatient/carcinoma_img03.png);
+    background-image: url(/images/inpatient/carcinoma_img07.png);
     background-repeat: no-repeat;
     background-position: 50% 0;
 }
 .inpatient.carcinoma .pursuit > ul > li:nth-of-type(8) {
-    background-image: url(/images/inpatient/carcinoma_img06.png);
+    background-image: url(/images/inpatient/carcinoma_img08.png);
     background-repeat: no-repeat;
     background-position: 50% 0;
     margin-right: 0;

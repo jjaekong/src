@@ -15,7 +15,6 @@
     <main id="content" class="inpatient rehabGuide">
         <div class="page-header"><!-- 배경은 위의 클래스명을 이용하여 -->
             <h2>재활병원 입원안내</h2>
-            <small>Rehabilitation Guidance In Hospital</small>
         </div>
         
         <!-- 실제 작업 영역 -->

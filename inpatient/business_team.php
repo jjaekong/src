@@ -8,7 +8,7 @@
             <ol class="breadcrumb">
                 <li><a href="/"><span class="glyphicon glyphicon-home"></span></a></li>
                 <li><a href="#">입원안내</a></li>
-                <li class="active">사회사업팀(환자지원프로그램)</li>
+                <li class="active">입원안내</li>
             </ol>
         </div>
     </div>
@@ -42,16 +42,7 @@
                 <p>
                     입원환자 및 가족들이 치료 과정 중에서 겪게 되는 심리·사회·경제적 문제를 사정하여 문제해결을 도모하고, 입원생활의 불편함을 최소화하기 위한 노력과 더불어 퇴원 후 달라질 일상생활을 위해 복지정보의 제공 등을 통해 일상생활 복귀에 도움을 주고 있습니다.
                 </p>
-                <h3>이용대상</h3>
-                <ul class="arrow-list">
-                    <li>입원환자 및 보호자</li>
-                </ul>
-                <h3>이용방법</h3>
-                <ul class="arrow-list">
-                    <li>의료진의 의뢰</li>
-                    <li>의료진, 간호사에게 사회복지서비스 의뢰 요청</li>
-                    <li> 입원환자 및 보호자가 직접 방문 또는 전화</li>
-                </ul>
+
                 <h3>위치</h3>
                 <ul class="arrow-list">
                     <li>법인건물 1층 (호흡치료실 맟은편)</li>

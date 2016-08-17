@@ -87,7 +87,9 @@
     background-repeat: no-repeat;
     background-position: 100% 0;
 }
-
+.departments.adult-exercise .container .exercise > .section-content > .arrow-list {
+    width: 580px;
+}
 /* young-exercise */
 .departments.young-exercise .container .exercise {
     background-image: url(/images/departments/young_img.jpg);
@@ -156,7 +158,13 @@
 
 
 /* breathe */
+.departments.breathe .rehabilitation {
+    background-image: url(/images/departments/breathe_img.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 19px;
+}
 .departments.breathe .rehabilitation .section-header > p {
+    width: 570px;
     font-size: 16px;
     color: #666;
     line-height: 30px;
@@ -166,11 +174,6 @@
     font-size: 18px;
     color: #333;
     margin: 40px 0 20px 0;
-}
-.departments.breathe .rehabilitation .section-content {
-    background-image: url(/images/departments/breathe_img.jpg);
-    background-repeat: no-repeat;
-    background-position: 100% 19px;
 }
 .departments.breathe .rehabilitation .section-content > p {
     width: 570px;
@@ -191,7 +194,7 @@
 .departments.breathe .treatment .section-content h3 {
     font-size: 18px;
     color: #333;
-    margin: 30px 0;
+    margin: 40px 0 20px 0;
 }
 .departments.breathe .treatment .section-content p {
     font-size: 16px;
@@ -329,7 +332,11 @@
 
 
 /* balance */
+.departments.balance {
+
+}
 .departments.balance p {
+    width: 580px;
     font-size: 16px;
     color: #666;
     line-height: 30px;
@@ -338,15 +345,15 @@
 .departments.balance h3 {
     font-size: 18px;
     color: #333;
-    margin: 30px 0 20px 0;
+    margin: 40px 0 20px 0;
 }
 .departments.balance .treatment {
     background-image: url(/images/departments/balance_img.jpg);
     background-repeat: no-repeat;
-    background-position: 100% 149px;
+    background-position: 100% 0;
 }
 .departments.balance .treatment .arrow-list {
-    width: 570px;
+    width: 580px;
 }
 .departments.balance .treatment .arrow-list li {
     margin-bottom: 10px;
@@ -355,7 +362,7 @@
     margin-bottom: 0;
 }
 .departments.balance .treatment p:last-child {
-    width: 570px;
+    width: 580px;
     letter-spacing: -1px;
 }
 
@@ -466,47 +473,26 @@
 }
 .departments.pain .treatment .step-4 {
     position: relative;
-    overflow: hidden;
     width: 100%;
     padding: 37px 59px;
     background-color: #fafcef;
     margin-bottom: 0;
     border: 1px solid #f2f2f2;
 }
-.departments.pain .treatment .step-4 > .qrcode {
-    width: 90px;
-    height: 90px;
-    border: 2px solid #e3e4dc;
-    padding: 20px;
-    margin-top: 30px;
-    background-color: #fff;
-    float: left;
-    margin-right: 16px;
+.departments.pain .treatment .step-4 > iframe {
+    border: 1px solid #dadada;
 }
-.departments.pain .treatment .step-4 > dl {
-    float: left;
-    margin-top: 25px;
-}
-.departments.pain .treatment .step-4 > dl dt {
-    font-size: 16px;
-    color: #222;
-    font-weight: 500;
-    margin-bottom: 10px;
-}
-.departments.pain .treatment .step-4 > dl dd {
-    background-image: url(/images/sub/arrow_right.png);
-    background-repeat: no-repeat;
-    background-position: 0px 12px;
-    font-size: 16px;
-    color: #666;
-    line-height: 30px;
-    padding-left: 15px;
-    font-weight: 300;
-}
+
 .departments.pain .treatment .step-4 > h5 {
     position: absolute;
-    top: 60px;
+    top: 238px;
     right: 60px;
+}
+.departments.pain .treatment .step-4 > h6 {
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+    padding: 30px 0 20px 0;
 }
 .departments.pain .therapy-method {
     margin-top: 120px;
@@ -521,6 +507,7 @@
 
 /* nonoral-feeding */
 .departments.nonoral-feeding p {
+
     font-size: 16px;
     color: #666;
     line-height: 30px;
@@ -531,25 +518,25 @@
     color: #333;
     margin: 30px 0 20px 0;
 }
-.departments.nonoral-feeding .treatment .section-content {
+.departments.nonoral-feeding .treatment {
     background-image: url(/images/departments/nonoral_img.jpg);
     background-repeat: no-repeat;
-    background-position: 0 123px;
+    background-position: 100% 0;
 }
 .departments.nonoral-feeding .treatment .section-content h3 {
-    margin-left: 470px;
+    width: 665px;
 }
 .departments.nonoral-feeding .treatment .section-content p:first-child {
     margin-left: 0;
 }
 .departments.nonoral-feeding .treatment .section-content p {
-    margin-left: 470px;
+    width: 665px;
 }
 .departments.nonoral-feeding .treatment .section-content .arrow-list {
-    margin-left: 470px;
+    width: 665px;
 }
 .departments.nonoral-feeding .treatment .section-content .arrow-list li {
-    line-height: 34px;
+    width: 665px;
 }
 
 
@@ -565,23 +552,23 @@
     color: #333;
     margin: 30px 0 20px 0;
 }
-.departments.imbalance .treatment .section-content {
+.departments.imbalance .treatment {
     min-height: 524px;
     background-image: url(/images/departments/imbalance.png);
     background-repeat: no-repeat;
-    background-position: 0 123px;
+    background-position: 100% 0;
 }
 .departments.imbalance .treatment .section-content h3 {
-    margin-left: 470px;
+    width: 668px;
 }
 .departments.imbalance .treatment .section-content p:first-child {
     margin-left: 0;
 }
 .departments.imbalance .treatment .section-content p {
-    margin-left: 470px;
+    width: 668px;
 }
 .departments.imbalance .treatment .section-content .arrow-list {
-    margin-left: 470px;
+    width: 668px;
 }
 .departments.imbalance .treatment .section-content .arrow-list li {
     line-height: 34px;

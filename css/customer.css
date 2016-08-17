@@ -534,7 +534,7 @@
 }
 .customer.sum-list .table-wrap .inline-dl {
     position: absolute;
-    top: -20px;
+    top: 0x;
     right: 0;
 }
 .customer.sum-list .table-wrap .inline-dl > dt {

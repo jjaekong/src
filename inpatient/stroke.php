@@ -14,7 +14,7 @@
     </div>
     <main id="content" class="inpatient stroke"><!-- 클래스명은 대메뉴 > 서브메뉴명의 방식으로 -->
         <div class="page-header"><!-- 배경은 위의 클래스명을 이용하여 -->
-            <h2>뇌졸증 재활센터</h2>
+            <h2>뇌신경 재활센터</h2>
         </div>
         <!-- 실제 작업 영역 -->
         <div class="container">

@@ -29,9 +29,6 @@
                     <a href="#nav-content-3" aria-controls="nav-content-3" role="tab" data-toggle="tab">건강증진센터</a>
                 </li>
                 <li role="presentation">
-                    <a href="#nav-content-4" aria-controls="nav-content-4" role="tab" data-toggle="tab">요양원</a>
-                </li>
-                <li role="presentation">
                     <a href="#nav-content-5" aria-controls="nav-content-5" role="tab" data-toggle="tab">언어심리상담센터</a>
                 </li>
                 <li role="presentation">
@@ -68,12 +65,6 @@
                     <p>
                         <img src="/images/introduce/view_map.jpg" alt="src병원 조감도">
                         <a href="#" data-toggle="modal" data-target="#look-3" role="button">자세히<br>보기</a>
-                    </p>
-                </div>
-                <div role="tabpanel" class="tab-pane ward-4" id="nav-content-4">
-                    <p>
-                        <img src="/images/introduce/view_map.jpg" alt="src병원 조감도">
-                        <a href="#" data-toggle="modal" data-target="#look-4" role="button">자세히<br>보기</a>
                     </p>
                 </div>
                 <div role="tabpanel" class="tab-pane ward-5" id="nav-content-5">

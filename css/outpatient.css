@@ -104,7 +104,7 @@
 .outpatient.spine .spine-clinic .section-header h2 {
     margin-bottom: 0 !important;
 }
-.outpatient.spine .panel-group > .panel > .panel-collapse h5:nth-of-type(2) {
+.outpatient.spine .panel-group > .panel > .panel-collapse h5:nth-of-type(1) {
     margin-top: 40px;
 }
 
@@ -113,7 +113,7 @@
 .outpatient.joint section .panel-group {
     margin-top: 311px;
 }
-.outpatient.joint section .panel-group > .panel > .panel-collapse h5:nth-of-type(2) {
+.outpatient.joint section .panel-group > .panel > .panel-collapse h5:nth-of-type(1) {
     margin-top: 40px;
 }
 .outpatient.joint .shoulder {
@@ -233,7 +233,7 @@
 .outpatient.digestion .internal .section-content .stomach h5 {
     font-size: 18px;
     color: #333;
-    margin-bottom: 30px;
+    margin: 30px;
     text-align: center;
 }
 .outpatient.digestion .internal .section-content .large-intestine {
@@ -377,7 +377,7 @@
     background-image: url(/images/outpatient/internal_secretion.jpg);
     background-repeat: no-repeat;
     background-position: 100% 0;
-    margin-top: 120px;
+
 }
 .outpatient.internal-secretion .thyroid > p {
     width: 570px;
@@ -450,8 +450,21 @@
 .outpatient.checkup .checkup-list > .arrow-list {
     margin-bottom: 30px;
 }
-
-
+.outpatient.checkup .checkup-list > .btn-area {
+    margin-top: 50px;
+    text-align: center;
+}
+.outpatient.checkup .checkup-list > .btn-area > p > .btn-red {
+    font-size: 18px;
+    width: 220px;
+    height: 50px;
+    padding: 14px 0 14px 10px;
+    color: #fff;
+    background-color: #e9193a;
+    background-image: url(/images/outpatient/arrow_white.png);
+    background-repeat: no-repeat;
+    background-position: 36px 17px;
+}
 
 /* vaccination */
 .outpatient.vaccination .herpes-zoster {

@@ -14,6 +14,27 @@
 			<p>
 				<img class="img-responsive" src="/mobile/images/introduce/goals.png" alt="GOALS MISSION VISION VISION ARCHITECTURE">
 			</p>
+			<div class="goals-text">
+                <h3>GOALS</h3>
+                <dl>
+                    <dt>행복한 환자</dt>
+                    <dd>환자중심의 최상의 의료서비스를 포함한 포괄적인 재활서비스 제공</dd>
+                    <dt>행복한 지역주민</dt>
+                    <dd>건강증진 및 질병예방을 위한 지역주민대상 의료사업 실시</dd>
+                    <dt>행복한 직원</dt>
+                    <dd>직원의 자기개발 및 역량 강화를 위한 교육 및 훈련 실시</dd>
+                    <dt>행복한 병원</dt>
+                    <dd>환자, 지역주민 그리고 직원을 위한 행복경영 실천 </dd>
+                </dl>
+                <h3>MISSION</h3>
+                <p>환자 중심의 행복한 병원</p>
+                <h3>VISION</h3>
+                <ul>
+                    <li>자연친화적인 환자중심 병원</li>
+                    <li>법인 각 기관의 특성과 연계한 복합의료복지 서비스를 제공한다</li>
+                    <li>장애인의 복지증진과 국가복지 시책에 적극적으로 기여한다</li>
+                </ul>
+			</div>
 		</div>
 		<div class="container">
 			<section>

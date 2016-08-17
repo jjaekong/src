@@ -33,24 +33,24 @@
             <section class="feature">
                 <div class="section-header">
                     <h3>SRC 재활요양병원의 특징</h3>
-                    <ul class="arrow-list">
-                        <li>장기간 입원치료</li>
-                        <li>차별화된 의료진</li>
-                        <li>
-                            차별화된 재활치료시스템 (SRC재활병원과의 협진시스템): 특정 질환별 맞춤 1:1 재활 치료, 전문 재활치료팀과 최신재활치료프로그램
-                        </li>
-                        <li>
-                            차별화된 양한방통합 치료: 양방과 한방의 개인별 맞춤 통합치료로 후유증을 최소화하고 재발을 예방합니다.
-                        </li>
-                        <li>가정의학과 협진</li>
-                    </ul>
                 </div>
+                <ul class="arrow-list">
+                    <li>장기간 입원치료</li>
+                    <li>차별화된 의료진</li>
+                    <li>
+                        차별화된 재활치료시스템 (SRC재활병원과의 협진시스템): 특정 질환별 맞춤 1:1 재활 치료, 전문 재활치료팀과 최신재활치료프로그램
+                    </li>
+                    <li>
+                        차별화된 양한방통합 치료: 양방과 한방의 개인별 맞춤 통합치료로 후유증을 최소화하고 재발을 예방합니다.
+                    </li>
+                    <li>가정의학과 협진</li>
+                </ul>
             </section>
             <section class="field">
                 <div class="section-header">
                     <h3>진료 및 치료영역</h3>
                 </div>
-                <ul>
+                <ul class="row">
                     <li class="col-xs-4 col-sm-4">
                         <figure>
                             <img src="/mobile/images/inpatient/treat_img01.png" class="img-responsive" alt="뇌졸중(중풍) 및 외상뇌손상">

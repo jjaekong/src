@@ -143,7 +143,7 @@
 .inpatient.rehab_guide .visiting .container .reservation .btn-area p a {display:inline-block; text-decoration:none; color:#fff; width:140px; height:30px; padding-left:10px;}
 
 
-/* vip-intro */
+/* vip */
 .inpatient.vip .vip-intro .section-header p {margin:26px 0 20px 0; }
 .inpatient.vip .vip-intro .container .section-content > p {font-size:12px; line-height:21px; color:#444; margin-top:32px; }
 .inpatient.vip .vip-intro .container .section-content p:nth-of-type(4) {margin-top:40px; }
@@ -168,9 +168,15 @@
 	background-position:13px 11px;
 	background-repeat:no-repeat;
 	}
-.inpatient.vip .facilities .section-content {padding-bottom:60px; border-bottom:1px dashed #c0c0c0; }
+.inpatient.vip .facilities .container {
+
+}
+.inpatient.vip .facilities .section-content {padding-bottom:60px; border-bottom:1px dashed #c0c0c0; overflow: hidden; }
 .inpatient.vip .facilities .section-header h3 {margin-top:60px !important; }
 .inpatient.vip .vip-room {padding-bottom:60px; }
+.inpatient.vip .vip-room .container {
+
+}
 .inpatient.vip .vip-room .section-header h3 {margin-top:60px !important; }
 .inpatient.vip .section-content ul {margin-top:30px; }
 .inpatient.vip .section-content ul li {width:50%; }
@@ -305,6 +311,43 @@
     margin: 0;
     padding-top: 33px;
 }
+.inpatient.menu-guide .container .meal-time {
+    padding: 60px 0;
+    border-bottom: 1px dashed #ccc;
+}
+.inpatient.menu-guide .container .meal-time > .table-wrap > .table > thead > tr > th {
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    padding: 14px 0;
+    border-top: 1px solid #d7d7d7;
+    border-left: 1px solid #d7d7d7;
+    border-bottom: 0;
+    background-color: #4f4f4f;
+}
+.inpatient.menu-guide .container .meal-time > .table-wrap > .table > thead > tr > th:last-child {
+    border-right: 1px solid #d7d7d7;
+}
+.inpatient.menu-guide .container .meal-time > .table-wrap > .table > tbody > tr > td {
+    font-size: 12px;
+    text-align: center;
+    color: #666;
+    padding: 14px 0;
+    border-top: 1px solid #d7d7d7;
+    border-left: 1px solid #d7d7d7;
+    border-bottom: 1px solid #d7d7d7;
+}
+.inpatient.menu-guide .container .meal-time > .table-wrap > .table > tbody > tr > td:last-child {
+    border-right: 1px solid #d7d7d7;
+}
+.inpatient.menu-guide .container .meal-time > .table-wrap > .table > tbody > tr > td:first-child {
+    color: #fff;
+    background-color: #4f4f4f;
+}
+
+
+
 .inpatient.menu-guide .container .vow {
     padding-top: 60px;
 }
@@ -443,6 +486,7 @@
     font-size: 12px;
 }
 .inpatient.carcinoma .container .bene-life > h4 {
+    font-size: 12px;
     margin: 26px 0 12px 0;
 }
 .inpatient.carcinoma .container .bene-life > ul {

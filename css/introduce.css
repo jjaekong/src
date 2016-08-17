@@ -1,8 +1,104 @@
 /*about*/
-.about .container .aboutSrc{height:610px;padding-top:40px;margin:60px 0 150px 0;background:url(../images/introduce/about_img01.gif) no-repeat top right;}
-.about .container .aboutSrc h1{padding-top:30px;color:#e9193a;font-size:40px;font-weight:300;background:url(../images/icon_title.png) no-repeat;}
-.about .container .aboutSrc h2{color:#444;font-size:22px;font-weight:400;line-height:26px;}
-.about .container .aboutSrc p{padding-top:10px;color:#666;font-size:16px;font-weight:300;line-height:26px;}
+.about .container .aboutSrc {
+    padding-top:40px;
+    margin:60px 0 250px 0;
+    background-image: url(/images/introduce/about_bg01.gif);
+    background-repeat: no-repeat;
+    background-position: 100% 27px;
+
+}
+.about .container .aboutSrc h1 {
+    padding-top:30px;
+    color:#e9193a;
+    font-size:40px;
+    font-weight:300;
+    background:url(../images/icon_title.png) no-repeat;
+}
+.about .container .aboutSrc h2 {
+    color:#444;
+    font-size:22px;
+    font-weight:400;
+    line-height:26px;
+}
+.about .container .aboutSrc p {
+    padding-top:10px;
+    color:#666;
+    font-size:16px;
+    font-weight:300;
+    line-height:26px;
+    letter-spacing: -1px;
+}
+.about .container .aboutSrc .architecture {
+    position: relative;
+    margin: 95px 0 0 165px;
+}
+.about .container .aboutSrc .architecture > p {
+    font-size: 14px;
+    color: #666;
+    line-height: 18px;
+    padding: 0;
+}
+.about .container .aboutSrc .architecture > ul {
+    font-size: 14px;
+    color: #666;
+    line-height: 18px;
+}
+.about .container .aboutSrc .architecture > .goals {
+    position: absolute;
+    top: 33px;
+    left: 374px;
+    overflow: hidden;
+}
+.about .container .aboutSrc .architecture > .goals > dt {
+    font-size: 14px;
+    font-weight: 300;
+    float: left;
+    clear: both;
+    color: #666;
+    line-height: 18px;
+    letter-spacing: -1px;
+}
+.about .container .aboutSrc .architecture > .goals > dt:after {
+    content: ":";
+    padding: 0 3px;
+}
+.about .container .aboutSrc .architecture > .goals > dd {
+    font-size: 14px;
+    font-weight: 300;
+    float: left;
+    color: #666;
+    line-height: 18px;
+    letter-spacing: -1px;
+}
+.about .container .aboutSrc .architecture > .mission {
+    position: absolute;
+    top: 193px;
+    left: 441px;
+    letter-spacing: -1px;
+}
+.about .container .aboutSrc .architecture > .vision {
+    position: absolute;
+    top: 308px;
+    left: 522px;
+}
+.about .container .aboutSrc .architecture > .vision > li {
+    font-size: 14px;
+    color: #666;
+    line-height: 18px;
+    letter-spacing: -1px;
+}
+.about .container .aboutSrc .architecture > .vision > li:before {
+    content: "-";
+    padding-right: 3px;
+    font-size: 14px;
+    color: #666;
+    line-height: 18px;
+}
+
+
+
+
+
 
 
 /*greeting*/
@@ -183,33 +279,31 @@
 }
 
 
-/************ Modal ************/
-.modal.medical-team {
-    display: block; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 9999; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(25, 25, 25, .9); /* Black w/ opacity */
-}
 
-/* Modal Content/Box */
-.modal.medical-team .staff-content {
-    overflow: hidden;
-    position: relative;
+
+
+
+
+/************ Modal ***********/
+.modal {
+    width: 100%;
+    z-index: 9999;
+}
+.modal .modal-dialog {
+    border-radius: 0 !important;
     background-color: #fff;
-    margin: 10% auto 0; /* 15% from the top and centered */
+}
+.modal .modal-dialog .modal-content {
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+    margin: 25% auto 0 -100px;
     padding: 30px;
     border-radius: 0;
-    width: 832px;/* Could be more or less, depending on screen size */
+    width: 832px;
     height: 543px;
 }
-/* The Close Button */
-.modal.medical-team .staff-content .close {
+.modal .modal-dialog .modal-content .modal-header button {
     position: absolute;
     top: 0;
     right: 0;
@@ -221,7 +315,11 @@
     line-height: 68px;
     opacity: 1;
 }
-.modal.medical-team .staff-content > h1 {
+.modal .modal-dialog .modal-content .modal-header {
+    border: 0;
+    padding: 0;
+}
+.modal .modal-dialog .modal-content .modal-header h1 {
     margin: 0;
     margin-bottom: 70px;
     padding-top: 33px;
@@ -232,24 +330,24 @@
     letter-spacing: -1px;
     background: url(/images/icon_title.png) no-repeat;
 }
-.modal.medical-team .staff-content > figure {
+.modal .modal-dialog .modal-content > figure {
     float: left;
 }
-.modal.medical-team .staff-content > figure > figcaption {
+.modal .modal-dialog .modal-content > figure > figcaption {
     text-align: center;
     margin-top: 20px;
 }
-.modal.medical-team .staff-content > figure > figcaption > dl > dt {
+.modal .modal-dialog .modal-content > figure > figcaption > dl > dt {
     font-size: 18px;
     color: #222;
     font-weight: 400;
 }
-.modal.medical-team .staff-content > figure > figcaption > dl > dd {
+.modal .modal-dialog .modal-content > figure > figcaption > dl > dd {
     font-size: 16px;
     color: #222;
     margin-top: 10px;
 }
-.modal.medical-team .staff-content .staff-history {
+.modal .modal-dialog .modal-content .staff-history {
     float: right;
     overflow: auto;
     width: 470px;
@@ -258,18 +356,27 @@
     border: 1px solid #f5f5f5;
     background-color: #fafafa;
 }
-.modal.medical-team .staff-content .staff-history .arrow-list li {
+.modal .modal-dialog .modal-content .staff-history .arrow-list li {
     font-size: 15px;
     color: #666;
     letter-spacing: -1px;
 }
 
 
+
+
+
+
+
+
+
+
+
 /* look_round */
 .introduce.look_round .page-header > h2 > small{
     font-size: 24px;
     margin-top: 10px;
-    display: block;
+    display: block;2345
     color: #777;
     letter-spacing: 0;
 }
@@ -343,11 +450,6 @@
     position: absolute;
     bottom: 258px;
     right: 331px;
-}
-.introduce.look_round .container > .tab-content > .ward-4 > p > a {
-    position: absolute;
-    top: 22px;
-    left: 323px;
 }
 .introduce.look_round .container > .tab-content > .ward-5 > p > a {
     position: absolute;

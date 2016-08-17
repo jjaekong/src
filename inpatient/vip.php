@@ -15,7 +15,6 @@
     <main id="content" class="inpatient vip">
         <div class="page-header"><!-- 배경은 위의 클래스명을 이용하여 -->
             <h2>VIP병동 입원안내</h2>
-            <small>VIP Hospital Guide</small>
         </div>
         
         <!-- 실제 작업 영역 -->

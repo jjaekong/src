@@ -45,7 +45,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="#">외래진료</a>
+                    <a href="#">외래센터</a>
                     <ul>
                         <li><a href="/outpatient/rehabilitation/correction.php">재활의학과</a></li>
                         <li><a href="/outpatient/internal/digestion.php">내과/가정의학과</a></li>
@@ -55,10 +55,10 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="#">입원안내</a>
+                    <a href="#">입원(재활센터)</a>
                     <ul>
-                        <li><a href="/inpatient/stroke.php">뇌졸증 재활센터</a></li>
-                        <li><a href="/inpatient/spine.php">척추손상 재활손상</a></li>
+                        <li><a href="/inpatient/stroke.php">뇌신경 재활센터</a></li>
+                        <li><a href="/inpatient/spine.php">척수손상 재활손상</a></li>
                         <li><a href="/inpatient/breath.php">호흡 재활센터</a></li>
                         <li><a href="/inpatient/young.php">소아 재활센터</a></li>
                         <li><a href="/inpatient/joint.php">근골격 재활센터</a></li>
