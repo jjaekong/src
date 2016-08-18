@@ -33,7 +33,7 @@
                         <li><a href="#">사회복지법인 SRC 요양병원 사이트 바로가기</a></li>
                         <li><a href="#">사회복지법인 SRC 건강증진센터 사이트 바로가기</a></li>
                         <li><a href="#">사회복지법인 SRC 언어,심리상담센터 사이트 바로가기</a></li>
-                        <li><a href="#">사회복지법인 기브드림스 사이트 바로가기</a></li>
+                        <li><a href="http://givedreams.or.kr/" target="_blank">사회복지법인 기브드림스 사이트 바로가기</a></li>
                     </ul>
                 </div>
             </div>

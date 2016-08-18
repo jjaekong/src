@@ -25,7 +25,14 @@
                 </div>
                 <div class="section-content">
                     <p>
-                        <img src="/images/departments/tailored_img.jpg" alt="">
+                        <img src="/images/departments/tailored_img.jpg" alt="신체부위 이미지" usemap="#physical" style="502px; height: 958px">
+                        <map name="physical">
+                            <area shape="circle" coords="241,33,12" data-toggle="collapse" href="#neck-content" alt="neck">
+                            <area shape="circle" coords="147,177,12" data-toggle="collapse" href="#shoulder-content" alt="shoulder">
+                            <area shape="circle" coords="385,344,12" data-toggle="collapse" href="#arm-content" alt="arm">
+                            <area shape="circle" coords="240,438,12" data-toggle="collapse" href="#stomach-content" alt="stomach">
+                            <area shape="circle" coords="173,717,11" data-toggle="collapse" href="#leg-content" alt="leg">
+                        </map>
                     </p>
 
                     <div class="neck">

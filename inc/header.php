@@ -5,8 +5,8 @@
         <div class="container">
             <h1><a href="/"><img src="/images/logo.png" alt="사회복지법인 SRC 병원"></a></h1>
             <ul class="branch">
-                <li><a href="#" class="btn">광주센터</a></li>
-                <li><a href="#" class="btn">서울센터</a></li>
+                <li><a href="#" class="btn">경기광주점</a></li>
+                <li><a href="#" class="btn">서울점</a></li>
             </ul>
             <ul class="member">
                 <li><a href="/member/login.php">로그인</a></li>

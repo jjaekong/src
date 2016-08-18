@@ -664,12 +664,6 @@
     color: #fff;
     font-weight: 300;
     display: block;
-    /*
-    background-color: #e9193a !important;
-    background-image: url(/images/departments/plus_img.png);
-    background-repeat: no-repeat;
-    background-position: 97% 50%;
-    */
 }
 .departments.tailored-treatment .treatment > .section-content > div >  .btn-primary > img {
     position: absolute;
