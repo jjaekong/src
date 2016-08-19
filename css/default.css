@@ -165,10 +165,10 @@ p, address, label {
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: #e9193a; }
-  #find-treatments h4 {
+  #find-treatments h4 a {
     font-size: 23px;
     color: #fff; }
-    #find-treatments h4 i {
+    #find-treatments h4 a i {
       font-style: normal;
       color: #fff799; }
     #find-treatments h4 small {
@@ -268,7 +268,7 @@ p, address, label {
     letter-spacing: -1px; }
     #footer .full-contact section dl dt {
       float: left;
-      width: 80px;
+      width: 101px;
       font-weight: normal; }
     #footer .full-contact section dl dt, #footer .full-contact section dl dd {
       margin-bottom: 5px; }
@@ -547,5 +547,7 @@ p, address, label {
       color: #fff;
       font-size: 20px;
       line-height: 60px; }
-
+#find-treatments h4 a:hover {
+    text-decoration: none;
+}
 /*# sourceMappingURL=default.css.map */

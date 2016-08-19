@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-3">
-                <h4>나에게 맞는 <i>치료 찾기</i> <small>PERSONALIZED TREATMENT</small></h4>
+                <h4><a href="/departments/tailored_treatment.php">나에게 맞는 <i>치료 찾기</i> <small>PERSONALIZED TREATMENT</small></a></h4>
             </div>
             <div class="col-xs-9">
                 <ul>

@@ -205,7 +205,7 @@
                 </div>
                 <div class="btn-area">
                     <p>
-                        <a href="#" class="btn-pink" target="_blank" role="button">네이버카페 이동</a>
+                        <a href="http://cafe.naver.com/srchospital" class="btn-pink" target="_blank" role="button">네이버카페 이동</a>
                     </p>
                 </div>
             </section>

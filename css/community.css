@@ -153,25 +153,30 @@
     float: left;
     margin-right: 17px;
     margin-bottom: 20px;
-    width: 280px;
-    height: 390px; }
-    .community.photo.list .photo-list > ul > li:nth-of-type(4n+2) {
+    width: 576px; }
+    .community.photo.list .photo-list > ul > li:nth-of-type(2n+2) {
       margin-right: 16px; }
-    .community.photo.list .photo-list > ul > li:nth-of-type(4n) {
+    .community.photo.list .photo-list > ul > li:nth-of-type(2n) {
       margin-right: 0; }
-    .community.photo.list .photo-list > ul > li a {
+    .community.photo.list .photo-list > ul > li figure {
       display: block;
-      text-decoration: none; }
-      .community.photo.list .photo-list > ul > li a:focus, .community.photo.list .photo-list > ul > li a:hover {
+	  border:1px solid #ccc;
+	  }
+      .community.photo.list .photo-list > ul > li figure:hover {
         opacity: .9; }
-      .community.photo.list .photo-list > ul > li a figure img {
-        width: 280px;
-        height: 300px; }
-      .community.photo.list .photo-list > ul > li a figure figcaption {
+      .community.photo.list .photo-list > ul > li figure img {
+        width: 275px;vertical-align:top;}
+      .community.photo.list .photo-list > ul > li figure p{
+	  background:url(/images/community/photo_arrow.png) 50% 50% no-repeat;
+	  background-size:15px;
+	  }
+      .community.photo.list .photo-list > ul > li figure img:nth-of-type(2) {
+		margin-left:24px;
+	  }
+      .community.photo.list .photo-list > ul > li figure figcaption {
         padding: 20px;
-        height: 90px;
-        border: 1px solid #ccc; }
-        .community.photo.list .photo-list > ul > li a figure figcaption h4 {
+        height: 55px;}
+        .community.photo.list .photo-list > ul > li figure figcaption h4 {
           overflow: hidden;
           margin-top: 0;
           margin-bottom: 10px;
@@ -179,20 +184,23 @@
           font-size: 16px;
           text-overflow: ellipsis;
           white-space: nowrap; }
-        .community.photo.list .photo-list > ul > li a figure figcaption ul li {
+        .community.photo.list .photo-list > ul > li figure figcaption ul li {
           display: inline-block;
           color: #999;
-          font-size: 16px; }
-          .community.photo.list .photo-list > ul > li a figure figcaption ul li:nth-of-type(1):after {
+          font-size: 16px;}
+          .community.photo.list .photo-list > ul > li figure figcaption ul li:nth-of-type(1):after {
             padding-left: 7px;
             padding-right: 5px;
+			vertical-align:top;
             content: '|';
             font-size: 14px; }
-          .community.photo.list .photo-list > ul > li a figure figcaption ul li:nth-of-type(2) {
-            padding-left: 20px;
-            background-image: url(/images/community/ico_eye.png);
-            background-repeat: no-repeat;
-            background-position: 0 50%; }
+          .community.photo.list .photo-list > ul > li figure figcaption ul li:nth-of-type(2):after {
+            padding-left: 12px;
+			vertical-align:top;
+            content: '|';
+            font-size: 14px;  }
+          .community.photo.list .photo-list > ul > li figure figcaption ul li:nth-of-type(3) {
+            padding-left: 12px; }
 
 .community.confirm-pw .confirm-section {
   background-image: url(/images/community/bg_confirm_pw.gif);

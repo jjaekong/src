@@ -5,8 +5,8 @@
         <div class="container">
             <h1><a href="/"><img src="/images/logo.png" alt="사회복지법인 SRC 병원"></a></h1>
             <ul class="branch">
-                <li><a href="#" class="btn">광주센터</a></li>
-                <li><a href="#" class="btn">서울센터</a></li>
+                <li><a href="#" class="btn">경기광주점</a></li>
+                <li><a href="#" class="btn">서울점</a></li>
             </ul>
             <ul class="member">
                 <li><a href="/member/login.php">로그인</a></li>
@@ -47,7 +47,7 @@
                 <li>
                     <a href="#">외래센터</a>
                     <ul>
-                        <li><a href="/outpatient/rehabilitation/correction.php">재활의학과</a></li>
+                        <li><a href="/outpatient/rehabilitation/spine.php">재활의학과</a></li>
                         <li><a href="/outpatient/internal/digestion.php">내과/가정의학과</a></li>
                         <li><a href="/outpatient/oriental_medicine.php">한의과</a></li>
                         <li><a href="#">언어심리상담센터</a></li>
@@ -59,7 +59,7 @@
                     <a href="#">입원(재활센터)</a>
                     <ul>
                         <li><a href="/inpatient/stroke.php">뇌신경 재활센터</a></li>
-                        <li><a href="/inpatient/spine.php">척수손상 재활손상</a></li>
+                        <li><a href="/inpatient/spine.php">척수손상재활센터</a></li>
                         <li><a href="/inpatient/breath.php">호흡 재활센터</a></li>
                         <li><a href="/inpatient/young.php">소아 재활센터</a></li>
                         <li><a href="/inpatient/joint.php">근골격 재활센터</a></li>

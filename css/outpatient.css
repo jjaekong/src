@@ -545,60 +545,19 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* childbirth */
+.outpatient.childbirth .clinic > .section-header > h2 {
+    margin-bottom: 0 !important;
+}
+.outpatient.childbirth .clinic > .section-content {
+    padding-top: 300px;
+    margin-top: 40px;
+    background-image: url(/images/outpatient/childbirth_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+.outpatient.childbirth .clinic > .section-content > h4 {
+    font-size: 18px;
+    color: #333;
+    margin: 40px 0 30px;
+}

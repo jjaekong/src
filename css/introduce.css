@@ -224,7 +224,7 @@
     margin-right: 27px;
     padding: 0;
 }
-.team-list > li:nth-of-type(6) {
+.team-list > li:nth-of-type(6n) {
     margin-right: 0;
 }
 .team-list > li > a {
