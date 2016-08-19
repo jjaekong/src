@@ -6,15 +6,11 @@
             </div>
             <div class="col-xs-9">
                 <ul>
-                    <li><a href="#">운동치료</a></li>
-                    <li><a href="#">작업치료</a></li>
-                    <li><a href="#">호흡재활치료</a></li>
-                    <li><a href="#">수중재활치료</a></li>
-                    <li><a href="#">균형치료</a></li>
-                    <li><a href="#">통증치료</a></li>
-                    <li><a href="#">삼킴장애치료</a></li>
-                    <li><a href="#">한방치료</a></li>
-                    <li><a href="#">자세불균형치료</a></li>
+                    <li><a href="#">머리/목<br>통증</a></li>
+                    <li><a href="#">어깨 통증</a></li>
+                    <li><a href="#">팔 통증</a></li>
+                    <li><a href="#">배/허리/<br>골반 통증</a></li>
+                    <li><a href="#">다리 통증</a></li>
                 </ul>
             </div>
         </div>
