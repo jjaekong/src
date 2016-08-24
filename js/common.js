@@ -1,7 +1,7 @@
 (function($) {
             
     // GNB 이벤트
-    $(document).on('mouseenter focusin', '#header #gnb', function(e) {
+    $(document).on('mouseenter focusin', '#header #gnb div ul', function(e) {
         $('#header').addClass('gnb-opened');
     });
     $(document).on('mouseleave', '#header #gnb', function(e) {

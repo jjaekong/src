@@ -420,49 +420,28 @@
 .inpatient.rehabilitation .treatment .section-header h2{
     margin-bottom: 40px !important;
 }
+.inpatient.rehabilitation .treatment > ul {
+    text-align: center;
+}
 .inpatient.rehabilitation .treatment > ul > li {
     display: inline-block;
     width: 170px;
     margin-right: 20px;
     vertical-align: top;
     text-align: center;
-    padding-top: 196px;
     font-size: 16px;
-    color: #666;
 }
-.inpatient.rehabilitation .treatment > ul > li > b {
+.inpatient.rehabilitation .treatment > ul > li > a > .icon {
+    margin-bottom: 30px;
+}
+.inpatient.rehabilitation .treatment > ul > li > a > b {
     font-weight: 500;
 }
-.inpatient.rehabilitation .treatment > ul > li:nth-of-type(1) {
-    background-image: url(/images/inpatient/treatment_img01.png);
-    background-repeat: no-repeat;
-    background-position: 50% 0;
+.inpatient.rehabilitation .treatment > ul > li > a > .details {
+    color: #666;
 }
-.inpatient.rehabilitation .treatment > ul > li:nth-of-type(2) {
-    background-image: url(/images/inpatient/treatment_img02.png);
-    background-repeat: no-repeat;
-    background-position: 50% 0;
-}
-.inpatient.rehabilitation .treatment > ul > li:nth-of-type(3) {
-    background-image: url(/images/inpatient/treatment_img03.png);
-    background-repeat: no-repeat;
-    background-position: 50% 0;
-}
-.inpatient.rehabilitation .treatment > ul > li:nth-of-type(4) {
-    background-image: url(/images/inpatient/treatment_img04.png);
-    background-repeat: no-repeat;
-    background-position: 50% 0;
-}
-.inpatient.rehabilitation .treatment > ul > li:nth-of-type(5) {
-    background-image: url(/images/inpatient/treatment_img05.png);
-    background-repeat: no-repeat;
-    background-position: 50% 0;
-}
-.inpatient.rehabilitation .treatment > ul > li:nth-of-type(6) {
-    background-image: url(/images/inpatient/treatment_img06.png);
-    background-repeat: no-repeat;
-    background-position: 50% 0;
-}
+
+
 
 /* stroke */
 .inpatient.stroke .container {
