@@ -258,7 +258,7 @@
                 </div>
                 <div class="btn-area">
                     <p>
-                        <a href="#" class="btn btn-red">SRC건강검진센터</a>
+                        <a href="http://health.srchospital.com/" class="btn btn-red" target="_blank">SRC건강검진센터</a>
                     </p>
                 </div>
             </section>

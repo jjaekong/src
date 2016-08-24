@@ -260,6 +260,7 @@
     padding:60px 15px 150px 15px;
 }
 .community.social-contribution .intro {
+    position: relative;
     background-image: url(/images/community/contribution_bg01.jpg);
     background-repeat: no-repeat;
     background-position: 0 14px;
@@ -271,6 +272,22 @@
 .community.social-contribution .intro > h3 {
     margin-top: 300px;
 }
+.community.social-contribution .intro > .btn-area {
+    position: absolute;
+    top: 102px;
+    left: 249px;
+}
+.community.social-contribution .intro > .btn-area > p > .btn-pink {
+    line-height: 28px !important;
+    padding-left: 30px;
+    height: 40px !important;
+    background-position: 15px 55% !important;
+}
+
+
+
+
+
 .community.social-contribution .business {
     margin-top: 120px;
     overflow: hidden;
@@ -412,6 +429,18 @@
 }
 .community.social-contribution .sponsor > .arrow-list a {
     color: #666;
+}
+.community.social-contribution .sponsor > .arrow-list .btn {
+    height: 25px;
+    line-height: 13px;
+    color: #fff;
+    margin-left: 15px;
+    background-color: #e9193a;
+    font-size: 13px;
+}
+.community.social-contribution .sponsor > .arrow-list .btn:hover,
+.community.social-contribution .sponsor > .arrow-list .btn:focus {
+    opacity: .7;
 }
 
 

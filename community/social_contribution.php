@@ -22,6 +22,11 @@
                 <div class="section-header">
                     <h2>GIVE DREAMS 소개</h2>
                 </div>
+                <div class="btn-area">
+                    <p>
+                        <a href="http://givedreams.or.kr/" class="btn btn-pink" role="button" target="_blank">사이트 바로가기</a>
+                    </p>
+                </div>
                 <p>
                     국내외 장애인을 위한 교육, 의료, 자립의 통합서비스를 제공하는 국내 최대 규모 장애인복지시설 ‘사회복지법인SRC’의 후원브랜드로 60년 역사와 SRC만의 구축된 선진복지시스템을 통해, 국내 장애인과 지역사회 저소득 계층 및 복지사각지대 소외계층을 위한 후원사업을 진행하며 국외 저개발 국가에 전파하고 하고 있습니다.
                 </p>
@@ -160,6 +165,7 @@
                             <dt>GIVE DREAMS 홈페이지</dt>
                             <dd>
                                 <a href="http://www.givedreams.or.kr" target="_blank">http://www.givedreams.or.kr</a>
+                                <a href="#" class="btn" role="button">바로가기</a>
                             </dd>
                         </dl>
                     </li>
@@ -168,6 +174,7 @@
                             <dt>GIVE DREAMS 페이스북</dt>
                             <dd>    
                                 <a href="https://www.facebook.com/srcgivedreams">https://www.facebook.com/srcgivedreams</a>
+                                <a href="#" class="btn" role="button">바로가기</a>
                             </dd>
                         </dl>
                     </li>
