@@ -62,7 +62,12 @@
                 </tbody>
             </table>
             <div class="section-header">
-                <h3>요양병동</h3>
+                <h3>요양병동 (<a href="http://www.srcdreamlife.com" target="_blank">http://www.srcdreamlife.com</a>)</h3>
+                <div class="btn-area">
+                    <p>
+                        <a href="http://www.srcdreamlife.com" class="btn btn-pink" role="button" target="_blank">사이트 이동</a>
+                    </p>
+                </div>
             </div>
             <table class="table table-bordered">
                 <tbody>
@@ -81,7 +86,12 @@
                 </tbody>
             </table>
             <div class="section-header">
-                <h3>SRC서울센터 (<a href="http://www.srcseoul.com" target="_blank">http://www.srcseoul.com</a>)</h3>
+                <h3>SRC서울센터 (<a href="http://www.seoulsrc.com" target="_blank">http://www.seoulsrc.com</a>)</h3>
+                <div class="btn-area">
+                    <p>
+                        <a href="http://www.seoulsrc.com" class="btn btn-pink" role="button" target="_blank">사이트 이동</a>
+                    </p>
+                </div>
             </div>
             <table class="table table-bordered">
                 <tbody>
@@ -101,6 +111,11 @@
             </table>
             <div class="section-header">
                 <h3>SRC건강증진센터 (<a href="http://health.srchospital.com" target="_blank">http://health.srchospital.com</a>)</h3>
+                <div class="btn-area">
+                    <p>
+                        <a href="http://health.srchospital.com" class="btn btn-pink" role="button" target="_blank">사이트 이동</a>
+                    </p>
+                </div>
             </div>
             <table class="table table-bordered">
                 <tbody>
@@ -120,6 +135,11 @@
             </table>
             <div class="section-header">
                 <h3>SRC언어심리상담센터 (<a href="http://speech.srchospital.com" target="_blank">http://speech.srchospital.com</a>)</h3>
+                <div class="btn-area">
+                    <p>
+                        <a href="http://speech.srchospital.com" class="btn btn-pink" role="button" target="_blank">사이트 이동</a>
+                    </p>
+                </div>
             </div>
             <table class="table table-bordered">
                 <tbody>

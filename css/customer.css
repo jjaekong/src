@@ -517,6 +517,20 @@
   margin-bottom: 130px; }
 
 
+/* contact */
+.customer.contact .section-header {
+    position: relative;
+}
+.customer.contact .section-header > .btn-area {
+    position: absolute;
+    top: 15px;
+    right: 0;
+}
+.customer.contact .section-header > .btn-area > p > .btn-pink {
+    color: #fff;
+    line-height: 37px;
+}
+
 /* sum-list */
 .customer.sum-list .container {
     padding:60px 15px 140px 15px !important;
