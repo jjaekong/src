@@ -57,7 +57,9 @@
                             국내 재활의료서비스를 선도하는<br>
                             대한민국 대표 SRC재활병원의 의료진을 소개합니다.
                         </p>
-                        <img class="img-responsive" src="/images/main/img_doctors.png" alt="의료진 사진">
+                        <p class="docters-img">
+                            <img class="img-responsive" src="/images/main/img_doctors01.png" alt="의료진 사진">
+                        </p>
                     </section>
                     <section class="col-xs-6 appointment">
                         <h3>빠르고 간단한<br><b>온라인 진료 예약</b> 신청하세요.</h3>

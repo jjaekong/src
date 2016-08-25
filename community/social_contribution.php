@@ -165,7 +165,7 @@
                             <dt>GIVE DREAMS 홈페이지</dt>
                             <dd>
                                 <a href="http://www.givedreams.or.kr" target="_blank">http://www.givedreams.or.kr</a>
-                                <a href="#" class="btn" role="button">바로가기</a>
+                                <a href="http://www.givedreams.or.kr" class="btn" target="_blank" role="button">바로가기</a>
                             </dd>
                         </dl>
                     </li>
@@ -174,7 +174,7 @@
                             <dt>GIVE DREAMS 페이스북</dt>
                             <dd>    
                                 <a href="https://www.facebook.com/srcgivedreams">https://www.facebook.com/srcgivedreams</a>
-                                <a href="#" class="btn" role="button">바로가기</a>
+                                <a href="https://www.facebook.com/srcgivedreams" class="btn" target="_blank" role="button">바로가기</a>
                             </dd>
                         </dl>
                     </li>
