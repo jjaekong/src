@@ -49,7 +49,7 @@
 				</li>
 			</ul>
 
-			<div style="width:100%;margin:30px 0 115px 0;display:table;">
+			<div style="width:100%;margin-top:30px;display:table;">
 				<div class="infoBox w50 fl">
 					<h2>외래진료 접수시 환전본인 신분증 제출 (의료보험카드, 주민등록증, 여권)</h2>
 					<ul>
@@ -66,109 +66,7 @@
 				</div>
 			</div>
 
-			<h1>외래 진료시간표 <span>※ 12:00~13:00 까지 점심시간입니다.</span></h1>
-			<table class="timeTable">
-                <colgroup>
-                    <col style="width:14%;">
-                    <col style="width:14%;">
-                    <col style="width:12%;">
-                    <col style="width:12%;">
-                    <col style="width:12%;">
-                    <col style="width:12%;">
-                    <col style="width:12%;">
-                    <col style="width:12%;">
-                </colgroup>
-                <thead>
-                    <tr>
-                        <th>진료시간</th>
-                        <th>진료실</th>
-                        <th>월요일</th>
-                        <th>화요일</th>
-                        <th>수요일</th>
-                        <th>목요일</th>
-                        <th>금요일</th>
-                        <th>토요일</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td rowspan="5">오전</td>
-                        <td>1진료실</td>
-                        <td>&nbsp;</td>
-                        <td class="jhg">조형근</td>
-                        <td>&nbsp;</td>
-                        <td class="jhg">조형근</td>
-                        <td class="kdj">김동진</td>
-						<td>&nbsp;</td>
-                    </tr>
-					<tr>
-                        <td>2진료실</td>
-                        <td class="jkh">정경훈</td>
-                        <td class="jkh">정경훈</td>
-                        <td class="yyh">윤용훈</td>
-                        <td>&nbsp;</td>
-                        <td class="yyh">윤용훈</td>
-						<td>&nbsp;</td>
-                    </tr>
-					<tr>
-                        <td>3진료실</td>
-                        <td rowspan="3" class="khb">김형빈</td>
-                        <td rowspan="3" class="khb">김형빈 (10:00~)</td>
-                        <td rowspan="3" class="khb">김형빈 (10:00~)</td>
-                        <td rowspan="3" class="khb">김형빈 (10:00~)</td>
-                        <td rowspan="3" class="khb">김형빈</td>
-                        <td rowspan="3" class="khb">김형빈</td>
-                    </tr>
-					<tr>
-                        <td>4진료실</td>
-                    </tr>
-					<tr>
-                        <td>5진료실</td>
-                    </tr>
-					<tr>
-                        <td rowspan="5">오후</td>
-                        <td>1진료실</td>
-                        <td class="jhg">조형근</td>
-                        <td class="kdj">김동진</td>
-                        <td class="jhg">조형근</td>
-                        <td class="kdj">김동진</td>
-                        <td class="jhg">조형근</td>
-						<td>&nbsp;</td>
-                    </tr>
-					<tr>
-                        <td>2진료실</td>
-                        <td class="yyh">윤용훈</td>
-                        <td>&nbsp;</td>
-                        <td class="jkh">정경훈</td>
-                        <td class="yyh">윤용훈</td>
-                        <td class="jkh">정경훈</td>
-						<td>&nbsp;</td>
-                    </tr>
-					<tr>
-                        <td>3진료실</td>
-                        <td>&nbsp;</td>
-                        <td rowspan="3" class="khb">김형빈</td>
-                        <td rowspan="3" class="khb">김형빈</td>
-                        <td rowspan="3" class="khb">김형빈</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                    </tr>
-					<tr>
-                        <td>4진료실</td>
-                        <td class="kdj">김동진</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                    </tr>
-					<tr>
-                        <td>5진료실</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                    </tr>
-                </tbody>
-            </table>
-
-			<div class="infoBox">
+            <div class="infoBox">
 				<h2>초진시</h2>
 				<ul>
 					<li><b>외래 접수기간</b> : 월 ~금 (08:30 ~ 16:30) / 토 (08:30 ~ 12:00)</li>
@@ -185,6 +83,152 @@
 					<li>담당 주치의의 시간을 확인하시고 내원하기 바랍니다.</li>
 				</ul>
 			</div>
+
+			<h1 style="margin-top:90px;">외래 진료시간표 <span>※ 12:00~13:00 까지 점심시간입니다.</span></h1>
+			<div class="table-wrap">
+			    <table class="table table-bordered">
+			        <colgroup>
+                        <col style="width: 14%;">
+                        <col style="width: 14%;">
+                        <col style="width: 12%;">
+                        <col style="width: 12%;">
+                        <col style="width: 12%;">
+                        <col style="width: 12%;">
+                        <col style="width: 12%;">
+                        <col style="width: 12%;">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th></th>
+                            <th>월요일</th>
+                            <th>화요일</th>
+                            <th>수요일</th>
+                            <th>목요일</th>
+                            <th>금요일</th>
+                            <th>토요일</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td rowspan="2">김형빈 부원장</td>
+                            <td>오전</td>
+                            <td><span class="khb"></span></td>
+                            <td><span class="khb"></span></td>
+                            <td><span class="khb"></span></td>
+                            <td><span class="khb"></span></td>
+                            <td><span class="khb"></span></td>
+                            <td><span class="khb"></span></td>
+                        </tr>
+                        <tr>
+                            <td>오후</td>
+                            <td class="pm"></td>
+                            <td class="pm"><span class="khb"></span></td>
+                            <td class="pm"><span class="khb"></span></td>
+                            <td class="pm"><span class="khb"></span></td>
+                            <td class="pm"></td>
+                            <td class="pm"></td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">조형근 과장</td>
+                            <td>오전</td>
+                            <td></td>
+                            <td><span class="jhg"></span></td>
+                            <td></td>
+                            <td><span class="jhg"></span></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>오후</td>
+                            <td class="pm"><span class="jhg"></span></td>
+                            <td class="pm"></td>
+                            <td class="pm"><span class="jhg"></span></td>
+                            <td class="pm"></td>
+                            <td class="pm"><span class="jhg"></span></td>
+                            <td class="pm"></td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">윤용훈 과장</td>
+                            <td>오전</td>
+                            <td></td>
+                            <td></td>
+                            <td><span class="yyh"></span></td>
+                            <td></td>
+                            <td><span class="yyh"></span></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>오후</td>
+                            <td class="pm"><span class="yyh"></span></td>
+                            <td class="pm"></td>
+                            <td class="pm"></td>
+                            <td class="pm"><span class="yyh"></span></td>
+                            <td class="pm"></td>
+                            <td class="pm"></td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">김동진 과장</td>
+                            <td>오전</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td><span class="kdj"></span></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>오후</td>
+                            <td class="pm"><span class="kdj"></span></td>
+                            <td class="pm"><span class="kdj"></span></td>
+                            <td class="pm"></td>
+                            <td class="pm"><span class="kdj"></span></td>
+                            <td class="pm"></td>
+                            <td class="pm"></td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">정경훈 과장</td>
+                            <td>오전</td>
+                            <td><span class="jkh"></span></td>
+                            <td><span class="jkh"></span></td>
+                            <td></td>
+                            <td><span class="jkh"></span></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>오후</td>
+                            <td class="pm"></td>
+                            <td class="pm"></td>
+                            <td class="pm"><span class="jkh"></span></td>
+                            <td class="pm"></td>
+                            <td class="pm"><span class="jkh"></span></td>
+                            <td class="pm"></td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">최정화 과장</td>
+                            <td>오전</td>
+                            <td><span class="chjh"></span></td>
+                            <td></td>
+                            <td><span class="chjh"></span></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>오후</td>
+                            <td class="pm"></td>
+                            <td class="pm"><span class="chjh"></span></td>
+                            <td class="pm"></td>
+                            <td class="pm"></td>
+                            <td class="pm"><span class="chjh"></span></td>
+                            <td class="pm"></td>
+                        </tr>
+                    </tbody>
+			    </table>
+			</div>
+
+
 
 			<p class="call"><img src="../images/outpatient/icon_call.gif" alt=""/>진료예약 전화안내&nbsp;&nbsp;/&nbsp;&nbsp;<span>031- 799-9713, ~ 3817</span></p>
 

@@ -5,7 +5,7 @@
         $('#header').addClass('gnb-opened');
     });
     $(document).on('mouseleave', '#header #gnb', function(e) {
-        $('#header').removeClass('gnb-opened');
+        $('#header').removeClass('gnb-opened div ul');
     });
 
     // 하단 협력사 슬라이드
